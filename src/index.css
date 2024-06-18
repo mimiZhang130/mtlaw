@@ -1,0 +1,29 @@
+.overlay{
+  position: absolute;
+  top: 25%;
+  left: 10%;
+  padding: 2rem;
+}
+
+.center{
+  display:flex;
+  justify-content: center;
+}
+
+.center-space{
+  display:flex;
+  padding-bottom: 1rem;
+}
+
+.underline{
+  border-bottom-style: solid;
+  border-bottom-width: .75rem;
+  border-bottom-color: cornflowerblue;
+}
+.photo-text{
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+  margin: auto;
+}
+
