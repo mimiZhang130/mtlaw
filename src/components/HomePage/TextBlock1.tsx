@@ -1,30 +1,18 @@
 import InfoBox from "../InfoBox.tsx";
-import { law_types } from "../../data.tsx";
+import { text_block1 } from "../../assets/data/HomePageData.tsx";
+
 const TextBlock = () => {
   return (
     <div className="container">
-      <h1 className="center center-space">The MT Law Advantage</h1>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.
-        Sed euismod, nunc id aliquam ultricies, nisl nunc aliquet nunc, vitae
-        tincidunt nunc nunc vitae nunc. Sed euismod, nunc id aliquam ultricies,
-        nisl nunc aliquet nunc, vitae tincidunt nunc nunc vitae nunc. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed
-        euismod, nunc id aliquam ultricies, nisl nunc aliquet nunc, vitae
-        tincidunt nunc nunc vitae nunc. Sed euismod, nunc id aliquam ultricies,
-        nisl nunc aliquet nunc, vitae tincidunt nunc nunc vitae nunc. Lorem
-        ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Sed
-        euismod, nunc id aliquam ultricies, nisl nunc aliquet nunc, vitae
-        tincidunt nunc nunc vitae nunc. Sed euismod, nunc id aliquam ultricies,
-        nisl nunc aliquet nunc, vitae tincidunt nunc nunc vitae nunc.
-      </p>
+      <h2 className="center center-space">{text_block1.title}</h2>
+      {/*<p className="paragraph-text">{text_block1.content}</p> */}
       <div
         className="center"
         style={{
           flexDirection: "row",
         }}
       >
-        {law_types.map(
+        {text_block1.law_types.map(
           (law_type) =>
             law_type.id <= 2 && (
               <InfoBox
@@ -41,7 +29,7 @@ const TextBlock = () => {
           flexDirection: "row",
         }}
       >
-        {law_types.map(
+        {text_block1.law_types.map(
           (law_type) =>
             law_type.id > 2 && (
               <InfoBox

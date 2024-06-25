@@ -1,15 +1,16 @@
 interface Props {
   image: string;
   border: boolean;
+  height: string;
 }
-const Image = ({ image, border }: Props) => {
+const Image = ({ image, border, height }: Props) => {
   return (
     <div>
       <img
         className={border ? "underline" : ""}
         style={{
           width: "100%",
-          height: "400px",
+          height: height,
         }}
         src={image}
       ></img>

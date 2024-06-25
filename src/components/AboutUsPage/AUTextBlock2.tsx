@@ -1,31 +1,22 @@
-import InfoBox3 from "../InfoBox3";
+import Image from "../Image";
+
 const AUTextBlock2 = () => {
   return (
-    <div>
-      <div>
-        <h1 className="center center-space">The MT Law Advantage</h1>
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
-          facilisi. Sed euismod, nunc id aliquam ultricies, nisl nunc aliquet
-          nunc, vitae tincidunt nunc nunc vitae nunc. Sed euismod, nunc id
-          aliquam ultricies, nisl nunc aliquet nunc, vitae tincidunt nunc nunc
-          vitae nunc. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          Nulla facilisi. Sed euismod, nunc id aliquam ultricies, nisl nunc
-          aliquet nunc, vitae tincidunt nunc nunc vitae nunc. Sed euismod, nunc
-          id aliquam ultricies, nisl nunc aliquet nunc, vitae tincidunt nunc
-          nunc vitae nunc. Lorem ipsum dolor sit amet, consectetur adipiscing
-          elit. Nulla facilisi. Sed euismod, nunc id aliquam ultricies, nisl
-          nunc aliquet nunc, vitae tincidunt nunc nunc vitae nunc. Sed euismod,
-          nunc id aliquam ultricies, nisl nunc aliquet nunc, vitae tincidunt
-          nunc nunc vitae nunc.
-        </p>
+    <div className="flex-container">
+      <div className="flex-left-box text-padding">
+        <h1>Why Choose Us</h1>
+        <h5>
+          We strive to make the complex world of legal matters as smooth and
+          approachable as possible, with a promise to uphold the highest
+          standards of integrity and professionalism in all that we do.{" "}
+        </h5>
       </div>
-      <hr style={{ borderWidth: ".5rem", color: "blue" }}></hr>
-      <h1 className="center center-space">Core Values</h1>
-      <div className="center" style={{ flexDirection: "row" }}>
-        <InfoBox3 />
-        <InfoBox3 />
-        <InfoBox3 />
+      <div className="flex-right-box" style={{ width: "100rem" }}>
+        <Image
+          image={"src/assets/images/aboutus3.jpg"}
+          border={false}
+          height={"30rem"}
+        ></Image>
       </div>
     </div>
   );

@@ -1,33 +1,14 @@
+import { useState } from "react";
+
 interface Props {
   Home: string;
   AboutUs: string;
   OurTeam: string;
   LegalServices: string;
   Active: string[];
-  SetActive: (value: string[]) => void;
 }
 
-const NavBar = ({
-  Home,
-  AboutUs,
-  OurTeam,
-  LegalServices,
-  Active,
-  SetActive,
-}: Props) => {
-  const AddUnderline0 = () => {
-    SetActive(["active", "", "", ""]);
-  };
-  const AddUnderline1 = () => {
-    SetActive(["", "active", "", ""]);
-  };
-  const AddUnderline2 = () => {
-    SetActive(["", "", "active", ""]);
-  };
-  const AddUnderline3 = () => {
-    SetActive(["", "", "", "active"]);
-  };
-
+const NavBar = ({ Home, AboutUs, OurTeam, LegalServices, Active }: Props) => {
   return (
     <div>
       {/*NavBar*/}
@@ -70,38 +51,26 @@ const NavBar = ({
                   className={"nav-link " + Active[0]}
                   aria-current="page"
                   href="/"
-                  onClick={AddUnderline0}
                 >
                   {Home}
                 </a>
               </li>
               {/* About Use */}
               <li className="nav-item">
-                <a
-                  className={"nav-link" + Active[1]}
-                  href="/aboutus"
-                  onClick={AddUnderline1}
-                >
+                <a className={"nav-link" + Active[1]} href="/aboutus">
                   {AboutUs}
                 </a>
               </li>
               {/* Our Team */}
               <li className="nav-item">
-                <a
-                  className={"nav-link " + Active[2]}
-                  href="/ourteam"
-                  onClick={AddUnderline2}
-                >
+                <a className={"nav-link " + Active[2]} href="/ourteam">
                   {OurTeam}
                 </a>
               </li>
               {/* Legal Services */}
-              <li
-                className={"nav-item dropdown " + Active[3]}
-                onClick={AddUnderline3}
-              >
+              <li className="nav-item dropdown">
                 <a
-                  className="nav-link dropdown-toggle"
+                  className={"nav-link dropdown-toggle " + Active[3]}
                   href="/legalservices"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -112,7 +81,10 @@ const NavBar = ({
                 {/* Dropdown Menu */}
                 <ul className="dropdown-menu">
                   <li>
-                    <a className="dropdown-item" href="/immigrationlaw">
+                    <a
+                      className="dropdown-item"
+                      href="/legalservices/immigrationlaw"
+                    >
                       Immigration Law
                     </a>
                   </li>

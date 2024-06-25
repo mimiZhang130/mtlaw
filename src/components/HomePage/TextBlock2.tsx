@@ -1,18 +1,19 @@
-import InfoBox3 from "../InfoBox3";
+import InfoBox5 from "../InfoBox5";
+import { case_studies } from "../../assets/data/HomePageData";
 const TextBlock2 = () => {
   return (
     <div className="container">
-      <h1 className="center center-space">The MT Law Advantage</h1>
-      <div
-        className="center"
-        style={{
-          flexDirection: "row",
-        }}
-      >
-        <InfoBox3 />
-        <InfoBox3 />
-        <InfoBox3 />
-      </div>
+      <h1>Case Studies</h1>
+      <br></br>
+      {case_studies.map((case_study) => {
+        return (
+          <InfoBox5
+            text={case_study.text}
+            width="80%"
+            backgroundColor="yellow"
+          />
+        );
+      })}
     </div>
   );
 };
