@@ -4,16 +4,9 @@ import Website from "./Website";
 const App = () => {
   return (
     <Router>
-      <div>hie</div>
       <Switch>
-        <Route
-          path="/en"
-          render={() => <Website language="en"></Website>}
-        ></Route>
-        <Route
-          path="/cn"
-          render={() => <Website language="cn"></Website>}
-        ></Route>
+        <Route path="/en" component={() => <Website language="en" />} />
+        <Route path="/cn" component={() => <Website language="cn" />} />
       </Switch>
     </Router>
   );
