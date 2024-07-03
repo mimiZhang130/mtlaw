@@ -14,7 +14,7 @@ const NavBar = ({ Active, language }: Props) => {
     const loadData = async () => {
       try {
         const law_module = await import(
-          `/src/assets/${language}_data/LawData.tsx`
+          `../../assets/${language}_data/LawData.tsx`
         );
         setLawData(law_module);
       } catch (error) {

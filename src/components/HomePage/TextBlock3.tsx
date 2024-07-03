@@ -13,7 +13,7 @@ const TextBlock3 = ({ language }: Props) => {
       try {
         // Dynamically import the JSON file based on the language prop
         const module = await import(
-          `/src/assets/${language}_data/HomePageData.tsx`
+          `../../assets/${language}_data/HomePageData.tsx`
         );
         setData(module); // Pass the module's default value to setData
       } catch (error) {
