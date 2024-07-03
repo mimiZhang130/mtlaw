@@ -21,7 +21,7 @@ const LawSubPage = ({ image_block, item, language }: Props) => {
       <IntroTextBlock
         title={item.value}
         content={item.content}
-        image="/src/assets/images/immigrantVisa.jpg"
+        image="/assets/ImmigrantVisa.jpg"
         backgroundColor={"#FFDDD2"}
       />
       <EndBlock language={language} />
