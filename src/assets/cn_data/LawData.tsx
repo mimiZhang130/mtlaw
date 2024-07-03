@@ -2,6 +2,8 @@ export const law_data = [
   {
     title: "移民法",
     linked_pages: true,
+    subpage_image: "/assets/ImmigrantVisa.jpg",
+
     image_block: {
       image: "/assets/immigration.jpg",
       title: "移民法",
@@ -322,6 +324,7 @@ MT Law成功代表在科学、艺术、电影、音乐、教育、商业和体�
       {
         subpage_type: "links",
         subpage_title: "移民签证",
+        linked_pages: true,
         links: [
           {
             title: "就业类签证",
@@ -372,6 +375,7 @@ MT Law成功代表在科学、艺术、电影、音乐、教育、商业和体�
       {
         subpage_type: "links",
         subpage_title: "其它非移民签证",
+        linked_pages: true,
         links: [
           {
             title: "",
@@ -417,6 +421,7 @@ MT Law成功代表在科学、艺术、电影、音乐、教育、商业和体�
       {
         subpage_type: "links",
         subpage_title: "",
+        linked_pages: false,
         links: [
           {
             title: "公司设立/赴美投资：",
@@ -529,6 +534,7 @@ MT Law成功代表在科学、艺术、电影、音乐、教育、商业和体�
       {
         subpage_type: "cases",
         subpage_title: "",
+        linked_pages: false,
         cases: [
           {
             id: 0,
@@ -605,6 +611,7 @@ MT律师事务所的律师和会计师可以为中国公司和个人在美投资
       {
         subpage_type: "links",
         subpage_title: "",
+        linked_pages: false,
         links: [
           {
             title: "商业房产：",
@@ -664,6 +671,7 @@ MT律师事务所的律师和会计师可以为中国公司和个人在美投资
       {
         subpage_type: "links",
         subpage_title: "",
+        linked_pages: false,
         links: [
           {
             title: "公司税务：",
@@ -739,6 +747,7 @@ MT律师事务所可以为客户提供关于美国财产规划和遗嘱继承的
       {
         subpage_title: "",
         subpage_type: "links",
+        linked_pages: false,
         links: [
           {
             title: "资产传承服务：",
@@ -775,6 +784,7 @@ MT律师事务所专业律师不仅具有深厚的中美知识产权法知识，
       {
         subpage_title: "",
         subpage_type: "links",
+        linked_pages: false,
         links: [
           {
             title: "商标：",

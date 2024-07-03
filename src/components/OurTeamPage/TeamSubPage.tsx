@@ -33,7 +33,7 @@ const TeamSubPage = ({ name, info, language }: Props) => {
     <div>
       <NavBar Active={["", "", "active", "", ""]} language={language} />
       <ImageBlock
-        image={"/src/assets/images/ourteam3.jpg"}
+        image={"/assets/ourteam3.jpg"}
         title={data?.image_block.title}
         text={data?.image_block.text}
         color={"pink"}
@@ -45,7 +45,7 @@ const TeamSubPage = ({ name, info, language }: Props) => {
         language={language}
       />
       <EndBlock language={language} />
-      </div>
+    </div>
   );
 };
 

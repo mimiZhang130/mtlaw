@@ -119,7 +119,6 @@ const Website = ({ language }: Props) => {
                       <LawPage
                         image_block={law.image_block}
                         introduction={law.introduction}
-                        linked_pages={law.linked_pages}
                         subpages={law.subpages}
                         title={law.title}
                         language={language}
@@ -163,6 +162,7 @@ const Website = ({ language }: Props) => {
                             image_block={law.image_block}
                             item={item}
                             language={language}
+                            subpage_image={law.subpage_image}
                           />
                         </div>
                       )}

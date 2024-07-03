@@ -72,9 +72,7 @@ const HomePage = ({ language }: Props) => {
             language={language}
           />
         </div>
-        <div style={{}}>
-          <TextBlock3 language={language} />
-        </div>
+        <TextBlock3 language={language} />
         <EndBlock language={language} />
       </div>
     </div>

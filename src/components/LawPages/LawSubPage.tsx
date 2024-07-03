@@ -7,8 +7,9 @@ interface Props {
   image_block: any;
   item: any;
   language: string;
+  subpage_image: string;
 }
-const LawSubPage = ({ image_block, item, language }: Props) => {
+const LawSubPage = ({ image_block, item, language, subpage_image }: Props) => {
   return (
     <div>
       <NavBar Active={["", "", "", "active", ""]} language={language} />
@@ -21,7 +22,7 @@ const LawSubPage = ({ image_block, item, language }: Props) => {
       <IntroTextBlock
         title={item.value}
         content={item.content}
-        image="/assets/ImmigrantVisa.jpg"
+        image={subpage_image}
         backgroundColor={"#FFDDD2"}
       />
       <EndBlock language={language} />

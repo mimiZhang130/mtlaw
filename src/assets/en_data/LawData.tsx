@@ -1,7 +1,6 @@
 export const law_data = [
   {
     title: "Immigration Law",
-    linked_pages: true,
     image_block: {
       image: "/assets/immigration.jpg",
       title: "Immigration Law",
@@ -381,6 +380,7 @@ If you are currently in the United States and wish to change to a different visa
       {
         subpage_type: "links",
         subpage_title: "Immigrant Visas",
+        linked_pages: true,
         links: [
           {
             title: "Employment-Based Visas",
@@ -428,6 +428,7 @@ If you are currently in the United States and wish to change to a different visa
       {
         subpage_type: "links",
         subpage_title: "Non-Immigrant Visas",
+        linked_pages: true,
         links: [
           {
             title: "",
@@ -454,7 +455,6 @@ If you are currently in the United States and wish to change to a different visa
   },
   {
     title: "Business and Contract Law",
-    linked_pages: false,
     image_block: {
       image: "/assets/business.jpg",
       title: "Business and Contract Law",
@@ -471,6 +471,7 @@ If you are currently in the United States and wish to change to a different visa
       {
         subpage_type: "links",
         subpage_title: "",
+        linked_pages: false,
         links: [
           {
             title: "Labor and Human Resources",
@@ -559,6 +560,7 @@ If you are currently in the United States and wish to change to a different visa
       {
         subpage_type: "cases",
         subpage_title: "",
+        linked_pages: false,
         cases: [
           {
             id: 0,
@@ -578,7 +580,6 @@ If you are currently in the United States and wish to change to a different visa
   },
   {
     title: "Real Estate Law",
-    linked_pages: false,
     image_block: {
       image: "/assets/realestate.jpg",
       title: "Real Estate Law",
@@ -606,6 +607,7 @@ We are able to assist clients who speak English, Mandarin, Korean, Spanish, and 
       {
         subpage_type: "links",
         subpage_title: "",
+        linked_pages: false,
         links: [
           {
             title: "Commercial Property",
@@ -659,7 +661,6 @@ We are able to assist clients who speak English, Mandarin, Korean, Spanish, and 
   },
   {
     title: "Tax Law",
-    linked_pages: false,
     image_block: {
       image: "/assets/tax.jpg",
       title: "Tax Law",
@@ -678,6 +679,7 @@ We help you to prepare federal and state income tax returns, as well as foreign 
       {
         subpage_type: "links",
         subpage_title: "Our Services",
+        linked_pages: false,
         links: [
           {
             title: "Taxation",
@@ -765,7 +767,6 @@ We help you to prepare federal and state income tax returns, as well as foreign 
   },
   {
     title: "Estate Planning",
-    linked_pages: false,
     image_block: {
       image: "/assets/estate.jpg",
       title: "Estate Planning",
@@ -786,6 +787,7 @@ In all cases, our objective is to help you feel comfortable with the estate-plan
       {
         subpage_title: "",
         subpage_type: "links",
+        linked_pages: false,
         links: [
           {
             title: "Estate Planning",
@@ -818,7 +820,6 @@ In all cases, our objective is to help you feel comfortable with the estate-plan
   },
   {
     title: "Intellectual Property",
-    linked_pages: true,
     image_block: {
       image: "/assets/intellectualproperty.jpg",
       title: "Intellectual Property",
@@ -837,7 +838,6 @@ MT Law's IP attorneys focus on leveraging our clients' intellectual property to 
   },
   {
     title: "Civil/Criminal Litigation",
-    linked_pages: true,
     image_block: {
       image: "/assets/litigation.jpg",
       title: "Civil/Criminal Litigation",

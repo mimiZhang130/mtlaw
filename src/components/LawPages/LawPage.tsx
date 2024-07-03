@@ -8,7 +8,6 @@ interface Props {
   image_block: any;
   introduction: any;
   subpages: any;
-  linked_pages: boolean;
   title: string;
   language: string;
 }
@@ -17,7 +16,6 @@ const LawPage = ({
   introduction,
   subpages,
   title,
-  linked_pages,
   language,
 }: Props) => {
   return (
@@ -43,7 +41,7 @@ const LawPage = ({
               links={subpage.links}
               law_subpage_title={subpage.subpage_title}
               law_title={title}
-              law_linked={linked_pages}
+              law_linked={subpage.linked_pages}
               language={language}
             />
           );
