@@ -30,7 +30,7 @@ const InfoBox = ({ title, subgroups, language }: Props) => {
           className="center"
           style={{ position: "absolute", bottom: "15px", left: "47%" }}
         >
-          <img src="/src/assets/images/uparrow.svg"></img>
+          <img src="/assets/uparrow.svg"></img>
         </div>
       </div>
     </div>

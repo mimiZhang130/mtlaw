@@ -29,7 +29,7 @@ const EndBlock = ({ language }: Props) => {
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img
-              src="/src/assets/images/logo.png"
+              src="/assets/logo.png"
               alt="Logo"
               width="350"
               height="100"

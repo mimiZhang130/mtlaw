@@ -34,7 +34,7 @@ const AUTextBlock2 = ({ language }: Props) => {
       </div>
       <div className="right-flex-box" style={{ margin: "2.5%" }}>
         <Image
-          image={"/src/assets/images/aboutus3.jpg"}
+          image={"/assets/aboutus3.jpg"}
           border={false}
           height={"400px"}
           color={"#FFDDD2"}

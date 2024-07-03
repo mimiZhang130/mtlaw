@@ -1,6 +1,6 @@
 // This will hold all of the image_block content --> image, text on the image
 export const image_block = {
-  image: "/src/assets/images/homepage.jpg",
+  image: "/assets/homepage.jpg",
   title: "Your Trusted Lawfirm",
   text: "Navigating Complex Legal Issues with Confidence",
   color: "aqua",
@@ -90,7 +90,7 @@ export const text_block1 = {
 };
 
 export const locations = {
-  image: "src/assets/images/map.jpg",
+  image: "/assets/map.jpg",
   title: "Our Locations",
   content: `MT Law has locations in both the United States and China. 
     Our US offices are located in Lexington, Boston, New York City, San Francisco, and Los Angeles. 

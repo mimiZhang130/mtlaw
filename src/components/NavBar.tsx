@@ -30,12 +30,7 @@ const NavBar = ({ Active, language }: Props) => {
         <div className="container-fluid">
           {/*MTLaw Logo */}
           <a className="navbar-brand" href="/">
-            <img
-              src="/src/assets/images/logo.png"
-              alt="Logo"
-              width="350"
-              height="100"
-            />
+            <img src="/assets/logo.png" alt="Logo" width="350" height="100" />
           </a>
           {/*NavBar Links */}
           {/* NavBar Toggler */}

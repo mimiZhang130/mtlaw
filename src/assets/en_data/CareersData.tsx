@@ -1,5 +1,5 @@
 export const image_block = {
-  image: "/src/assets/images/careers.jpg",
+  image: "/assets/careers.jpg",
   title: "Careers",
   text: "Join Us",
   color: "aqua",
@@ -13,7 +13,7 @@ export const careers_introduction = {
 
     We look forward to meeting you!`,
 
-  image: "/src/assets/images/careers2.jpg",
+  image: "/assets/careers2.jpg",
   color: "#EDF6F9",
 };
 

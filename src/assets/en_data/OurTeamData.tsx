@@ -1,5 +1,5 @@
 export const image_block = {
-  image: "/src/assets/images/ourteam.jpg",
+  image: "/assets/ourteam.jpg",
   title: "Providing Top-Notch Legal Services",
   text: "Always Here For You",
   color: "aqua",
@@ -13,42 +13,42 @@ export const our_team_introduction = {
 
 Thank you for considering MT Law. We look forward to the opportunity to work with you and to provide the outstanding legal service you deserve.`,
 
-  image: "/src/assets/images/ourteam2.jpg",
+  image: "/assets/ourteam2.jpg",
   color: "#EDF6F9",
 };
 
 export const people = [
   {
     name: "Tian Shengxi",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "Tian Shengxi",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "Tian Shengxi",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "Tian Shengxi",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "Tian Shengxi",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "Tian Shengxi",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "Tian Shengxi",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "Tian Shengxi",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
 ];
 
@@ -57,7 +57,7 @@ export const people_info = [
     id: 0,
     name: "Tian Shengxi",
     info: {
-      image: "/src/assets/images/ourteam2.jpg",
+      image: "/assets/ourteam2.jpg",
       position: "Founder & Managing Partner",
       email: "tian@mtlawllc.com",
       educations: [

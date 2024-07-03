@@ -1,5 +1,5 @@
 export const image_block = {
-  image: "/src/assets/images/aboutus.jpg",
+  image: "/assets/aboutus.jpg",
   title: "帮助客户",
   text: "自2010年以来",
   color: "pink",
@@ -12,7 +12,7 @@ export const about_us_introduction = {
   我们的团队由来自各种文化、语言和专业背景的律师组成, 致力于为客户创造一个友好和舒适的环境。MT Law提供多语言法律服务, 包括英语、普通话、粤语、法语、西班牙语和葡萄牙语。
   
   MT Law已经证明在为客户辩护方面取得了成功。我们对为客户提供高质量法律工作的承诺使我们能够适应全球经济变化并保持竞争优势。`,
-  image: "/src/assets/images/aboutus2.jpg",
+  image: "/assets/aboutus2.jpg",
   color: "#FFDDD2",
 };
 

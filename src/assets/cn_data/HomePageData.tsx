@@ -1,6 +1,6 @@
 // 这个模块包含了所有的 image_block 内容 --> 图片、图片上的文字
 export const image_block = {
-  image: "/src/assets/images/homepage.jpg",
+  image: "/assets/homepage.jpg",
   title: "您的可信赖律师事务所",
   text: "自信地处理复杂的法律问题",
   color: "aqua",
@@ -72,7 +72,7 @@ export const text_block1 = {
 };
 
 export const locations = {
-  image: "src/assets/images/map.jpg",
+  image: "/assets/map.jpg",
   title: "我们的办公室",
   content: `MT Law 在美国和中国都有办公室。 
     我们在美国的办公室位于列克星敦、波士顿、纽约市、旧金山和洛杉矶。

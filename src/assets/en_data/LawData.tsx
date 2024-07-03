@@ -3,7 +3,7 @@ export const law_data = [
     title: "Immigration Law",
     linked_pages: true,
     image_block: {
-      image: "/src/assets/images/immigration.jpg",
+      image: "/assets/immigration.jpg",
       title: "Immigration Law",
       text: "Experience developed from a great variety of cases",
       color: "pink",
@@ -17,7 +17,7 @@ export const law_data = [
     At MT Law, our immigration team brings extensive expertise across all facets of immigration law, coupled with a strong track record of client satisfaction. We are eager to assist you and your company in achieving your goals and unlocking successful opportunities in the United States.
         
     If you are interested in obtaining or extending a visa, please review the visa categories below to determine the best fit. Our attorneys are always available for consultation and advice so that we match you with the team that can best handle your immigration case. A standard initial consultation is usually $200 and includes a meeting in person or over the phone and initial document review. Please call or email us if you would like to set up a consultation.`,
-      image: "/src/assets/images/immigration2.jpg",
+      image: "/assets/immigration2.jpg",
       color: "#FFDDD2",
     },
     link_info: [
@@ -456,7 +456,7 @@ If you are currently in the United States and wish to change to a different visa
     title: "Business and Contract Law",
     linked_pages: false,
     image_block: {
-      image: "/src/assets/images/business.jpg",
+      image: "/assets/business.jpg",
       title: "Business and Contract Law",
       text: "Experience developed from a great variety of cases",
       color: "aqua",
@@ -464,7 +464,7 @@ If you are currently in the United States and wish to change to a different visa
     introduction: {
       title: "Business and Contract Law",
       content: `MT Law’s corporate practice is founded on our skills in commercial transactions and in-depth expertise in all aspects of corporate law. We are particularly dedicated to providing first-rate legal counsel to start-up companies, from high-tech biopharmaceutical companies to educational and cultural services enterprises. In addition, through MT Law’s extensive experience in advising our clients, both large and small, international and domestic, we enjoy a reputation for excellence in M&A and foreign direct investment. Our lawyers are well-equipped to provide our clients with valuable and sophisticated advice and assistance at each and every stage of the process.`,
-      image: "/src/assets/images/business2.jpg",
+      image: "/assets/business2.jpg",
       color: "#EDF6F9",
     },
     subpages: [
@@ -580,7 +580,7 @@ If you are currently in the United States and wish to change to a different visa
     title: "Real Estate Law",
     linked_pages: false,
     image_block: {
-      image: "/src/assets/images/realestate.jpg",
+      image: "/assets/realestate.jpg",
       title: "Real Estate Law",
       text: "Experience developed from a great variety of cases",
       color: "pink",
@@ -599,7 +599,7 @@ Short sales
 MT Law LLC is a registered agent for both Old Republic National Title Insurance Company and Fidelity National Title Insurance Company. We work closely with multiple real estate brokers, lenders, and mortgage brokers.
 
 We are able to assist clients who speak English, Mandarin, Korean, Spanish, and Portuguese.`,
-      image: "/src/assets/images/realestate2.jpg",
+      image: "/assets/realestate2.jpg",
       color: "#FFDDD2",
     },
     subpages: [
@@ -661,7 +661,7 @@ We are able to assist clients who speak English, Mandarin, Korean, Spanish, and 
     title: "Tax Law",
     linked_pages: false,
     image_block: {
-      image: "/src/assets/images/tax.jpg",
+      image: "/assets/tax.jpg",
       title: "Tax Law",
       text: "Experience developed from a great variety of cases",
       color: "pink",
@@ -671,7 +671,7 @@ We are able to assist clients who speak English, Mandarin, Korean, Spanish, and 
       content: `MT Law LLC is dedicated to providing tax compliance and tax consultation for individuals and businesses, specializing in international taxation issues. We work with you to develop a service menu to ensure we stay on top of your financial needs. We interact and listen to you, ask you questions to assess the particulars of your situation, and leverage our training and professional experience to advise you on matters such as operating, plans for capital expenditures, ways to increase profitability and tax saving strategies, etc.
 
 We help you to prepare federal and state income tax returns, as well as foreign bank and foreign accounts report, foreign assets disclosure and foreign gift report, etc. If you have specific international tax issue or legal issues, our attorneys at law can always provide sound advice.`,
-      image: "/src/assets/images/tax2.jpg",
+      image: "/assets/tax2.jpg",
       color: "#FFDDD2",
     },
     subpages: [
@@ -767,7 +767,7 @@ We help you to prepare federal and state income tax returns, as well as foreign 
     title: "Estate Planning",
     linked_pages: false,
     image_block: {
-      image: "/src/assets/images/estate.jpg",
+      image: "/assets/estate.jpg",
       title: "Estate Planning",
       text: "Experience developed from a great variety of cases",
       color: "aqua",
@@ -779,7 +779,7 @@ We help you to prepare federal and state income tax returns, as well as foreign 
 Proper estate planning requires a relationship with a knowledgeable and experienced estate planning attorney. It requires thoroughness, understanding, and respect for the overall well-being of both you and your family, now and in the future. MT Law practices the highest ethical professional standards in dealing with our clients. We understand that there is no such thing as a “standard” estate plan, and we are dedicated to helping each and every client create an individualized plan that meets their personal goals.
 
 In all cases, our objective is to help you feel comfortable with the estate-planning process, while creating a personally-tailored plan that helps you preserve your hard-earned legacy and provide a secure financial future for you and your loved ones. We provide a comprehensive array of estate-planning services, from simple wills and advance directives to complex trusts for high net worth individuals. Whatever your age and financial situation, our estate-planning attorneys can help provide you peace of mind in knowing you and your family are prepared for any contingency.`,
-      image: "/src/assets/images/estate2.jpg",
+      image: "/assets/estate2.jpg",
       color: "#EDF6F9",
     },
     subpages: [
@@ -820,8 +820,8 @@ In all cases, our objective is to help you feel comfortable with the estate-plan
     title: "Intellectual Property",
     linked_pages: true,
     image_block: {
-      image: "/src/assets/images/intellectualproperty.jpg",
-      title: "Immigration Law",
+      image: "/assets/intellectualproperty.jpg",
+      title: "Intellectual Property",
       text: "Experience developed from a great variety of cases",
       color: "pink",
     },
@@ -830,7 +830,7 @@ In all cases, our objective is to help you feel comfortable with the estate-plan
       content: `MT Law represents both domestic and international clients across a broad spectrum of IP-related matters, both transactional and litigation, ranging from electronic commerce, network IP rights, license trading, and franchising to contact dispute and infringement issues. We are a full-service law firm dedicated to protecting our clients’ intellectual property interests. Since intellectual property rights are vital to our clients’ businesses, we strive to provide to them the most effective legal solutions to safeguard their interests both domestically and abroad.
 
 MT Law's IP attorneys focus on leveraging our clients' intellectual property to help them achieve success in the marketplace. From patents to trademarks and copyrights to licensing and technology transfers to IP audits and IP asset due diligence, our attorneys offer clients portfolio management and strategic advice on obtaining and protecting valuable intellectual property.`,
-      image: "/src/assets/images/intellectualproperty2.jpg",
+      image: "/assets/intellectualproperty2.jpg",
       color: "#FFDDD2",
     },
     subpages: [],
@@ -839,15 +839,15 @@ MT Law's IP attorneys focus on leveraging our clients' intellectual property to 
     title: "Civil/Criminal Litigation",
     linked_pages: true,
     image_block: {
-      image: "/src/assets/images/litigation.jpg",
-      title: "Immigration Law",
+      image: "/assets/litigation.jpg",
+      title: "Civil/Criminal Litigation",
       text: "Experience developed from a great variety of cases",
       color: "pink",
     },
     introduction: {
       title: "Civil/Criminal Litigation",
       content: `MT Law has extensive experience in litigation and provides our clients with support, representation and advice at every stage of the litigation process.`,
-      image: "/src/assets/images/litigation2.jpg",
+      image: "/assets/litigation2.jpg",
       color: "#FFDDD2",
     },
     subpages: [],

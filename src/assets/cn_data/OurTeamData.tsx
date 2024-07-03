@@ -1,5 +1,5 @@
 export const image_block = {
-  image: "/src/assets/images/ourteam.jpg",
+  image: "/assets/ourteam.jpg",
   title: "提供顶级法律服务",
   text: "始终在您身边",
   color: "aqua",
@@ -13,41 +13,41 @@ export const our_team_introduction = {
 
 感谢您考虑MT律师事务所。我们期待与您合作，并为您提供应得的优秀法律服务。`,
 
-  image: "/src/assets/images/ourteam2.jpg",
+  image: "/assets/ourteam2.jpg",
   color: "#EDF6F9",
 };
 export const people = [
   {
     name: "田生溪",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "田生溪",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "田生溪",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "田生溪",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "田生溪",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "田生溪",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "田生溪",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
   {
     name: "田生溪",
-    image: "/src/assets/images/ourteam2.jpg",
+    image: "/assets/ourteam2.jpg",
   },
 ];
 export const people_info = [
@@ -55,7 +55,7 @@ export const people_info = [
     id: 0,
     name: "田生溪",
     info: {
-      image: "/src/assets/images/ourteam2.jpg",
+      image: "/assets/ourteam2.jpg",
       position: "创始人兼管理合伙人",
       email: "tian@mtlawllc.com",
       educations: [

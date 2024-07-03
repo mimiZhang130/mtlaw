@@ -1,5 +1,5 @@
 export const image_block = {
-  image: "/src/assets/images/aboutus.jpg",
+  image: "/assets/aboutus.jpg",
   title: "Helping Clients",
   text: "Since 2010",
   color: "pink",
@@ -13,7 +13,7 @@ export const about_us_introduction = {
     
   MT Law has proven to be successful in advocating for our clients. Our unwavering commitment to providing high quality legal work for our clients allows us to adapt to global economic changes and maintain a competitive edge.`,
 
-  image: "/src/assets/images/aboutus2.jpg",
+  image: "/assets/aboutus2.jpg",
   color: "#FFDDD2",
 };
 

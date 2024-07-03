@@ -3,7 +3,7 @@ export const law_data = [
     title: "移民法",
     linked_pages: true,
     image_block: {
-      image: "/src/assets/images/immigration.jpg",
+      image: "/assets/immigration.jpg",
       title: "移民法",
       text: "从各种案件中积累的经验",
       color: "pink",
@@ -21,7 +21,7 @@ export const law_data = [
 此外，与其他移民律师事务所不同的是，MT律师事务所可以为将准备移民或已经移民的客户提供移民前的税务规划，移民后的报税、税务和资产传承的规划等。
 
 `,
-      image: "/src/assets/images/immigration2.jpg",
+      image: "/assets/immigration2.jpg",
       color: "#FFDDD2",
     },
     link_info: [
@@ -396,7 +396,7 @@ MT Law成功代表在科学、艺术、电影、音乐、教育、商业和体�
     title: "商法与合同法",
     linked_pages: false,
     image_block: {
-      image: "/src/assets/images/business.jpg",
+      image: "/assets/business.jpg",
       title: "商法与合同法",
       text: "从各种案件中积累的经验",
       color: "aqua",
@@ -410,7 +410,7 @@ MT Law成功代表在科学、艺术、电影、音乐、教育、商业和体�
 在商法领域，MT律师事务所尤其擅长帮助客户在美国复杂的法律和监管环境下解决问题，达成交易。MT律师事务所凭借自身对中国海外投资相关政策和环境的深入了解， 为众多中国企业在美国的投资提供法律服务。MT律师事务所的客户名单中包括知名上市公司以及众多实力雄厚的民营企业。
 
 `,
-      image: "/src/assets/images/business2.jpg",
+      image: "/assets/business2.jpg",
       color: "#EDF6F9",
     },
     subpages: [
@@ -586,7 +586,7 @@ MT Law成功代表在科学、艺术、电影、音乐、教育、商业和体�
     title: "房地产法",
     linked_pages: false,
     image_block: {
-      image: "/src/assets/images/realestate.jpg",
+      image: "/assets/realestate.jpg",
       title: "房地产法",
       text: "从各种案件中积累的经验",
       color: "pink",
@@ -598,7 +598,7 @@ MT Law成功代表在科学、艺术、电影、音乐、教育、商业和体�
 由于中美两国在房地产法律体系和税收制度上的差异，中国公司和个人在美投资房地产往往面临不同程度的法律风险。比如国内没有产权保险的概念，但是在美国的房地产交易中却是不可缺少的步骤。另外美国还有专门针对外国人在美房地产投资的特殊规定，比如美国1980年《外国房地产投资税收法案》规定，外国公司和个人出售美国房地产的需要缴纳交易金额10%的预提税。该规定既包括了直接出售地产，也包括了通过转让公司股票间接完成的房地产交易。
 
 MT律师事务所的律师和会计师可以为中国公司和个人在美投资房地产提供全方位的法律和税务服务。我们可以根据客户的具体情况来设计交易的结构，例如是通过公司或是个人名义持有物业，选择投资公司的形式和注册地，以及相应的税务规划等。`,
-      image: "/src/assets/images/realestate2.jpg",
+      image: "/assets/realestate2.jpg",
       color: "#FFDDD2",
     },
     subpages: [
@@ -647,7 +647,7 @@ MT律师事务所的律师和会计师可以为中国公司和个人在美投资
     title: "税法",
     linked_pages: false,
     image_block: {
-      image: "/src/assets/images/tax.jpg",
+      image: "/assets/tax.jpg",
       title: "税法",
       text: "从各种案件中积累的经验",
       color: "pink",
@@ -657,7 +657,7 @@ MT律师事务所的律师和会计师可以为中国公司和个人在美投资
       content: `MT律师事务所专业提供美国个人税及公司税的申报及咨询服务，尤其擅长国际税务。我们的服务重视与客户的沟通，对客户未来的财税计划进行一定指导，使客户对自身的财务规划和税务处理具有更充分的理解和认识，从而更为合理的进行资金安排。MT律师事务所凭借丰富的税务经验和准确的判断能力，以多年的专业实践、语言及文化的多元化为客户提供高品质的专业服务。
 
 我们的报税服务包括联邦税和州税的申报，为客户申报工资收入、投资分红收入、股票交易收入、海外收入和自雇收入，以及外国赠予申报、外国受赠申报等等。对于新移民普遍关心的国际税务问题，如海外税收抵免、海外收入排除，我们具有丰富国际税务经验的律师也会为您提供专业建议和帮助。`,
-      image: "/src/assets/images/tax2.jpg",
+      image: "/assets/tax2.jpg",
       color: "#FFDDD2",
     },
     subpages: [
@@ -722,7 +722,7 @@ MT律师事务所的律师和会计师可以为中国公司和个人在美投资
     title: "资产传承",
     linked_pages: false,
     image_block: {
-      image: "/src/assets/images/estate.jpg",
+      image: "/assets/estate.jpg",
       title: "资产传承",
       text: "从各种案件中积累的经验",
       color: "aqua",
@@ -732,7 +732,7 @@ MT律师事务所的律师和会计师可以为中国公司和个人在美投资
       content: `财产规划的目的是对家族或个人的各种财富和资产进行法律和税收方面的结构设计，从而达到保密、减低税负、保护资产不受侵扰和财富传承的目的。对于拥有海外身份、海外资产或海外投资的中国富人而言，继承问题因为涉及到中美两国不同的财产继承法律体系而变得尤为复杂。例如中国目前并未开征遗产税和赠与税，但是美国的联邦和各州都有关于遗产税和赠与税的不同规定。联邦和州对于遗产税和赠与税还有不同程度的免征额的规定。对于涉及到外国人的财产继承，美国法律往往有特别的规定。
 
 MT律师事务所可以为客户提供关于美国财产规划和遗嘱继承的相关法律服务。例如，通过设立家庭信托基金，我们可以为客户的具体指示设计详尽的财产继承方式，从而到达保护家庭财产传承，保护客户隐私的目的。另外，特别针对中国富裕人群在美将遇到的财产继承问题，我们将根据客户的特殊情况设计有效的财产规划法律文件，最大限度地达到减税和免税的目的。`,
-      image: "/src/assets/images/estate2.jpg",
+      image: "/assets/estate2.jpg",
       color: "#EDF6F9",
     },
     subpages: [
@@ -758,7 +758,7 @@ MT律师事务所可以为客户提供关于美国财产规划和遗嘱继承的
     title: "知识产权",
     linked_pages: false,
     image_block: {
-      image: "/src/assets/images/intellectualproperty.jpg",
+      image: "/assets/intellectualproperty.jpg",
       title: "知识产权",
       text: "从各种案件中积累的经验",
       color: "pink",
@@ -768,7 +768,7 @@ MT律师事务所可以为客户提供关于美国财产规划和遗嘱继承的
       content: `MT律师向客户提供包括专利、商标、版权、商业秘密在内的全方位的中、美知识产权法律服务。MT律师协助客户向美国专利商标局和中国国家知识产权局、商标局提交专利、商标申请，办理版权登记，在涉及知识产权的复审、无效、争议、侵权等各环节提供法律咨询。另外，MT律师还向客户提供专利、商标的检索、查询服务，以及起草、审查各类知识产权相关的合同、协议以及企业知识产权规章制度，包括但不限于，许可、转让、合作开发协议，保密协议、竞业禁止协议、职务发明、作品奖励与补偿政策等。MT律师致力于为客户开发、完善各类知识产权，提高其创新以及品牌竞争力。
 
 MT律师事务所专业律师不仅具有深厚的中美知识产权法知识，而且拥有多年跨国工作经验，深厚的法律实践和专业技术知识的完美结合，能够为您提供最佳的知识产权保护方案。`,
-      image: "/src/assets/images/intellectualproperty2.jpg",
+      image: "/assets/intellectualproperty2.jpg",
       color: "#FFDDD2",
     },
     subpages: [
@@ -843,7 +843,7 @@ MT律师事务所专业律师不仅具有深厚的中美知识产权法知识，
     title: "民事/刑事诉讼",
     linked_pages: true,
     image_block: {
-      image: "/src/assets/images/litigation.jpg",
+      image: "/assets/litigation.jpg",
       title: "民事/刑事诉讼",
       text: "从各种案件中积累的经验",
       color: "pink",
@@ -853,7 +853,7 @@ MT律师事务所专业律师不仅具有深厚的中美知识产权法知识，
       content: `MT律师事务所的专业律师不仅可以为您评估法律风险和责任，预防争议发生；当争议不可避免时，我们还可以帮助您制定正确的应诉方案与执行策略，处理各类复杂的、疑难的刑事/民事案件。
 
 刑事/民事部律师具有深厚的理论功底和丰富的仲裁和诉讼经验，能为客户提供权威的专业意见和服务。我们的律师以高度负责的敬业精神、良好的仲裁和辩护效果，深得当事人的好评，同时也赢得了较好的服务信誉。刑事/民事部律师旨在最大限度地依法维护当事人的权益，捍卫与守护当事人的合法利益。`,
-      image: "/src/assets/images/litigation2.jpg",
+      image: "/assets/litigation2.jpg",
       color: "#FFDDD2",
     },
     subpages: [],
