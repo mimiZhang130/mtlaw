@@ -2,7 +2,7 @@
   "name": "mtlaw",
   "private": true,
   "version": "0.0.0",
-  "homepage": ".",
+  "homepage": "https://mtlaw.netlify.app/en",
   "type": "module",
   "scripts": {
     "dev": "vite",
