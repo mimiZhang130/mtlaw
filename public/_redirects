@@ -1,6 +1,2 @@
-# Base routes for different languages
-/en/* /index.html 200
-/cn/* /index.html 200
-
 # Catch-all for all other routes to ensure SPA routing works
 /* /index.html 200
