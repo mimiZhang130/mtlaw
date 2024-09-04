@@ -1,11 +1,23 @@
 // This will hold all of the image_block content --> image, text on the image
 export const image_block = {
   image: "/assets/homepage.jpg",
-  title: "Your Trusted Lawfirm",
-  text: "Navigating Complex Legal Issues with Confidence",
-  color: "aqua",
+  title: "A Premier Full-Service Law Firm",
+  text: "Professional - International - Resourceful",
+  color: "blue",
 };
 
+export const home_introduction = {
+  title: "High-Quality Representation With A Track Record Of Excellence",
+  content: `Throughout Massachusetts and across the globe, we are known for our cutting-edge legal strategies, diverse staff, collaborative approach and ability to obtain positive results. Our firm is composed of a team of attorneys with extremely unique backgrounds, which allows us to creatively and successfully fulfill the needs of our clients.
+  
+  We provide services in the areas of real estate, estate planning, business law, immigration and more. If you have a legal need, we can help.
+
+Our main office is located in Lexington, Massachusetts, and we have additional locations in New York, California and China. We look forward to learning about your needs so we can help you achieve your goals. To discuss your case and speak with our knowledgeable staff, you can contact our firm today.
+`,
+  image: "/assets/home_introduction.jpeg",
+  color: "white",
+  button_content: "Contact Us",
+};
 export const text_block1 = {
   title: "Practices",
   law_types: [
@@ -94,9 +106,43 @@ export const locations = {
   title: "Our Locations",
   content: `MT Law has locations in both the United States and China. 
     Our US offices are located in Lexington, Boston, New York City, San Francisco, and Los Angeles. 
-    Our China offices are located in Beijing and Shanghai.`,
+    Our China office is located in Beijing.`,
   button_content: "Contact Us",
 };
+
+export const location_data = [
+  {
+    id: 0,
+    title: "MTLaw Lexington",
+    content: `430 Bedford Street, Suite 200, Lexington, MA 02420, USA`,
+  },
+  {
+    id: 1,
+    title: "MTLaw Boston",
+    content: "50 Milk Street 14th Floor, Boston, MA 02109, USA",
+  },
+  {
+    id: 2,
+    title: "MTLaw New York City",
+    content: "1270 Avenue of the Americas Suite 1800, New York, NY 10020, USA",
+  },
+  {
+    id: 3,
+    title: "MTLaw Los Angeles",
+    content: "201 South Lake Avenue Suite 701, Pasadena, CA 91101, USA",
+  },
+  {
+    id: 4,
+    title: "MTLaw San Francisco",
+    content: "2901 Tasman Drive Suite 218, Santa Clara, CA 95054, USA",
+  },
+  {
+    id: 5,
+    title: "MTLaw Beijing",
+    content:
+      "1 Jianguomenwai Avenue China World Tower, Suite 2222, Beijing, China 100004",
+  },
+];
 
 export const facts = [
   {
@@ -139,7 +185,14 @@ export const case_studies = [
 ];
 
 export const our_mission = {
-  title: "Our Mission",
-  content:
-    "We are committed to providing high-quality comprehensive legal services to suit our clients' needs",
+  title: "Efficiently And Effectively Pursuing Solutions For Your Legal Needs",
+  content: `When you work with MT Law LLC , you will have a leading full-service law firm in your corner. With more than 50 team members, five global locations and the ability to speak five different languages, we have extensive knowledge and experience across several industries, disciplines and geographies`,
+};
+
+export const our_team_introduction = {
+  title: "Our Team",
+  content: `Our team is committed to meeting your legal needs by providing high-quality representation that is crafted to your specific situation. No matter what your legal circumstances are, we work as a team to address your concerns in an efficient and effective manner. Let us help you find a solution to your legal need. Call us today at 800-345-1899 to get started. We want to add you to our proven record of excellence.`,
+  image: "/assets/homepageteam.jpg",
+  color: "#00467f",
+  button_content: "Contact Us",
 };

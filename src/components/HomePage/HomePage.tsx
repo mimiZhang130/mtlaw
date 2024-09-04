@@ -1,3 +1,5 @@
+import HomePageIntroBlock from "./HomePageIntroBlock";
+import HomePageTeam from "./HomePageTeam";
 import ImageBlock from "../ImageBlock1";
 import TextBlock1 from "./TextBlock1";
 import TextBlock2 from "./TextBlock2";
@@ -13,7 +15,9 @@ interface Props {
 const HomePage = ({ language }: Props) => {
   const [data, setData] = useState<{
     locations: any;
+    home_introduction: any;
     image_block?: any;
+    our_team_introduction: any;
   } | null>(null);
 
   useEffect(() => {
@@ -54,7 +58,19 @@ const HomePage = ({ language }: Props) => {
           text={data?.image_block.text}
           color={data?.image_block.color}
         />
-        <div style={{ backgroundColor: "#EDF6F9" }}>
+
+        <div>
+          <HomePageIntroBlock
+            title={data?.home_introduction.title}
+            content={data?.home_introduction.content}
+            image={data?.home_introduction.image}
+            backgroundColor={data?.home_introduction.color}
+            button_content={data?.home_introduction.button_content}
+            language={language}
+          />
+        </div>
+
+        <div style={{ backgroundColor: "#00467f" }}>
           <div style={{ padding: "2rem 0rem" }}>
             <TextBlock1 language={language} />
           </div>
@@ -67,12 +83,22 @@ const HomePage = ({ language }: Props) => {
           <ImageBlock2
             image={data?.locations.image}
             title={data?.locations.title}
-            content={data?.locations.content}
-            button_content={data?.locations.button_content}
             language={language}
           />
         </div>
         <TextBlock3 language={language} />
+
+        <div>
+          <HomePageTeam
+            title={data?.our_team_introduction.title}
+            content={data?.our_team_introduction.content}
+            image={data?.our_team_introduction.image}
+            backgroundColor={data?.our_team_introduction.color}
+            button_content={data?.our_team_introduction.button_content}
+            language={language}
+          />
+        </div>
+
         <EndBlock language={language} />
       </div>
     </div>

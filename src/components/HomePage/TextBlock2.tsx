@@ -26,11 +26,11 @@ const TextBlock2 = ({ language }: Props) => {
     <div className="container">
       {language === "en" ? <h1>Case Studies</h1> : <h1>成功案例</h1>}
       <br></br>
-      <div className="flex-container">
-        {data?.case_studies.map((case_study: any) => {
-          return <InfoBox5 text={case_study.text} backgroundColor="#FFDDD2" />;
-        })}
-      </div>
+      {data?.case_studies.map((case_study: any) => {
+        return (
+          <InfoBox5 text={case_study.text} backgroundColor="rgb(0, 70, 127)" />
+        );
+      })}
     </div>
   );
 };

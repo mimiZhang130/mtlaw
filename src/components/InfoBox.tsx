@@ -21,18 +21,6 @@ const InfoBox = ({ title, subgroups, language }: Props) => {
           )}
         </a>
       </div>
-      <div
-        className="bottom-card flip-back flip hide-on-small-screen"
-        style={{ position: "relative" }}
-      >
-        <h3>{title}</h3>
-        <div
-          className="center"
-          style={{ position: "absolute", bottom: "15px", left: "47%" }}
-        >
-          <img src="/assets/uparrow.svg"></img>
-        </div>
-      </div>
     </div>
   );
 };

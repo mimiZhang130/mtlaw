@@ -25,7 +25,9 @@ const TextBlock = ({ language }: Props) => {
   }, [language]);
   return (
     <div className="container">
-      <h2 className="center center-space">{data?.text_block1.title}</h2>
+      <h1 className="center center-space" style={{ color: "white" }}>
+        {data?.text_block1.title}
+      </h1>
       {/*<p className="paragraph-text">{text_block1.content}</p> */}
       <div
         className="center"

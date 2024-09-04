@@ -28,7 +28,7 @@ const TextBlock3 = ({ language }: Props) => {
         <div className="right-flex-box">
           <div className="text-padding">
             <h1>{data?.our_mission.title}</h1>
-            <h3>{data?.our_mission.content}</h3>
+            <p>{data?.our_mission.content}</p>
           </div>
         </div>
         <div className="left-flex-box" style={{ position: "relative" }}>

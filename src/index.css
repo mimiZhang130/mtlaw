@@ -16,10 +16,10 @@
   padding-bottom: 1rem;
 }
 
-.underline-aqua{
+.underline-blue{
   border-bottom-style: solid;
   border-bottom-width: .75rem;
-  border-bottom-color: #83c5be;
+  border-bottom-color: #00467f;
 }
 
 .underline-pink{
@@ -48,20 +48,17 @@
 }
 
 .info-box-1{
-  border: .01px solid black;
+  border: .01px solid white;
   margin: 1rem;
   width: 17.5rem;
   height: 20rem;
   flex-direction: column;
   overflow: hidden;
   position: relative;
-  border-radius: 25px;
-  box-shadow: 10px 10px #006d77;
 }
 
 .top-card{
   align-content: center;
-  background-color: #83C5BE;
   padding: 2rem;
   color: white;
 }
@@ -88,8 +85,8 @@
 .left-block-text{
   color: white;
   position: absolute;
-  top: 30%;
-  left: 50%;
+  top: 2%;
+  text-align: center;
   padding: 2rem;
 }
 

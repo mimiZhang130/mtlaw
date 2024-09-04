@@ -3,15 +3,13 @@ interface Props {
   backgroundColor: string;
   color?: string;
 }
-const InfoBox5 = ({ text, backgroundColor, color = "black" }: Props) => {
+const InfoBox5 = ({ text, backgroundColor, color = "white" }: Props) => {
   return (
     <div
       className="small-text-padding"
       style={{
         backgroundColor: backgroundColor,
-        opacity: "0.8",
         margin: "1rem 1rem 1rem 0rem",
-        borderRadius: "10px",
         color: color,
       }}
     >

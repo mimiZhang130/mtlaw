@@ -7,11 +7,9 @@ export const image_block = {
 
 export const our_team_introduction = {
   title: "A Law Firm Right for You",
-  content: `At MT Law, our strength lies in the diverse expertise and dedication of our team. We are proud to be a collective of highly skilled attorneys, paralegals, and support staff who bring a wealth of experience, passion, and innovation to the legal field. Each member of our team plays a vital role in delivering the exceptional legal services that our clients have come to expect from us.
+  content: `Our attorneys are deeply knowledgeable and experienced across industries, disciplines and geographies.
   
-  We invite you to explore our team members' profiles below to learn more about their backgrounds, areas of expertise, and what drives their passion for law. Whether you are seeking legal advice, representation, or just more information, our team is here to help you navigate the complexities of the legal landscape with confidence and clarity.
-
-Thank you for considering MT Law. We look forward to the opportunity to work with you and to provide the outstanding legal service you deserve.`,
+  Our team is committed to meeting your legal needs by providing high-quality representation that is crafted to your specific situation. No matter what your legal circumstances are, we work as a team to address your concerns in an efficient and effective manner. Let us help you find a solution to your legal need. Call us today at 800-345-1899 to get started. We want to add you to our proven record of excellence.`,
 
   image: "/assets/ourteam2.jpg",
   color: "#EDF6F9",
