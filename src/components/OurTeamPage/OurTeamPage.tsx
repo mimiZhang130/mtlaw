@@ -1,6 +1,6 @@
 import NavBar from "../NavBar";
 import ImageBlock from "../ImageBlock1";
-import IntroTextBlock from "../IntroTextBlock";
+// import IntroTextBlock from "../IntroTextBlock";
 import { useState, useEffect } from "react";
 import TeamTextBlock from "./TeamTextBlock";
 import EndBlock from "../EndBlock";
