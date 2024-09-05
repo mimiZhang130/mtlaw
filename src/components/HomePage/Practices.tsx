@@ -1,12 +1,12 @@
-import InfoBox from "../InfoBox.tsx";
+import PracticesBox from "../PracticesBox.tsx";
 import { useEffect, useState } from "react";
 
 interface Props {
   language: string;
 }
-const TextBlock = ({ language }: Props) => {
+const Practices = ({ language }: Props) => {
   const [data, setData] = useState<{
-    text_block1: any;
+    practices: any;
   } | null>(null);
 
   useEffect(() => {
@@ -26,7 +26,7 @@ const TextBlock = ({ language }: Props) => {
   return (
     <div className="container">
       <h1 className="center center-space" style={{ color: "white" }}>
-        {data?.text_block1.title}
+        {data?.practices.title}
       </h1>
       {/*<p className="paragraph-text">{text_block1.content}</p> */}
       <div
@@ -35,10 +35,10 @@ const TextBlock = ({ language }: Props) => {
           flexDirection: "row",
         }}
       >
-        {data?.text_block1.law_types.map(
+        {data?.practices.law_types.map(
           (law_type: any) =>
             law_type.id <= 2 && (
-              <InfoBox
+              <PracticesBox
                 key={law_type.id}
                 title={law_type.title}
                 subgroups={law_type.subgroups}
@@ -53,10 +53,10 @@ const TextBlock = ({ language }: Props) => {
           flexDirection: "row",
         }}
       >
-        {data?.text_block1.law_types.map(
+        {data?.practices.law_types.map(
           (law_type: any) =>
             law_type.id > 2 && (
-              <InfoBox
+              <PracticesBox
                 key={law_type.id}
                 title={law_type.title}
                 subgroups={law_type.subgroups}
@@ -69,4 +69,4 @@ const TextBlock = ({ language }: Props) => {
   );
 };
 
-export default TextBlock;
+export default Practices;

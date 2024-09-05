@@ -1,9 +1,10 @@
 import IntroTextBlock from "../IntroTextBlock";
-import AUTextBlock2 from "./AUTextBlock2";
+import WorkWithUs from "./WorkWithUs";
 import NavBar from "../NavBar";
 import ImageBlock from "../ImageBlock1";
 import EndBlock from "../EndBlock";
 import { useEffect, useState } from "react";
+import HeadLiner from "../HeadLiner";
 interface Props {
   language: string;
 }
@@ -29,20 +30,7 @@ const AboutUsPage = ({ language }: Props) => {
 
   return (
     <div>
-      <div
-        className="flex-container"
-        style={{
-          justifyContent: "flex-end",
-          backgroundColor: "#006D77",
-        }}
-      >
-        <a href="/en/aboutus" style={{ padding: ".5% 2%", color: "white" }}>
-          English
-        </a>
-        <a href="/cn/aboutus" style={{ padding: ".5% 2%", color: "white" }}>
-          简体中文
-        </a>
-      </div>
+      <HeadLiner></HeadLiner>
       <NavBar Active={["", " active", "", "", ""]} language={language} />
 
       <ImageBlock
@@ -51,6 +39,7 @@ const AboutUsPage = ({ language }: Props) => {
         text={data?.image_block.text}
         color={data?.image_block.color}
       />
+
       <div>
         <IntroTextBlock
           title={data?.about_us_introduction.title}
@@ -60,7 +49,7 @@ const AboutUsPage = ({ language }: Props) => {
         />
       </div>
 
-      <AUTextBlock2 language={language} />
+      <WorkWithUs language={language} />
       <EndBlock language={language} />
     </div>
   );

@@ -3,7 +3,7 @@ interface Props {
   backgroundColor: string;
   color?: string;
 }
-const InfoBox5 = ({ text, backgroundColor, color = "white" }: Props) => {
+const CaseStudy = ({ text, backgroundColor, color = "black" }: Props) => {
   return (
     <div
       className="small-text-padding"
@@ -18,4 +18,4 @@ const InfoBox5 = ({ text, backgroundColor, color = "white" }: Props) => {
   );
 };
 
-export default InfoBox5;
+export default CaseStudy;

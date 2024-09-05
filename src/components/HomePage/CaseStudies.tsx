@@ -1,9 +1,9 @@
-import InfoBox5 from "../InfoBox5";
+import CaseStudy from "../CaseStudy";
 import { useEffect, useState } from "react";
 interface Props {
   language: string;
 }
-const TextBlock2 = ({ language }: Props) => {
+const CaseStudies = ({ language }: Props) => {
   const [data, setData] = useState<{
     case_studies: any;
   } | null>(null);
@@ -27,12 +27,10 @@ const TextBlock2 = ({ language }: Props) => {
       {language === "en" ? <h1>Case Studies</h1> : <h1>成功案例</h1>}
       <br></br>
       {data?.case_studies.map((case_study: any) => {
-        return (
-          <InfoBox5 text={case_study.text} backgroundColor="rgb(0, 70, 127)" />
-        );
+        return <CaseStudy text={case_study.text} backgroundColor="lightgray" />;
       })}
     </div>
   );
 };
 
-export default TextBlock2;
+export default CaseStudies;

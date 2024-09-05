@@ -1,6 +1,6 @@
 // This will hold all of the image_block content --> image, text on the image
 export const image_block = {
-  image: "/assets/homepage.jpg",
+  image: "/assets/HomePage/HomeTitle.jpg",
   title: "A Premier Full-Service Law Firm",
   text: "Professional - International - Resourceful",
   color: "blue",
@@ -14,11 +14,12 @@ export const home_introduction = {
 
 Our main office is located in Lexington, Massachusetts, and we have additional locations in New York, California and China. We look forward to learning about your needs so we can help you achieve your goals. To discuss your case and speak with our knowledgeable staff, you can contact our firm today.
 `,
-  image: "/assets/home_introduction.jpeg",
+  image: "/assets/HomePage/HomeIntroduction.jpeg",
   color: "white",
   button_content: "Contact Us",
 };
-export const text_block1 = {
+
+export const practices = {
   title: "Practices",
   law_types: [
     {
@@ -102,7 +103,7 @@ export const text_block1 = {
 };
 
 export const locations = {
-  image: "/assets/map.jpg",
+  image: "/assets/HomePage/Locations.jpg",
   title: "Our Locations",
   content: `MT Law has locations in both the United States and China. 
     Our US offices are located in Lexington, Boston, New York City, San Francisco, and Los Angeles. 
@@ -192,7 +193,7 @@ export const our_mission = {
 export const our_team_introduction = {
   title: "Our Team",
   content: `Our team is committed to meeting your legal needs by providing high-quality representation that is crafted to your specific situation. No matter what your legal circumstances are, we work as a team to address your concerns in an efficient and effective manner. Let us help you find a solution to your legal need. Call us today at 800-345-1899 to get started. We want to add you to our proven record of excellence.`,
-  image: "/assets/homepageteam.jpg",
+  image: "/assets/HomePage/HomeTeam.jpg",
   color: "#00467f",
   button_content: "Contact Us",
 };

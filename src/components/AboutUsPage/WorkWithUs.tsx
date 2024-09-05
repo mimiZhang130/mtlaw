@@ -4,9 +4,9 @@ interface Props {
   language: string;
 }
 
-const AUTextBlock2 = ({ language }: Props) => {
+const WorkWithUs = ({ language }: Props) => {
   const [data, setData] = useState<{
-    about_us_why_us: any;
+    work_with_us: any;
   } | null>(null);
 
   useEffect(() => {
@@ -26,15 +26,20 @@ const AUTextBlock2 = ({ language }: Props) => {
     <div className="flex-container">
       <div
         className="left-flex-box text-padding"
-        style={{ backgroundColor: "#FFDDD2" }}
+        style={{ backgroundColor: "#00467f", color: "white" }}
       >
-        <h1>{data?.about_us_why_us.title}</h1>
+        <h1>{data?.work_with_us.title}</h1>
         <br></br>
-        <p>{data?.about_us_why_us.content}</p>
+        <p>{data?.work_with_us.content}</p>
+        <div style={{ marginTop: "2rem" }}>
+          <a href={"/" + language + "/ourteam"}>
+            <button className="btn btn-light">Contact Us</button>
+          </a>
+        </div>
       </div>
       <div className="right-flex-box" style={{ margin: "2.5%" }}>
         <Image
-          image={"/assets/aboutus3.jpg"}
+          image={"/assets/AboutUsPage/WorkWithUs.jpg"}
           border={false}
           height={"400px"}
           color={"#FFDDD2"}
@@ -44,4 +49,4 @@ const AUTextBlock2 = ({ language }: Props) => {
   );
 };
 
-export default AUTextBlock2;
+export default WorkWithUs;

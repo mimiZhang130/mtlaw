@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 interface Props {
   language: string;
 }
-const TextBlock3 = ({ language }: Props) => {
+const OurMission = ({ language }: Props) => {
   const [data, setData] = useState<{
     our_mission: any;
   } | null>(null);
@@ -39,4 +39,4 @@ const TextBlock3 = ({ language }: Props) => {
   );
 };
 
-export default TextBlock3;
+export default OurMission;

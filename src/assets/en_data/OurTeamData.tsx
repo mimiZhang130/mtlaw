@@ -1,8 +1,8 @@
 export const image_block = {
-  image: "/assets/ourteam.jpg",
+  image: "/assets/OurTeamPage/OurTeam.jpg",
   title: "Providing Top-Notch Legal Services",
   text: "Always Here For You",
-  color: "aqua",
+  color: "gray",
 };
 
 export const our_team_introduction = {
@@ -18,7 +18,7 @@ export const our_team_introduction = {
 export const people = [
   {
     name: "Tian Shengxi",
-    image: "/assets/ourteam2.jpg",
+    image: "/assets/OurTeamPage/Profiles/Tina.jpg",
   },
   {
     name: "Tian Shengxi",
@@ -55,7 +55,7 @@ export const people_info = [
     id: 0,
     name: "Tian Shengxi",
     info: {
-      image: "/assets/ourteam2.jpg",
+      image: "/assets/OurTeamPage/Profiles/Tina.jpg",
       position: "Founder & Managing Partner",
       email: "tian@mtlawllc.com",
       educations: [

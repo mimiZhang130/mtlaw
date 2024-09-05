@@ -3,7 +3,7 @@ interface Props {
   subgroups: string[];
   language: string;
 }
-const InfoBox = ({ title, subgroups, language }: Props) => {
+const PracticesBox = ({ title, subgroups, language }: Props) => {
   return (
     <div className="center info-box-1">
       <div className="top-card flip">
@@ -25,4 +25,4 @@ const InfoBox = ({ title, subgroups, language }: Props) => {
   );
 };
 
-export default InfoBox;
+export default PracticesBox;

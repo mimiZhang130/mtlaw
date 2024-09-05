@@ -1,12 +1,13 @@
 import HomePageIntroBlock from "./HomePageIntroBlock";
-import HomePageTeam from "./HomePageTeam";
+import OurTeam from "./OurTeam";
 import ImageBlock from "../ImageBlock1";
-import TextBlock1 from "./TextBlock1";
-import TextBlock2 from "./TextBlock2";
-import ImageBlock2 from "./ImageBlock2";
+import Practices from "./Practices";
+import CaseStudies from "./CaseStudies";
+import Locations from "./Locations";
 import NavBar from "../NavBar";
-import TextBlock3 from "./TextBlock3";
+import OurMission from "./OurMission";
 import EndBlock from "../EndBlock";
+import HeadLiner from "../HeadLiner";
 import { useState } from "react";
 import { useEffect } from "react";
 interface Props {
@@ -35,21 +36,8 @@ const HomePage = ({ language }: Props) => {
   }, [language]);
   return (
     <div>
+      <HeadLiner />
       <div>
-        <div
-          className="flex-container"
-          style={{
-            justifyContent: "flex-end",
-            backgroundColor: "#006D77",
-          }}
-        >
-          <a href="/en" style={{ padding: ".5% 2%", color: "white" }}>
-            English
-          </a>
-          <a href="/cn" style={{ padding: ".5% 2%", color: "white" }}>
-            简体中文
-          </a>
-        </div>
         <NavBar Active={["active", "", "", "", ""]} language={language} />
 
         <ImageBlock
@@ -72,24 +60,24 @@ const HomePage = ({ language }: Props) => {
 
         <div style={{ backgroundColor: "#00467f" }}>
           <div style={{ padding: "2rem 0rem" }}>
-            <TextBlock1 language={language} />
+            <Practices language={language} />
           </div>
         </div>
 
         <div style={{ padding: "2rem" }}>
-          <TextBlock2 language={language} />
+          <CaseStudies language={language} />
         </div>
         <div style={{ position: "relative" }}>
-          <ImageBlock2
+          <Locations
             image={data?.locations.image}
             title={data?.locations.title}
             language={language}
           />
         </div>
-        <TextBlock3 language={language} />
+        <OurMission language={language} />
 
         <div>
-          <HomePageTeam
+          <OurTeam
             title={data?.our_team_introduction.title}
             content={data?.our_team_introduction.content}
             image={data?.our_team_introduction.image}

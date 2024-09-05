@@ -10,7 +10,7 @@ interface Props {
   language: string;
 }
 
-const HomePageTeam = ({
+const OurTeam = ({
   title,
   content,
   image,
@@ -39,10 +39,11 @@ const HomePageTeam = ({
             style={{ margin: "0 0 2rem 0", color: "white" }}
             id="output2"
           ></div>
-
-          <a href={"/" + language + "/ourteam"}>
-            <button className="btn btn-light"> {button_content} </button>
-          </a>
+          <div className="center center-space">
+            <a href={"/" + language + "/ourteam"}>
+              <button className="btn btn-light">{button_content}</button>
+            </a>
+          </div>
         </div>
         <div className="left-flex-box" style={{ margin: "2.5%" }}>
           <Image
@@ -57,4 +58,4 @@ const HomePageTeam = ({
   );
 };
 
-export default HomePageTeam;
+export default OurTeam;

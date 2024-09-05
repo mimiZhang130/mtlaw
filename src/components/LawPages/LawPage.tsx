@@ -2,7 +2,7 @@ import NavBar from "../NavBar.tsx";
 import ImageBlock from "../ImageBlock1.tsx";
 import IntroTextBlock from "../IntroTextBlock.tsx";
 import LawTextBlock from "../LawPages/LawTextBlock.tsx";
-import InfoBox5 from "../InfoBox5.tsx";
+import InfoBox5 from "../CaseStudy.tsx";
 import EndBlock from "../EndBlock.tsx";
 interface Props {
   image_block: any;

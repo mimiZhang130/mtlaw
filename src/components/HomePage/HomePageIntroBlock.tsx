@@ -42,10 +42,11 @@ const HomePageIntroBlock = ({
         >
           <h1 className="center center-space">{title}</h1>
           <div style={{ margin: "0 0 2rem 0" }} id="output"></div>
-
-          <a href={"/" + language + "/contactus"}>
-            <button className="btn btn-dark"> {button_content} </button>
-          </a>
+          <div className="center center-space">
+            <a href={"/" + language + "/contactus"}>
+              <button className="btn btn-dark"> {button_content} </button>
+            </a>
+          </div>
         </div>
       </div>
     </div>

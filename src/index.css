@@ -16,16 +16,20 @@
   padding-bottom: 1rem;
 }
 
+h4 {
+ font-size: .2rem;
+}
+
 .underline-blue{
   border-bottom-style: solid;
   border-bottom-width: .75rem;
   border-bottom-color: #00467f;
 }
 
-.underline-pink{
+.underline-gray{
   border-bottom-style: solid;
   border-bottom-width: .75rem;
-  border-bottom-color: #e29578;
+  border-bottom-color: lightgray;
 }
 
 .photo-text{
@@ -51,7 +55,7 @@
   border: .01px solid white;
   margin: 1rem;
   width: 17.5rem;
-  height: 20rem;
+  height: 18rem;
   flex-direction: column;
   overflow: hidden;
   position: relative;
@@ -59,7 +63,7 @@
 
 .top-card{
   align-content: center;
-  padding: 2rem;
+  padding: 0rem 2rem;
   color: white;
 }
 
@@ -86,6 +90,7 @@
   color: white;
   position: absolute;
   top: 2%;
+  left: 20%;
   text-align: center;
   padding: 2rem;
 }
@@ -96,6 +101,12 @@
   }
 }
 
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 .flex-container{
   display: flex;
@@ -123,8 +134,8 @@
   }
 }
 
-.fact-box{
-  background-color: #E29578;
+.carousel-fact-box{
+  background-color: lightgray;
   padding: 4vw 6vw 4vw 6vw;
   width: 33rem;
   height: 23rem;

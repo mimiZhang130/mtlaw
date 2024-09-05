@@ -1,4 +1,4 @@
-import InfoBox4 from "./InfoBox4";
+import CarouselFactBox from "./CarouselFactBox";
 import { useState, useEffect } from "react";
 interface Props {
   language: string;
@@ -57,7 +57,7 @@ const Carousel = ({ language }: Props) => {
         <div className="carousel-inner slide-container">
           {data?.facts.map((fact: any) => (
             <div className="carousel-item active" data-bs-interval="1500">
-              <InfoBox4 title={fact.big_text} text={fact.small_text} />
+              <CarouselFactBox title={fact.big_text} text={fact.small_text} />
             </div>
           ))}
         </div>

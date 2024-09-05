@@ -23,7 +23,9 @@ const TeamTextBlock = ({ language }: Props) => {
   }, [language]);
   return (
     <div>
-      <h1 className="center center-space text-padding">Our Team</h1>
+      <h1 className="center center-space text-padding">
+        {language === "en" ? "Our Team" : "我们的团队"}
+      </h1>
       <div className="flex-container" style={{ margin: "0% 5%" }}>
         {data?.people.map((person: any) => (
           <PhotoCard
