@@ -1,6 +1,6 @@
 import HomePageIntroBlock from "./HomePageIntroBlock";
 import OurTeam from "./OurTeam";
-import ImageBlock from "../ImageBlock1";
+import ImageBlock from "../ImageBlock";
 import Practices from "./Practices";
 import CaseStudies from "./CaseStudies";
 import Locations from "./Locations";
@@ -45,6 +45,7 @@ const HomePage = ({ language }: Props) => {
           title={data?.image_block.title}
           text={data?.image_block.text}
           color={data?.image_block.color}
+          textColor={data?.image_block.textColor}
         />
 
         <div>

@@ -1,6 +1,6 @@
 import Image from "../Image";
 import { useEffect } from "react";
-
+import ContactUs from "../ContactUs";
 interface Props {
   title: string;
   content: any;
@@ -28,7 +28,7 @@ const HomePageIntroBlock = ({
   return (
     <div>
       <div className="flex-container">
-        <div className="left-flex-box" style={{ margin: "2.5%" }}>
+        <div className="left-flex-box">
           <Image
             image={image}
             border={false}
@@ -40,12 +40,17 @@ const HomePageIntroBlock = ({
           className="right-flex-box text-padding"
           style={{ backgroundColor: backgroundColor }}
         >
-          <h1 className="center center-space">{title}</h1>
+          <h1 className="center center-space center-title">{title}</h1>
           <div style={{ margin: "0 0 2rem 0" }} id="output"></div>
           <div className="center center-space">
-            <a href={"/" + language + "/contactus"}>
+            {/* <a href={"/" + language + "/contactus"}>
               <button className="btn btn-dark"> {button_content} </button>
-            </a>
+            </a> */}
+            <ContactUs
+              language={language}
+              backgroundColor="white"
+              color="black"
+            />
           </div>
         </div>
       </div>

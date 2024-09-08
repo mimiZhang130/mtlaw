@@ -1,5 +1,5 @@
 import NavBar from "../NavBar";
-import ImageBlock from "../ImageBlock1";
+import ImageBlock from "../ImageBlock";
 import { useState, useEffect } from "react";
 import TeamIntroBlock from "./TeamIntroBlock";
 import EndBlock from "../EndBlock";
@@ -39,6 +39,7 @@ const TeamSubPage = ({ name, info, language }: Props) => {
         title={data?.image_block.title}
         text={data?.image_block.text}
         color={"blue"}
+        textColor={data?.image_block.textColor}
       />
       <TeamIntroBlock
         title={name}

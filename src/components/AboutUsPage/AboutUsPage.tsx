@@ -1,7 +1,7 @@
 import IntroTextBlock from "../IntroTextBlock";
 import WorkWithUs from "./WorkWithUs";
 import NavBar from "../NavBar";
-import ImageBlock from "../ImageBlock1";
+import ImageBlock from "../ImageBlock";
 import EndBlock from "../EndBlock";
 import { useEffect, useState } from "react";
 import HeadLiner from "../HeadLiner";

@@ -1,5 +1,5 @@
 import NavBar from "../NavBar";
-import ImageBlock from "../ImageBlock1";
+import ImageBlock from "../ImageBlock";
 // import IntroTextBlock from "../IntroTextBlock";
 import { useState, useEffect } from "react";
 import TeamTextBlock from "./TeamTextBlock";
@@ -37,6 +37,7 @@ const OurTeamPage = ({ language }: Props) => {
         title={data?.image_block.title}
         text={data?.image_block.text}
         color={data?.image_block.color}
+        textColor={data?.image_block.textColor}
       />
       <TeamTextBlock language={language} />
       <EndBlock language={language} />

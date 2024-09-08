@@ -1,5 +1,5 @@
 import NavBar from "../NavBar.tsx";
-import ImageBlock from "../ImageBlock1.tsx";
+import ImageBlock from "../ImageBlock.tsx";
 import IntroTextBlock from "../IntroTextBlock.tsx";
 import EndBlock from "../EndBlock.tsx";
 

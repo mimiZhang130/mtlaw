@@ -13,7 +13,7 @@ const CaseStudy = ({ text, backgroundColor, color = "black" }: Props) => {
         color: color,
       }}
     >
-      <h5>{text}</h5>
+      <p>{text}</p>
     </div>
   );
 };

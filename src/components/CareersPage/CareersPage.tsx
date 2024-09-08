@@ -1,5 +1,5 @@
 import NavBar from "../NavBar";
-import ImageBlock from "../ImageBlock1";
+import ImageBlock from "../ImageBlock";
 import IntroTextBlock from "../IntroTextBlock";
 import { useState, useEffect } from "react";
 import CareersTextBlock1 from "./CareersTextBlock1";

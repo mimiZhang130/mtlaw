@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import ContactUs from "./ContactUs";
 interface Props {
   language: string;
 }
@@ -22,10 +23,7 @@ const EndBlock = ({ language }: Props) => {
   }, [language]);
   return (
     <div>
-      <nav
-        className="navbar"
-        style={{ backgroundColor: "#EDF6F9", color: "white" }}
-      >
+      <nav className="navbar" style={{ backgroundColor: "white" }}>
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img
@@ -37,19 +35,21 @@ const EndBlock = ({ language }: Props) => {
             />
           </a>
           <span className="navbar-text">
-            <div className="flex-container">
+            <div
+              className="flex-container"
+              style={{ alignItems: "center", flexDirection: "column" }}
+            >
               <h2
-                style={{ margin: "auto 5rem", color: "black" }}
+                style={{ margin: "auto 5rem", color: "#00467f" }}
                 className="center center-space"
               >
                 {language === "en" ? "Get Legal Help Now" : "立即获取法律帮助"}
               </h2>
-
-              <a href="/en/contactus">
-                <button className="footer-button btn btn-lg">
-                  {language === "en" ? "Contact Us" : "联系我们"}
-                </button>
-              </a>
+              <ContactUs
+                language={language}
+                backgroundColor={"white"}
+                color={"#00467f"}
+              />
             </div>
           </span>
         </div>
@@ -57,7 +57,7 @@ const EndBlock = ({ language }: Props) => {
       {/* links */}
       <div
         className="flex-container"
-        style={{ backgroundColor: "#EDF6F9", color: "black" }}
+        style={{ backgroundColor: "lightgray", color: "#00467f" }}
       >
         <div className="text-padding left-flex-box">
           <h4>
@@ -74,7 +74,10 @@ const EndBlock = ({ language }: Props) => {
                   <div className="ms-2 me-auto">
                     <div className="fw-bold">
                       <a
-                        style={{ color: "black", textDecoration: "underline" }}
+                        style={{
+                          color: "#00467f",
+                          textDecoration: "underline",
+                        }}
                         href={link.head_link.route}
                       >
                         {link.head_link.value}
@@ -85,7 +88,7 @@ const EndBlock = ({ language }: Props) => {
                         {link.other_links.map((other_link: any) => (
                           <li>
                             <a
-                              style={{ color: "black" }}
+                              style={{ color: "#00467f" }}
                               href={"/en/legalservices/" + other_link.link}
                             >
                               {other_link.link}

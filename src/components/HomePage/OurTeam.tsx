@@ -1,5 +1,6 @@
 import Image from "../Image";
 import { useEffect } from "react";
+import ContactUs from "../ContactUs";
 
 interface Props {
   title: string;
@@ -40,12 +41,14 @@ const OurTeam = ({
             id="output2"
           ></div>
           <div className="center center-space">
-            <a href={"/" + language + "/ourteam"}>
-              <button className="btn btn-light">{button_content}</button>
-            </a>
+            <ContactUs
+              language={language}
+              backgroundColor="#00467f"
+              color="white"
+            />
           </div>
         </div>
-        <div className="left-flex-box" style={{ margin: "2.5%" }}>
+        <div className="left-flex-box">
           <Image
             image={image}
             border={false}

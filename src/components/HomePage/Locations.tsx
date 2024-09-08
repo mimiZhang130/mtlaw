@@ -27,10 +27,24 @@ const ImageBlock2 = ({ image, title, language }: Props) => {
 
   return (
     <div>
-      <div className="fluid-container">
-        <Image image={image} border={false} height={"auto"} color={"blue"} />
+      <div className="fluid-container location-image">
+        <Image image={image} border={false} height={"600px"} color={"blue"} />
       </div>
-      <div className="left-block-text">
+      <div className="over-image-background">
+        <div className="over-image-text">
+          <h1 style={{ textAlign: "center" }}>{title}</h1>
+          <div style={{ textAlign: "center", paddingTop: "1rem" }}>
+            {data?.location_data.map((location: any) => (
+              <div>
+                <h5>{location.title}</h5>
+                <p>{location.content}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+
+      {/* <div className="left-block-text">
         <h1>{title}</h1>
         <div className="flex-container">
           {data?.location_data.map(
@@ -43,7 +57,6 @@ const ImageBlock2 = ({ image, title, language }: Props) => {
                       border: "1px solid white",
                       height: "8rem",
                       padding: "1rem",
-                      backgroundColor: "#00467f",
                     }}
                   >
                     <h5 className="card-title">{location.title}</h5>
@@ -64,7 +77,6 @@ const ImageBlock2 = ({ image, title, language }: Props) => {
                       border: "1px solid white",
                       height: "8rem",
                       padding: "1rem",
-                      backgroundColor: "#00467f",
                     }}
                   >
                     <h5 className="card-title">{location.title}</h5>
@@ -74,7 +86,7 @@ const ImageBlock2 = ({ image, title, language }: Props) => {
               )
           )}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

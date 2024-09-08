@@ -4,6 +4,7 @@ export const image_block = {
   title: "A Premier Full-Service Law Firm",
   text: "Professional - International - Resourceful",
   color: "blue",
+  textColor: "#00467f",
 };
 
 export const home_introduction = {
