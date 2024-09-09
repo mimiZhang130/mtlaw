@@ -18,7 +18,7 @@ const TeamIntroBlock = ({ title, content, image, language }: Props) => {
   return (
     <div>
       <div className="flex-container">
-        <div className="left-flex-box" style={{ margin: "2.5%" }}>
+        <div className="left-flex-box-2" style={{ margin: "2rem" }}>
           <Image
             image={image}
             border={false}

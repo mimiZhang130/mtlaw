@@ -1,4 +1,5 @@
 import EndBlock from "../EndBlock";
+import HeadLiner from "../HeadLiner";
 import NavBar from "../NavBar";
 import { useEffect, useState } from "react";
 
@@ -27,20 +28,7 @@ const ContactUsPage = ({ language }: Props) => {
 
   return (
     <div>
-      <div
-        className="flex-container"
-        style={{
-          justifyContent: "flex-end",
-          backgroundColor: "#006D77",
-        }}
-      >
-        <a href="/en/contactus" style={{ padding: ".5% 2%", color: "white" }}>
-          English
-        </a>
-        <a href="/cn/contactus" style={{ padding: ".5% 2%", color: "white" }}>
-          简体中文
-        </a>
-      </div>
+      <HeadLiner />
       <NavBar Active={["", "", "", "", ""]} language={language} />
       <div className="text-padding">
         <h5>{data?.contact_us_top.title}</h5>

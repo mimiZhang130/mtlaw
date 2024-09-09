@@ -43,6 +43,7 @@ const Practices = ({ language }: Props) => {
                 title={law_type.title}
                 subgroups={law_type.subgroups}
                 language={language}
+                icon={law_type.icon}
               />
             )
         )}
@@ -61,6 +62,7 @@ const Practices = ({ language }: Props) => {
                 title={law_type.title}
                 subgroups={law_type.subgroups}
                 language={language}
+                icon={law_type.icon}
               />
             )
         )}

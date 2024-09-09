@@ -7,6 +7,7 @@ import LawPage from "./components/LawPages/LawPage";
 import LawSubPage from "./components/LawPages/LawSubPage";
 import CareersPage from "./components/CareersPage/CareersPage";
 import ContactUsPage from "./components/ContactUsPage/ContactUsPage";
+import HeadLiner from "./components/HeadLiner";
 import { useState, useEffect } from "react";
 interface Props {
   language: string;
@@ -60,26 +61,7 @@ const Website = ({ language }: Props) => {
                 path={"/" + language + "/" + people.name}
                 render={() => (
                   <div>
-                    <div
-                      className="flex-container"
-                      style={{
-                        justifyContent: "flex-end",
-                        backgroundColor: "#006D77",
-                      }}
-                    >
-                      <a
-                        href="/en"
-                        style={{ padding: ".5% 2%", color: "white" }}
-                      >
-                        English
-                      </a>
-                      <a
-                        href="/cn"
-                        style={{ padding: ".5% 2%", color: "white" }}
-                      >
-                        简体中文
-                      </a>
-                    </div>
+                    <HeadLiner />
                     <TeamSubPage
                       name={people.name}
                       info={people.info}
@@ -96,26 +78,7 @@ const Website = ({ language }: Props) => {
                   path={"/" + language + "/legalservices/" + law.title}
                   render={() => (
                     <div>
-                      <div
-                        className="flex-container"
-                        style={{
-                          justifyContent: "flex-end",
-                          backgroundColor: "#006D77",
-                        }}
-                      >
-                        <a
-                          href="/en"
-                          style={{ padding: ".5% 2%", color: "white" }}
-                        >
-                          English
-                        </a>
-                        <a
-                          href="/cn"
-                          style={{ padding: ".5% 2%", color: "white" }}
-                        >
-                          简体中文
-                        </a>
-                      </div>
+                      <HeadLiner />
                       <LawPage
                         image_block={law.image_block}
                         introduction={law.introduction}
@@ -138,26 +101,7 @@ const Website = ({ language }: Props) => {
                       path={"/" + language + "/" + law.title + "/" + item.value}
                       render={() => (
                         <div>
-                          <div
-                            className="flex-container"
-                            style={{
-                              justifyContent: "flex-end",
-                              backgroundColor: "#006D77",
-                            }}
-                          >
-                            <a
-                              href="/en"
-                              style={{ padding: ".5% 2%", color: "white" }}
-                            >
-                              English
-                            </a>
-                            <a
-                              href="/cn"
-                              style={{ padding: ".5% 2%", color: "white" }}
-                            >
-                              简体中文
-                            </a>
-                          </div>
+                          <HeadLiner />
                           <LawSubPage
                             image_block={law.image_block}
                             item={item}

@@ -17,7 +17,6 @@ Our main office is located in Lexington, Massachusetts, and we have additional l
 `,
   image: "/assets/HomePage/HomeIntroduction.jpeg",
   color: "white",
-  button_content: "Contact Us",
 };
 
 export const practices = {
@@ -33,6 +32,7 @@ export const practices = {
         "H-1B Visa",
         "F-1 Student Visa",
       ],
+      icon: "/assets/HomePage/PracticesIcons/immigration.png",
     },
     {
       id: 1,
@@ -44,6 +44,7 @@ export const practices = {
         "Stock Options",
         "NDA Agreements",
       ],
+      icon: "/assets/HomePage/PracticesIcons/company.png",
     },
     {
       id: 2,
@@ -55,6 +56,7 @@ export const practices = {
         "Zoning and Permits",
         "Realty Trusts",
       ],
+      icon: "/assets/HomePage/PracticesIcons/real-estate.png",
     },
     {
       id: 3,
@@ -66,6 +68,7 @@ export const practices = {
         "Tax Consulting",
         "Accounting",
       ],
+      icon: "/assets/HomePage/PracticesIcons/tax.png",
     },
     {
       id: 4,
@@ -77,6 +80,7 @@ export const practices = {
         "Estate Administration",
         "Living Wills",
       ],
+      icon: "/assets/HomePage/PracticesIcons/estate-planning.png",
     },
     {
       id: 5,
@@ -88,6 +92,7 @@ export const practices = {
         "Trade Secrets",
         "IP Protection Planning",
       ],
+      icon: "/assets/HomePage/PracticesIcons/ip.png",
     },
     {
       id: 6,
@@ -99,6 +104,7 @@ export const practices = {
         "Domestic Violence",
         "White Collar Crimes",
       ],
+      icon: "/assets/HomePage/PracticesIcons/litigation.png",
     },
   ],
 };
@@ -196,5 +202,4 @@ export const our_team_introduction = {
   content: `Our team is committed to meeting your legal needs by providing high-quality representation that is crafted to your specific situation. No matter what your legal circumstances are, we work as a team to address your concerns in an efficient and effective manner. Let us help you find a solution to your legal need. Call us today at 800-345-1899 to get started. We want to add you to our proven record of excellence.`,
   image: "/assets/HomePage/HomeTeam.jpg",
   color: "#00467f",
-  button_content: "Contact Us",
 };

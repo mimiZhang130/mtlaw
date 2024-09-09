@@ -54,7 +54,6 @@ const HomePage = ({ language }: Props) => {
             content={data?.home_introduction.content}
             image={data?.home_introduction.image}
             backgroundColor={data?.home_introduction.color}
-            button_content={data?.home_introduction.button_content}
             language={language}
           />
         </div>
@@ -83,7 +82,6 @@ const HomePage = ({ language }: Props) => {
             content={data?.our_team_introduction.content}
             image={data?.our_team_introduction.image}
             backgroundColor={data?.our_team_introduction.color}
-            button_content={data?.our_team_introduction.button_content}
             language={language}
           />
         </div>

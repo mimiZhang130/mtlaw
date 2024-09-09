@@ -6,6 +6,7 @@ export const law_data = [
       title: "Immigration Law",
       text: "Experience developed from a great variety of cases",
       color: "pink",
+      textColor: "black",
     },
     introduction: {
       title: "Immigration Law",

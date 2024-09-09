@@ -3,7 +3,6 @@ import ImageBlock from "../ImageBlock";
 import { useState, useEffect } from "react";
 import TeamIntroBlock from "./TeamIntroBlock";
 import EndBlock from "../EndBlock";
-import HeadLiner from "../HeadLiner";
 
 interface Props {
   name: string;
@@ -32,7 +31,6 @@ const TeamSubPage = ({ name, info, language }: Props) => {
 
   return (
     <div>
-      <HeadLiner></HeadLiner>
       <NavBar Active={["", "", "active", "", ""]} language={language} />
       <ImageBlock
         image={"/assets/ourteam3.jpg"}

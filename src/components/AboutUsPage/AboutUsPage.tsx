@@ -38,6 +38,7 @@ const AboutUsPage = ({ language }: Props) => {
         title={data?.image_block.title}
         text={data?.image_block.text}
         color={data?.image_block.color}
+        textColor={data?.image_block.textColor}
       />
 
       <div>

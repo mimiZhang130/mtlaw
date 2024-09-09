@@ -7,13 +7,17 @@ interface Props {
 const PhotoCard = ({ name, photo, language }: Props) => {
   return (
     <div>
-      <a href={"/" + language + "/" + name}>
-        <div className="card" style={{ width: "12rem", margin: "1rem auto" }}>
+      <a href={"/" + language + "/" + name} style={{ textDecoration: "none" }}>
+        <div className="photo-card">
           <img
             src={photo}
             className="card-img-top"
             alt="..."
-            style={{ height: "9rem" }}
+            style={{
+              height: "10rem",
+              objectFit: "cover",
+              objectPosition: "center top",
+            }}
           />
           <p className="photo-text">{name}</p>
         </div>

@@ -2,8 +2,9 @@ interface Props {
   title: string;
   subgroups: string[];
   language: string;
+  icon: string;
 }
-const PracticesBox = ({ title, subgroups, language }: Props) => {
+const PracticesBox = ({ title, subgroups, language, icon }: Props) => {
   return (
     <div className="center info-box-1">
       <div className="top-card flip">
@@ -44,7 +45,7 @@ const PracticesBox = ({ title, subgroups, language }: Props) => {
         style={{ position: "relative", textAlign: "center" }}
       >
         <h3 style={{ paddingBottom: ".5rem" }}>{title}</h3>
-        <img src="/assets/HomePage/PracticesIcons/immigration.png"></img>
+        <img src={icon}></img>
         <div
           className="center"
           style={{ position: "absolute", bottom: "15px", left: "47%" }}

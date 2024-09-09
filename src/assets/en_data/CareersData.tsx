@@ -3,6 +3,7 @@ export const image_block = {
   title: "Careers",
   text: "Join Us",
   color: "aqua",
+  textColor: "black",
 };
 
 export const careers_introduction = {
@@ -14,7 +15,7 @@ export const careers_introduction = {
     We look forward to meeting you!`,
 
   image: "/assets/careers2.jpg",
-  color: "#EDF6F9",
+  color: "white",
 };
 
 export const job_openings = [

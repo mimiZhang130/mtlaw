@@ -28,6 +28,7 @@ const LawPage = ({
         title={image_block.title}
         text={image_block.text}
         color={image_block.color}
+        textColor={image_block.textColor}
       />
       <IntroTextBlock
         title={introduction.title}

@@ -3,7 +3,7 @@ import ImageBlock from "../ImageBlock";
 import IntroTextBlock from "../IntroTextBlock";
 import { useState, useEffect } from "react";
 import CareersTextBlock1 from "./CareersTextBlock1";
-
+import HeadLiner from "../HeadLiner";
 import EndBlock from "../EndBlock";
 interface Props {
   language: string;
@@ -31,20 +31,7 @@ const CareersPage = ({ language }: Props) => {
   console.log(data?.careers_introduction.title);
   return (
     <div>
-      <div
-        className="flex-container"
-        style={{
-          justifyContent: "flex-end",
-          backgroundColor: "#006D77",
-        }}
-      >
-        <a href="/en/careers" style={{ padding: ".5% 2%", color: "white" }}>
-          English
-        </a>
-        <a href="/cn/careers" style={{ padding: ".5% 2%", color: "white" }}>
-          简体中文
-        </a>
-      </div>
+      <HeadLiner />
       <NavBar Active={["", "", "", "", "active"]} language={language} />
 
       <ImageBlock
@@ -52,6 +39,7 @@ const CareersPage = ({ language }: Props) => {
         title={data?.image_block.title}
         text={data?.image_block.text}
         color={data?.image_block.color}
+        textColor={data?.image_block.textColor}
       />
       <div>
         <IntroTextBlock

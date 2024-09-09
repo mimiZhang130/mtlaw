@@ -1,3 +1,4 @@
+import ContactUs from "../ContactUs";
 import Image from "../Image";
 import { useEffect, useState } from "react";
 interface Props {
@@ -25,24 +26,26 @@ const WorkWithUs = ({ language }: Props) => {
   return (
     <div className="flex-container">
       <div
-        className="left-flex-box text-padding"
+        className="right-flex-box text-padding"
         style={{ backgroundColor: "#00467f", color: "white" }}
       >
-        <h1>{data?.work_with_us.title}</h1>
-        <br></br>
+        <h1 className="center center-space">{data?.work_with_us.title}</h1>
         <p>{data?.work_with_us.content}</p>
-        <div style={{ marginTop: "2rem" }}>
-          <a href={"/" + language + "/ourteam"}>
-            <button className="btn btn-light">Contact Us</button>
-          </a>
+        <br></br>
+        <div className="center center-space">
+          <ContactUs
+            language={language}
+            backgroundColor="#00467f"
+            color="white"
+          />
         </div>
       </div>
-      <div className="right-flex-box" style={{ margin: "2.5%" }}>
+      <div className="left-flex-box">
         <Image
-          image={"/assets/AboutUsPage/WorkWithUs.jpg"}
+          image={data?.work_with_us.image}
           border={false}
           height={"400px"}
-          color={"#FFDDD2"}
+          color={"blue"}
         ></Image>
       </div>
     </div>

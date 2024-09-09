@@ -18,6 +18,7 @@ const LawSubPage = ({ image_block, item, language, subpage_image }: Props) => {
         title={image_block.title}
         text={image_block.text}
         color={image_block.color}
+        textColor={image_block.textColor}
       />
       <IntroTextBlock
         title={item.value}

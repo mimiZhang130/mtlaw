@@ -7,7 +7,6 @@ interface Props {
   content: any;
   image: string;
   backgroundColor: string;
-  button_content: string;
   language: string;
 }
 
@@ -16,7 +15,6 @@ const OurTeam = ({
   content,
   image,
   backgroundColor,
-  button_content,
   language,
 }: Props) => {
   useEffect(() => {

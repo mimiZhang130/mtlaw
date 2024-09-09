@@ -19,7 +19,7 @@ const IntroTextBlock = ({ title, content, image, backgroundColor }: Props) => {
   return (
     <div>
       <div className="flex-container">
-        <div className="left-flex-box" style={{ margin: "2.5%" }}>
+        <div className="left-flex-box">
           <Image
             image={image}
             border={false}
@@ -29,7 +29,7 @@ const IntroTextBlock = ({ title, content, image, backgroundColor }: Props) => {
         </div>
         <div
           className="right-flex-box text-padding"
-          style={{ backgroundColor: backgroundColor }}
+          style={{ backgroundColor: backgroundColor, color: "#00467f" }}
         >
           <h1 className="center center-space">{title}</h1>
           <div id="output"></div>

@@ -3,9 +3,9 @@ interface Props {
   text: string;
   textColor: string;
 }
-const InfoBox2 = ({ title, text, textColor }: Props) => {
+const ImageTextBox = ({ title, text, textColor }: Props) => {
   return (
-    <div className="overlay background-fill">
+    <div className="overlay image-text-background">
       <h2 className="image-text" style={{ color: textColor }}>
         {title}
       </h2>
@@ -16,4 +16,4 @@ const InfoBox2 = ({ title, text, textColor }: Props) => {
   );
 };
 
-export default InfoBox2;
+export default ImageTextBox;

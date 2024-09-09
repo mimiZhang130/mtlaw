@@ -1,5 +1,5 @@
 export const image_block = {
-  image: "/assets/aboutus.jpg",
+  image: "/assets/AboutUsPage/AboutUsIntroduction.jpg",
   title: "Helping Clients",
   text: "Since 2010",
   color: "blue",
@@ -13,11 +13,12 @@ Pooling together our combined knowledge allows MT Law LLC to approach clients’
 
 To learn more about our attorneys, please check out their attorney biographies.`,
 
-  image: "/assets/AboutUsPage/AboutUsIntroduction.jpg",
-  color: "lightgray",
+  image: "/assets/AboutUsPage/OurFirm.jpg",
+  color: "white",
 };
 
 export const work_with_us = {
   title: "Work With Our Team",
   content: `At MTLaw, we believe that the practice of law is more than just a profession—it's a commitment to excellence, integrity, and making a positive impact. Our firm is dedicated to providing exceptional legal services while fostering a dynamic and supportive work environment. We look forward to working with you.`,
+  image: "/assets/AboutUsPage/OurTeam.jpg",
 };

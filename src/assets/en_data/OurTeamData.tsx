@@ -18,7 +18,7 @@ export const our_team_introduction = {
 export const people = [
   {
     name: "Tian Shengxi",
-    image: "/assets/OurTeamPage/Profiles/Tina.jpg",
+    image: "/assets/OurTeamPage/Profiles/Tina.png",
   },
   {
     name: "Tian Shengxi",
@@ -55,7 +55,7 @@ export const people_info = [
     id: 0,
     name: "Tian Shengxi",
     info: {
-      image: "/assets/OurTeamPage/Profiles/Tina.jpg",
+      image: "/assets/OurTeamPage/Profiles/Tina.png",
       position: "Founder & Managing Partner",
       email: "tian@mtlawllc.com",
       educations: [

@@ -1,5 +1,5 @@
 import Image from "./Image";
-import InfoBox2 from "./InfoBox2";
+import ImageTextBox from "./ImageTextBox";
 
 interface Props {
   image: string;
@@ -13,7 +13,7 @@ const ImageBlock = ({ image, title, text, color, textColor }: Props) => {
     <div>
       <div className="fluid-container" style={{ position: "relative" }}>
         <div className={"underline-blue"}>
-          <div style={{ opacity: ".5" }}>
+          <div>
             <Image
               image={image}
               border={false}
@@ -22,7 +22,7 @@ const ImageBlock = ({ image, title, text, color, textColor }: Props) => {
             />
           </div>
         </div>
-        <InfoBox2 title={title} text={text} textColor={textColor} />
+        <ImageTextBox title={title} text={text} textColor={textColor} />
       </div>
     </div>
   );

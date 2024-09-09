@@ -2,11 +2,16 @@
   font-family: 'Garamond', serif;
 }
 
+/* Image Text */
 .overlay{
   position: absolute;
   top: 40%;
   left: 5%;
   padding: 2rem;
+}
+
+.image-text-background{
+  background-color: rgba(166, 166, 166, 0.724);
 }
 
 .center{
@@ -16,17 +21,14 @@
 }
 
 .center-space{
-  display:flex;
   padding-bottom: 1rem;
 }
 
 .center-title{
   text-align: center;
 }
-h4 {
- font-size: .2rem;
-}
 
+/* ImageBlock */
 .underline-blue{
   border-bottom-style: solid;
   border-bottom-width: .75rem;
@@ -39,25 +41,14 @@ h4 {
   border-bottom-color: lightgray;
 }
 
-.photo-text{
+/* .photo-text{
   display: flex;
   justify-content: center;
   padding: .5rem;
   margin: auto;
-}
+} */
 
-.image-text{
-  color:white;
-}
-
-.background-fill{
-  border-radius: 15px 50px; 
-}
-
-.paragraph-text{
-  font-size: 1.25rem;
-}
-
+/* Practices Card Flip Animation */
 .info-box-1{
   border: .01px solid white;
   margin: 1rem;
@@ -88,41 +79,21 @@ h4 {
   top: 0%;
   background-color: #00467f;
   color: white;
-  /* padding: 1rem; */
-  /* padding-left: 2rem; */
-}
-
-.image-color-white {
-  filter: grayscale(100%) sepia(100%) invert(100%) brightness(1000%);
-  /* Adjust hue-rotate, saturate, and grayscale values to achieve the desired color */
 }
 
 .info-box-1:hover .flip-back{
   transform: translateX(0) translateY(-100%);
 }
 
-.left-block-text{
-  color: white;
-  position: absolute;
-  top: 2%;
-  left: 20%;
-  text-align: center;
-  padding: 2rem;
+/* Change color of image to white */
+.image-color-white {
+  filter: grayscale(100%) sepia(100%) invert(100%) brightness(1000%);
 }
 
-@media (max-width: 767px) {
-  .left-block-text{
-    left: 0%;
-  }
-}
 
-.flex-container{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
+/* */
 
+/* right/left split boxes */
 .flex-container{
   display: flex;
   flex-direction: row;
@@ -133,11 +104,14 @@ h4 {
 .left-flex-box{
   justify-content: left;
   width: 40%;
+  align-content: center;
+  background-color: lightgray;
 }
 
 .left-flex-box-2{
   justify-content: left;
   width: 35%;
+
 }
 
 .right-flex-box{
@@ -156,6 +130,8 @@ h4 {
     width:100%;
   }
 }
+
+/* Carousel */
 
 .carousel-fact-box{
   background-color: lightgray;
@@ -181,18 +157,27 @@ h4 {
   }
 }
 
-@media (max-width: 767px) {
-  .fact-box{
-    width: 100vw;
-    height: auto;
-  }
-  
-}
 .slide-container{
   max-width: 33rem;
   max-height: 25rem;
 }
 
+/* Our Team */
+.photo-text{
+  display: flex;
+  justify-content: center;
+  padding: .5rem;
+  margin: auto;
+}
+
+.photo-card{
+  width: 10rem;
+  margin: 1rem .5rem;
+  border: black solid;
+  color: black;
+}
+
+/* CLEAN */
 .text-padding{
   padding: 3rem 5rem 3rem;
 }
