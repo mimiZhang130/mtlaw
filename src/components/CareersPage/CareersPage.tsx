@@ -49,7 +49,13 @@ const CareersPage = ({ language }: Props) => {
           backgroundColor={data?.careers_introduction.color}
         />
       </div>
-      <div style={{ backgroundColor: "#FFDDD2", paddingBottom: "3%" }}>
+      <div
+        style={{
+          backgroundColor: "#00467f",
+          paddingBottom: "3%",
+          color: "white",
+        }}
+      >
         <h1 className="center center-space text-padding">Jobs</h1>
         <CareersTextBlock1 language={language} />
       </div>

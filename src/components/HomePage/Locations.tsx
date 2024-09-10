@@ -43,50 +43,6 @@ const ImageBlock2 = ({ image, title, language }: Props) => {
           </div>
         </div>
       </div>
-
-      {/* <div className="left-block-text">
-        <h1>{title}</h1>
-        <div className="flex-container">
-          {data?.location_data.map(
-            (location: any) =>
-              location.id <= 2 && (
-                <div style={{ width: "15rem", margin: "3rem 1rem 0rem 1rem" }}>
-                  <div
-                    className="card-body"
-                    style={{
-                      border: "1px solid white",
-                      height: "8rem",
-                      padding: "1rem",
-                    }}
-                  >
-                    <h5 className="card-title">{location.title}</h5>
-                    <p className="card-text">{location.content}</p>
-                  </div>
-                </div>
-              )
-          )}
-        </div>
-        <div className="flex-container">
-          {data?.location_data.map(
-            (location: any) =>
-              location.id > 2 && (
-                <div style={{ width: "15rem", margin: "3rem 1rem 0rem 1rem" }}>
-                  <div
-                    className="card-body"
-                    style={{
-                      border: "1px solid white",
-                      height: "8rem",
-                      padding: "1rem",
-                    }}
-                  >
-                    <h5 className="card-title">{location.title}</h5>
-                    <p className="card-text">{location.content}</p>
-                  </div>
-                </div>
-              )
-          )}
-        </div>
-      </div> */}
     </div>
   );
 };

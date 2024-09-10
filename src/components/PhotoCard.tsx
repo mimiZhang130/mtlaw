@@ -14,7 +14,7 @@ const PhotoCard = ({ name, photo, language }: Props) => {
             className="card-img-top"
             alt="..."
             style={{
-              height: "10rem",
+              height: "14rem",
               objectFit: "cover",
               objectPosition: "center top",
             }}

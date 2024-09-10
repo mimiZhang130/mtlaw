@@ -1,4 +1,4 @@
-import FormattedText from "../FormattedText";
+import FormattedText from "../FormattedText.tsx";
 import { useEffect, useState } from "react";
 interface Props {
   language: string;
@@ -46,7 +46,7 @@ const CareersTextBlock1 = ({ language }: Props) => {
                 data-bs-parent="#accordionExample"
               >
                 <div style={{ margin: "3%" }}>
-                  <FormattedText content={job.content} id={job.id} />
+                  <FormattedText content={job.content} content_id={job.id} />
                 </div>
               </div>
             </div>

@@ -114,9 +114,19 @@
 
 }
 
+.left-flex-box-3{
+  justify-content: left;
+  width: 25%;
+}
+
 .right-flex-box{
   justify-content: right;
   width: 60%;
+}
+
+.right-flex-box-3{
+  justify-content: right;
+  width: 70%;
 }
 
 @media (max-width: 767px) {
@@ -128,6 +138,12 @@
   }
   .left-flex-box-2{
     width:100%;
+  }
+  .left-flex-box-3{
+    width: 100%;
+  }
+  .right-flex-box-3{
+    width: 100%;
   }
 }
 
@@ -171,16 +187,21 @@
 }
 
 .photo-card{
-  width: 10rem;
+  width: 14rem;
   margin: 1rem .5rem;
   border: black solid;
   color: black;
 }
 
-/* CLEAN */
+/* Careers Page */
+
 .text-padding{
   padding: 3rem 5rem 3rem;
 }
+
+
+/* CLEAN */
+
 
 .overlay-facts{
   position: absolute;

@@ -1,4 +1,5 @@
 import ContactUs from "../ContactUs";
+import FormattedText from "../FormattedText";
 import Image from "../Image";
 import { useEffect, useState } from "react";
 interface Props {
@@ -30,7 +31,10 @@ const WorkWithUs = ({ language }: Props) => {
         style={{ backgroundColor: "#00467f", color: "white" }}
       >
         <h1 className="center center-space">{data?.work_with_us.title}</h1>
-        <p>{data?.work_with_us.content}</p>
+        <FormattedText
+          content={data?.work_with_us.content}
+          content_id="workwithus"
+        />
         <br></br>
         <div className="center center-space">
           <ContactUs

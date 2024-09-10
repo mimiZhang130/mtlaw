@@ -4,7 +4,7 @@ import IntroTextBlock from "../IntroTextBlock.tsx";
 import LawTextBlock from "../LawPages/LawTextBlock.tsx";
 import InfoBox5 from "../CaseStudy.tsx";
 import EndBlock from "../EndBlock.tsx";
-import TextBlockAny from "../TextBlockAny.tsx";
+import FormattedText from "../FormattedText.tsx";
 interface Props {
   image_block: any;
   introduction: any;
@@ -36,14 +36,14 @@ const LawPage = ({
         image={introduction.image}
         backgroundColor={introduction.color}
       />
-      <TextBlockAny
+      <FormattedText
         content={`hi
         list_start
         - hi bye end_bullet 
         - hi end_bullet
         list_end
-        link:http://localhost:5173/en/legalservices/Immigration%20Law_Name
-
+        link:http://localhost:5173/en/legalservices/Immigration%20Law_Name hi
+        <b>hi</b>
         hi`}
         content_id={"hi_id"}
       />

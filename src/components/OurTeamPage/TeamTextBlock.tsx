@@ -22,7 +22,7 @@ const TeamTextBlock = ({ language }: Props) => {
     loadData();
   }, [language]);
   return (
-    <div>
+    <div style={{ marginBottom: "1.5rem" }}>
       <h1 className="center center-space text-padding">
         {language === "en" ? "Our Team" : "我们的团队"}
       </h1>

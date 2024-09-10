@@ -1,6 +1,6 @@
 import Image from "../Image";
-import { useEffect } from "react";
 import ContactUs from "../ContactUs";
+import FormattedText from "../FormattedText";
 
 interface Props {
   title: string;
@@ -17,13 +17,6 @@ const OurTeam = ({
   backgroundColor,
   language,
 }: Props) => {
-  useEffect(() => {
-    const outputElement = document.getElementById("output2");
-    if (outputElement && content) {
-      outputElement.innerHTML = content.replace(/\n/g, "<br>");
-    }
-  }, [content]);
-
   return (
     <div>
       <div className="flex-container">
@@ -34,10 +27,9 @@ const OurTeam = ({
           <h1 className="center center-space" style={{ color: "white" }}>
             {title}
           </h1>
-          <div
-            style={{ margin: "0 0 2rem 0", color: "white" }}
-            id="output2"
-          ></div>
+          <div style={{ margin: "0 0 2rem 0", color: "white" }}>
+            <FormattedText content={content} content_id="homeourteam" />
+          </div>
           <div className="center center-space">
             <ContactUs
               language={language}

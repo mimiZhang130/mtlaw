@@ -41,7 +41,7 @@ const TeamSubPage = ({ name, info, language }: Props) => {
       />
       <TeamIntroBlock
         title={name}
-        content={info}
+        content={info.content}
         image={info.image}
         language={language}
       />

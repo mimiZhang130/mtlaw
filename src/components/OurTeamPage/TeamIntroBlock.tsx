@@ -1,5 +1,5 @@
+import FormattedText from "../FormattedText";
 import Image from "../Image";
-import { useEffect } from "react";
 interface Props {
   title: string;
   content: any;
@@ -7,18 +7,11 @@ interface Props {
   language: string;
 }
 
-const TeamIntroBlock = ({ title, content, image, language }: Props) => {
-  useEffect(() => {
-    const outputElement = document.getElementById("output");
-    if (outputElement) {
-      outputElement.innerHTML = content.profile.replace(/\n/g, "<br>");
-    }
-  }, [content.profile]);
-
+const TeamIntroBlock = ({ content, image }: Props) => {
   return (
     <div>
       <div className="flex-container">
-        <div className="left-flex-box-2" style={{ margin: "2rem" }}>
+        <div className="left-flex-box-3" style={{ margin: "2rem" }}>
           <Image
             image={image}
             border={false}
@@ -27,10 +20,11 @@ const TeamIntroBlock = ({ title, content, image, language }: Props) => {
           ></Image>
         </div>
         <div
-          className="right-flex-box text-padding"
+          className="right-flex-box-3 text-padding"
           style={{ backgroundColor: "lightgray" }}
         >
-          <p>
+          <FormattedText content={content} content_id="profile" />
+          {/* <p>
             <strong>{language === "en" ? "Name: " : "名字："}</strong>
             {title}
           </p>
@@ -57,7 +51,7 @@ const TeamIntroBlock = ({ title, content, image, language }: Props) => {
           <p>
             <strong>{language === "en" ? "Profile:" : "简介："}</strong>
             <div id="output"></div>
-          </p>
+          </p> */}
         </div>
       </div>
     </div>

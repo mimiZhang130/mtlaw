@@ -1,5 +1,5 @@
+import FormattedText from "./FormattedText";
 import Image from "./Image";
-import { useEffect } from "react";
 
 interface Props {
   title: string;
@@ -9,13 +9,6 @@ interface Props {
 }
 
 const IntroTextBlock = ({ title, content, image, backgroundColor }: Props) => {
-  useEffect(() => {
-    const outputElement = document.getElementById("output");
-    if (outputElement && content) {
-      outputElement.innerHTML = content.replace(/\n/g, "<br>");
-    }
-  }, [content]);
-
   return (
     <div>
       <div className="flex-container">
@@ -32,7 +25,8 @@ const IntroTextBlock = ({ title, content, image, backgroundColor }: Props) => {
           style={{ backgroundColor: backgroundColor, color: "#00467f" }}
         >
           <h1 className="center center-space">{title}</h1>
-          <div id="output"></div>
+          {/* <div id="output"></div> */}
+          <FormattedText content={content} content_id="introtextblock" />
         </div>
       </div>
     </div>

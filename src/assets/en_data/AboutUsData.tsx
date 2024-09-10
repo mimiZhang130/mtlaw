@@ -11,7 +11,8 @@ export const about_us_introduction = {
 
 Pooling together our combined knowledge allows MT Law LLC to approach clients’ cases with a comprehensive set of legal knowledge and insight. Among the attorneys at our firm, MT Law is able to offer its legal services in English, Mandarin, Cantonese, French, Spanish and Portuguese.
 
-To learn more about our attorneys, please check out their attorney biographies.`,
+To learn more about our attorneys, please check out their link:/en/ourteam_attorney biographies
+.`,
 
   image: "/assets/AboutUsPage/OurFirm.jpg",
   color: "white",

@@ -1,6 +1,6 @@
 import Image from "../Image";
-import { useEffect } from "react";
 import ContactUs from "../ContactUs";
+import FormattedText from "../FormattedText";
 interface Props {
   title: string;
   content: any;
@@ -16,13 +16,6 @@ const HomePageIntroBlock = ({
   backgroundColor,
   language,
 }: Props) => {
-  useEffect(() => {
-    const outputElement = document.getElementById("output");
-    if (outputElement && content) {
-      outputElement.innerHTML = content.replace(/\n/g, "<br>");
-    }
-  }, [content]);
-
   return (
     <div>
       <div className="flex-container">
@@ -39,11 +32,8 @@ const HomePageIntroBlock = ({
           style={{ backgroundColor: backgroundColor }}
         >
           <h1 className="center center-space center-title">{title}</h1>
-          <div style={{ margin: "0 0 2rem 0" }} id="output"></div>
-          <div className="center center-space">
-            {/* <a href={"/" + language + "/contactus"}>
-              <button className="btn btn-dark"> {button_content} </button>
-            </a> */}
+          <FormattedText content={content} content_id="homepageintro" />
+          <div style={{ margin: "2rem 0 0 0" }} className="center center-space">
             <ContactUs
               language={language}
               backgroundColor="white"

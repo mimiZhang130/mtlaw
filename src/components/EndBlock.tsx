@@ -22,7 +22,7 @@ const EndBlock = ({ language }: Props) => {
     loadData();
   }, [language]);
   return (
-    <div>
+    <div style={{ borderTop: "solid #00467f .5rem" }}>
       <nav className="navbar" style={{ backgroundColor: "white" }}>
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
