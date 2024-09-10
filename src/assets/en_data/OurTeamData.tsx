@@ -29,7 +29,7 @@ export const people = [
     image: "/assets/OurTeamPage/Profiles/martin.jpg",
   },
   {
-    name: "Amber David",
+    name: "Amber Davis",
     image: "/assets/OurTeamPage/Profiles/Amber Davis.png",
   },
   {
@@ -54,7 +54,7 @@ export const people = [
   },
   {
     name: "Ashley Colón-Dziegielewski",
-    image: "/assets/OurTeamPage/Profiles/Ashley Colón-Dziegielewski Photo.jpg",
+    image: "/assets/OurTeamPage/Profiles/Ashley Colon-Dziegielewski Photo.jpg",
   },
   {
     name: "Benjamin Witlin",
@@ -69,11 +69,11 @@ export const people = [
     image: "/assets/OurTeamPage/Profiles/Cindy Chen Photo.jpg",
   },
   {
-    name: "Cody Parson",
+    name: "Cody Parsons",
     image: "/assets/OurTeamPage/Profiles/Cody Parson.jpg",
   },
   {
-    name: "Danni",
+    name: "Danni Hu",
     image: "/assets/OurTeamPage/Profiles/Danni Photo.jpg",
   },
   {
@@ -283,6 +283,162 @@ Jessica earned her public accounting certification in 2016 and currently holds a
 <b>Practice Area: </b>
 list_start
 - Taxation
+list_end
+`,
+    },
+  },
+  {
+    id: 5,
+    name: "Amber Davis",
+    info: {
+      image: "/assets/OurTeamPage/Profiles/Amber Davis.png",
+      content: `<b>Position: </b>Of Counsel
+
+<b>Email: </b>adavis@mtlawllc.com
+
+<b>Education: </b>
+list_start
+- Boston University School of Law, Juris Doctorate
+list_end
+<b>Admissions: </b>
+list_start
+- Commonwealth of Massachusetts
+list_end
+<b>Profile: </b>
+Attorney Amber Davis is respected counsel to law firms, investors, executives, and corporate employees in the United States, applying a personal and practical problem-solving approach to every case.
+
+She has extensive prior experience in immigration law within a variety of law firm settings, with expertise in EB-1, EB-2 NIW, PERM, EB-5, H-1B, L-1, O-1, E-1/E-2, E-3, TN, J-1, Complex B-1/B-2, Waivers, and Humanitarian Cases. She has previously represented large multinational corporations, top U.S. public companies, mid-size businesses, family-owned businesses, and startups to solve their unique immigration needs. More recently, she has applied a deep focus on providing excellent legal services to individual immigrants within the employment-based immigration practice setting.
+
+Amber earned her Juris Doctorate from Boston University School of Law in Boston, Massachusetts. She is an active alumnus of the school who provides regular office hours and presentations at the BUild Lab through Innovate@BU.
+
+Amber is a member of the American Immigration Lawyers Association. She is licensed to practice law in Massachusetts.
+
+<b>Practice Area: </b>
+list_start
+- Immigration Law
+list_end
+`,
+    },
+  },
+  {
+    id: 6,
+    name: "Andrew Anderton",
+    info: {
+      image: "/assets/OurTeamPage/Profiles/Andrew Anderton.jpg",
+      content: `<b>Position: </b>Paralegal
+
+<b>Email: </b>aanderton@mtlawllc.com
+
+<b>Education: </b>
+list_start
+- Tufts University, B.A.
+list_end
+<b>Profile: </b>
+Mr. Anderton is a paralegal in the Real Estate Department. He is responsible for preparing preliminary title documents and coordinating with lenders. Mr. Anderton is also responsible for the post-closing process and coordinating title search requests.
+
+Prior to joining MT Law LLC, Mr. Anderton served as an intern for U.S. Congresswoman Tulsi Gabbard in her Honolulu office.
+
+Mr. Anderton earned his B.A. from Tufts University in Medford, Massachusetts.
+`,
+    },
+  },
+  {
+    id: 7,
+    name: "Ashley Colón-Dziegielewski",
+    info: {
+      image:
+        "/assets/OurTeamPage/Profiles/Ashley Colon-Dziegielewski Photo.jpg",
+      content: `<b>Position: </b>Attorney
+
+<b>Email: </b>adziegielewski@mtlawllc.com
+
+<b>Education: </b>
+list_start
+- Northeastern University School of Law, Juris Doctorate
+- Boston University, Bachelor of Arts
+list_end
+<b>Admissions: </b>
+list_start
+- Commonwealth of Massachusetts
+list_end
+<b>Profile: </b>
+Attorney Ashley Colón-Dziegielewski’s practice focuses on immigrant and nonimmigrant visa applications. She specializes in employment-based and family-based immigration matters. For employment-based cases, she represents a range of multinational corporate and start-up clients across industries. Her practice concerns all aspects of employment-based immigration and she helps clients navigate complex immigration challenges.
+
+Prior to joining MT Law, Attorney Colón-Dziegielewski gained experience in immigration law, including asylum, humanitarian relief, Special Immigrant Juvenile Status, and U-visas. She has a variety of experience in employment-based immigrant and nonimmigrant processes, including EB-1A, EB-1C, EB-5, E-2, H-1B, L-1A, O-1, and PERM, as well as family-based immigration applications and waivers, including National Interest Waivers.
+
+Attorney Colón-Dziegielewski earned her Juris Doctorate from Northeastern University School of Law in Boston, Massachusetts. She received a Bachelor of Arts degree, cum laude, in History with a minor in Eastern European studies from Boston University.
+
+Attorney Colón-Dziegielewski is currently a member of the American Immigration Lawyers Association. She is licensed to practice law in Massachusetts.
+
+<b>Practice Area: </b>
+list_start
+- Immigration Law
+list_end
+`,
+    },
+  },
+  {
+    id: 8,
+    name: "Cody Parsons",
+    info: {
+      image: "/assets/OurTeamPage/Profiles/Cody Parson.jpg",
+      content: `<b>Position: </b>Real Estate Operations Manager
+
+<b>Email: </b>cody@mtlawllc.com
+
+<b>Education: </b>
+list_start
+- Bridgewater State University, B.A. Political Science
+list_end
+<b>Profile: </b>
+Mr. Parsons has over three years of experience in the real estate legal industry ranging from foreclosures and litigation to residential real estate closings. His skills include coordinating all aspects of a residential closing, drafting legal documents, curing title issues, and overseeing the internal operations of the real estate team.
+
+Prior to joining MT Law LLC in 2019, Cody began his career as a legal assistant at Orlans PC in Waltham, MA. Since then he has grown and sharpened his skillset to become well-versed in many aspects of Real Estate Law.
+
+In June 2021, Mr. Parsons gratefully accepted the position of Operations Manager for the Real Estate department. Cody’s goal is to create a successful and efficient work environment for all employees and to ensure that all customers and clients are given the best service and experience as possible.
+
+Mr. Parsons earned his Bachelor of Arts Degree in Political Science in May of 2018, cum laude, from Bridgewater State University.
+
+<b>Practice Area: </b>
+list_start
+- Real Estate Law
+list_end
+`,
+    },
+  },
+  {
+    id: 9,
+    name: "Danni Hu",
+    info: {
+      image: "/assets/OurTeamPage/Profiles/Danni Photo.jpg",
+      content: `<b>Position: </b>Attorney
+
+<b>Email: </b>danni.hu@mtlawllc.com
+
+<b>Education: </b>
+list_start
+- University of St. Thomas School of Law, JD, Cum Laude
+- University of Durham, Master of Arts in Translation Studies
+- Nottingham Trent University, Bachelor of Arts in International Business Administration
+list_end
+<b>Admissions: </b>
+list_start
+- State of Minnesota
+list_end
+<b>Profile: </b>
+Attorney Hu helps foreign investors, Chinese and American businesses, and individuals achieve global mobility. Her specialties include investment-based immigration, employment-based immigration, and immigration services in global relocation matters.
+
+Attorney Hu works closely with clients to help American companies obtain global talents, manage non-immigrant visas and work authorization for multinational corporations’ employees, assist outstanding managers and professionals in securing U.S. lawful permanent residence, etc.
+
+Attorney Hu obtained her Juris Doctor degree from the University of St. Thomas School of Law in Minneapolis, Minnesota, with Cum Laude honor.
+
+Before joining MT Law LLC, she worked at a reputable business immigration law firm in Minnesota.
+
+Attorney Hu is an active member of the American Bar Association and Minnesota State Bar Association. She speaks Mandarin and English and has working proficiency in Korean.
+
+<b>Practice Area: </b>
+list_start
+- Immigration Law
 list_end
 `,
     },

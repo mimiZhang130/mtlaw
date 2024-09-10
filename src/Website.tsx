@@ -9,6 +9,7 @@ import CareersPage from "./components/CareersPage/CareersPage";
 import ContactUsPage from "./components/ContactUsPage/ContactUsPage";
 import HeadLiner from "./components/HeadLiner";
 import { useState, useEffect } from "react";
+
 interface Props {
   language: string;
 }

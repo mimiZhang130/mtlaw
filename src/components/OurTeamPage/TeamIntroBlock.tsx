@@ -24,34 +24,6 @@ const TeamIntroBlock = ({ content, image }: Props) => {
           style={{ backgroundColor: "lightgray" }}
         >
           <FormattedText content={content} content_id="profile" />
-          {/* <p>
-            <strong>{language === "en" ? "Name: " : "名字："}</strong>
-            {title}
-          </p>
-          <p>
-            <strong>{language === "en" ? "Position: " : "职位："}</strong>
-            {content.position}
-          </p>
-          <p>
-            <strong>{language === "en" ? "Email: " : "电子邮件："}</strong>
-            {content.email}
-          </p>
-          <p>
-            <strong>{language === "en" ? "Education: " : "教育背景："}</strong>
-            {content.educations.map((education: any) => (
-              <li style={{ marginLeft: "1rem" }}>{education.school}</li>
-            ))}
-          </p>
-          <p>
-            <strong>{language === "en" ? "Admissions:" : "准许："}</strong>
-            {content.admissions.map((admission: any) => (
-              <li style={{ marginLeft: "1rem" }}>{admission.state}</li>
-            ))}
-          </p>
-          <p>
-            <strong>{language === "en" ? "Profile:" : "简介："}</strong>
-            <div id="output"></div>
-          </p> */}
         </div>
       </div>
     </div>
