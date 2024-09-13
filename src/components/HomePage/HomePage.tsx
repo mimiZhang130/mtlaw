@@ -54,7 +54,6 @@ const HomePage = ({ language }: Props) => {
             content={data?.home_introduction.content}
             image={data?.home_introduction.image}
             backgroundColor={data?.home_introduction.color}
-            language={language}
           />
         </div>
 

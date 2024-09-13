@@ -1,12 +1,11 @@
 import Image from "../Image";
-import ContactUs from "../ContactUs";
+// import ContactUs from "../ContactUs";
 import FormattedText from "../FormattedText";
 interface Props {
   title: string;
   content: any;
   image: string;
   backgroundColor: string;
-  language: string;
 }
 
 const HomePageIntroBlock = ({
@@ -14,7 +13,6 @@ const HomePageIntroBlock = ({
   content,
   image,
   backgroundColor,
-  language,
 }: Props) => {
   return (
     <div>
