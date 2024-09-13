@@ -2,10 +2,10 @@ export const law_data = [
   {
     title: "Immigration Law",
     image_block: {
-      image: "/assets/immigration.jpg",
+      image: "/assets/ImmigrationPage/ImmigrationTitle.jpg",
       title: "Immigration Law",
       text: "Experience developed from a great variety of cases",
-      color: "pink",
+      color: "blue",
       textColor: "black",
     },
     introduction: {
@@ -18,7 +18,7 @@ export const law_data = [
         
     If you are interested in obtaining or extending a visa, please review the visa categories below to determine the best fit. Our attorneys are always available for consultation and advice so that we match you with the team that can best handle your immigration case. A standard initial consultation is usually $200 and includes a meeting in person or over the phone and initial document review. Please call or email us if you would like to set up a consultation.`,
       image: "/assets/immigration2.jpg",
-      color: "#FFDDD2",
+      color: "lightgray",
     },
     link_info: [
       {

@@ -15,7 +15,7 @@ const ContactUs = ({ language, backgroundColor, color }: Props) => {
             borderColor: color,
           }}
         >
-          Contact Us
+          {language === "en" ? "Contact Us" : "联系我们"}
         </button>
       </a>
     </div>

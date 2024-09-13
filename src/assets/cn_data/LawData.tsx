@@ -5,10 +5,11 @@ export const law_data = [
     subpage_image: "/assets/ImmigrantVisa.jpg",
 
     image_block: {
-      image: "/assets/immigration.jpg",
+      image: "/assets/ImmigrationPage/ImmigrationTitle.jpg",
       title: "移民法",
       text: "从各种案件中积累的经验",
-      color: "pink",
+      color: "blue",
+      textColor: "black",
     },
     introduction: {
       title: "移民法",

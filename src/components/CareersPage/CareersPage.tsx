@@ -56,7 +56,9 @@ const CareersPage = ({ language }: Props) => {
           color: "white",
         }}
       >
-        <h1 className="center center-space text-padding">Jobs</h1>
+        <h1 className="center center-space text-padding">
+          {language === "en" ? "Jobs" : "工作机会"}
+        </h1>
         <CareersTextBlock1 language={language} />
       </div>
       <EndBlock language={language} />

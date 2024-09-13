@@ -1,5 +1,5 @@
 export const image_block = {
-  image: "/assets/AboutUsPage/AboutUsIntroduction.jpg",
+  image: "/assets/AboutUsPage/AboutUsTitle.jpg",
   title: "Helping Clients",
   text: "Since 2010",
   color: "blue",

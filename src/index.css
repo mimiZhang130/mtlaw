@@ -11,7 +11,7 @@
 }
 
 .image-text-background{
-  background-color: rgba(166, 166, 166, 0.724);
+  background-color: rgba(0, 0, 0, .5);
 }
 
 .center{
@@ -259,8 +259,9 @@
 
 
 .custom-accordian {
-  --bs-accordion-active-bg: #E29578 !important;
-  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #e29578 !important;
+  --bs-accordion-active-bg: lightgray !important;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem gray !important;
+  /* --bs-accordion-btn- */
 }
 
 .footer-button {

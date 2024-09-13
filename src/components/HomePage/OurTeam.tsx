@@ -27,7 +27,13 @@ const OurTeam = ({
           <h1 className="center center-space" style={{ color: "white" }}>
             {title}
           </h1>
-          <div style={{ margin: "0 0 2rem 0", color: "white" }}>
+          <div
+            style={{
+              margin: "0 0 2rem 0",
+              color: "white",
+              justifyContent: "center",
+            }}
+          >
             <FormattedText content={content} content_id="homeourteam" />
           </div>
           <div className="center center-space">

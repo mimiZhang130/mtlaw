@@ -1,22 +1,24 @@
 export const image_block = {
-  image: "/assets/aboutus.jpg",
+  image: "/assets/AboutUsPage/AboutUsTitle.jpg",
   title: "帮助客户",
   text: "自2010年以来",
-  color: "pink",
+  color: "blue",
 };
 
 export const about_us_introduction = {
-  title: "关于我们",
-  content: `在MT Law, 我们致力于提供涵盖移民法、商业和公司法、房地产法、税法、遗产规划、知识产权、民事诉讼和刑事诉讼等多方面的一流法律服务。我们在美国和中国拥有强大的影响力，利用我们丰富的多样性和丰富的经验为客户的需求提供深刻而灵活的解决方案。
-  
-  我们的团队由来自各种文化、语言和专业背景的律师组成, 致力于为客户创造一个友好和舒适的环境。MT Law提供多语言法律服务, 包括英语、普通话、粤语、法语、西班牙语和葡萄牙语。
-  
-  MT Law已经证明在为客户辩护方面取得了成功。我们对为客户提供高质量法律工作的承诺使我们能够适应全球经济变化并保持竞争优势。`,
-  image: "/assets/aboutus2.jpg",
-  color: "#FFDDD2",
+  title: "我们的律师事务所",
+  content: `在MT Law LLC，我们的主要目标是让处理法律事务变得尽可能顺畅。为此，我们的律师坚决致力于为客户提供多样化的多语环境。我们拥有丰富的经验和多样性，代表着广泛的文化、种族、语言和国籍背景。这种背景不仅为我们的团队提供了对美国法律体系的敏锐洞察力，还让我们深入了解其他国家的法律法规。此外，我们的律师团队来自不同的专业背景，涵盖了多个法律领域的专业知识。
+
+通过汇集我们的知识，MT Law LLC 能够以全面的法律知识和洞察力处理客户的案件。在我们的事务所中，MT Law 能够提供英文、普通话、粤语、法语、西班牙语和葡萄牙语的法律服务。
+
+要了解更多关于我们律师的信息，请查看他们的传记 link:/en/ourteam_attorney。`,
+
+  image: "/assets/AboutUsPage/OurFirm.jpg",
+  color: "white",
 };
 
-export const about_us_why_us = {
-  title: "为什么选择我们",
-  content: `我们致力于使复杂的法律事务尽可能顺利和易于接近，并承诺在我们所做的一切中保持最高的诚信和专业标准。`,
+export const work_with_us = {
+  title: "与我们的团队合作",
+  content: `在MT Law，我们相信法律实践不仅仅是一种职业——它是一种对卓越、诚信和积极影响的承诺。我们的事务所致力于提供卓越的法律服务，同时营造一个充满活力和支持性的工作环境。我们期待与您合作。`,
+  image: "/assets/AboutUsPage/OurTeam.jpg",
 };
