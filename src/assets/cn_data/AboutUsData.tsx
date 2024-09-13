@@ -3,6 +3,7 @@ export const image_block = {
   title: "帮助客户",
   text: "自2010年以来",
   color: "blue",
+  textColor: "white",
 };
 
 export const about_us_introduction = {

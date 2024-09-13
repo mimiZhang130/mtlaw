@@ -16,16 +16,15 @@ const IntroTextBlock = ({ title, content, image, backgroundColor }: Props) => {
           <Image
             image={image}
             border={false}
-            height={"auto"}
+            height={"550px"}
             color="blue"
           ></Image>
         </div>
         <div
           className="right-flex-box text-padding"
-          style={{ backgroundColor: backgroundColor, color: "#00467f" }}
+          style={{ backgroundColor: backgroundColor, color: "black" }}
         >
           <h1 className="center center-space">{title}</h1>
-          {/* <div id="output"></div> */}
           <FormattedText content={content} content_id="introtextblock" />
         </div>
       </div>

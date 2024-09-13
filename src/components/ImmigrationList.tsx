@@ -6,7 +6,7 @@ interface Props {
   number: number;
   language: string;
 }
-const InfoBox6 = ({
+const ImmigrationList = ({
   title,
   items,
   law_title,
@@ -37,4 +37,4 @@ const InfoBox6 = ({
   );
 };
 
-export default InfoBox6;
+export default ImmigrationList;

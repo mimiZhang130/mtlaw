@@ -24,7 +24,7 @@ const LawSubPage = ({ image_block, item, language, subpage_image }: Props) => {
         title={item.value}
         content={item.content}
         image={subpage_image}
-        backgroundColor={"#FFDDD2"}
+        backgroundColor={"white"}
       />
       <EndBlock language={language} />
     </div>

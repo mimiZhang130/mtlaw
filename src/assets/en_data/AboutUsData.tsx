@@ -3,6 +3,7 @@ export const image_block = {
   title: "Helping Clients",
   text: "Since 2010",
   color: "blue",
+  textColor: "white",
 };
 
 export const about_us_introduction = {

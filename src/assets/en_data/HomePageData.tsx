@@ -13,7 +13,8 @@ export const home_introduction = {
   
   We provide services in the areas of real estate, estate planning, business law, immigration and more. If you have a legal need, we can help.
 
-Our main office is located in Lexington, Massachusetts, and we have additional locations in New York, California and China. We look forward to learning about your needs so we can help you achieve your goals. To discuss your case and speak with our knowledgeable staff, you can contact our firm today.
+Our main office is located in Lexington, Massachusetts, and we have additional locations in New York, California and China. We look forward to learning about your needs so we can help you achieve your goals. To discuss your case and speak with our knowledgeable staff, you can link:/en/contactus_contact our firm
+ today.
 `,
   image: "/assets/HomePage/HomeIntroduction.jpeg",
   color: "white",
@@ -39,7 +40,6 @@ export const practices = {
       title: "Business and Contract Law",
       subgroups: [
         "Setting up Corp/LLC",
-        "Mergers & Acquisitions",
         "Employment Agreements",
         "Stock Options",
         "NDA Agreements",

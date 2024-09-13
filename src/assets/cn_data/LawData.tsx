@@ -9,7 +9,7 @@ export const law_data = [
       title: "移民法",
       text: "从各种案件中积累的经验",
       color: "blue",
-      textColor: "black",
+      textColor: "white",
     },
     introduction: {
       title: "移民法",

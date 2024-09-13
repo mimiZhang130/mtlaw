@@ -4,7 +4,7 @@ export const image_block = {
   title: "顶级全方位服务律师事务所",
   text: "专业 - 国际化 - 足智多谋",
   color: "blue",
-  textColor: "#00467f",
+  textColor: "white",
 };
 
 export const home_introduction = {

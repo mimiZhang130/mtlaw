@@ -3,6 +3,7 @@ export const image_block = {
   title: "Providing Top-Notch Legal Services",
   text: "Always Here For You",
   color: "gray",
+  textColor: "white",
 };
 
 export const our_team_introduction = {

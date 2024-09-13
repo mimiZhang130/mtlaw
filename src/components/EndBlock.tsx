@@ -57,9 +57,12 @@ const EndBlock = ({ language }: Props) => {
       {/* links */}
       <div
         className="flex-container"
-        style={{ backgroundColor: "lightgray", color: "#00467f" }}
+        style={{
+          backgroundColor: "lightgray",
+          color: "#00467f",
+        }}
       >
-        <div className="text-padding left-flex-box">
+        <div className="left-flex-box2" style={{ padding: "4rem 0 0 4rem" }}>
           <h4>
             {language === "en" ? "MTLaw Headquarters" : "MTLaw 列克星敦 HQ"}
           </h4>

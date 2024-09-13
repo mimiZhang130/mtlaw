@@ -2,7 +2,7 @@ import NavBar from "../NavBar.tsx";
 import ImageBlock from "../ImageBlock.tsx";
 import IntroTextBlock from "../IntroTextBlock.tsx";
 import LawTextBlock from "../LawPages/LawTextBlock.tsx";
-import InfoBox5 from "../CaseStudy.tsx";
+import CaseStudy from "../CaseStudy.tsx";
 import EndBlock from "../EndBlock.tsx";
 
 interface Props {
@@ -63,7 +63,7 @@ const LawPage = ({
                 <div className="flex-container">
                   {subpage.cases.map((item: any) => {
                     return (
-                      <InfoBox5
+                      <CaseStudy
                         text={item.text}
                         backgroundColor="#006D77"
                         color="white"

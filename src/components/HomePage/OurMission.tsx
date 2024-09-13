@@ -27,9 +27,7 @@ const OurMission = ({ language }: Props) => {
       <div className="flex-container">
         <div className="right-flex-box">
           <div className="text-padding">
-            <h1 className="text-center center-space">
-              {data?.our_mission.title}
-            </h1>
+            <h1 className="center-space">{data?.our_mission.title}</h1>
             <p>{data?.our_mission.content}</p>
           </div>
         </div>

@@ -1,4 +1,4 @@
-import InfoBox6 from "../InfoBox6";
+import ImmigrationList from "../ImmigrationList";
 interface Props {
   links: any;
   law_subpage_title: string;
@@ -32,7 +32,7 @@ const LawTextBlock = ({
         }}
       >
         {links.map((link: { title: any; items: any }) => (
-          <InfoBox6
+          <ImmigrationList
             title={link.title}
             items={link.items}
             law_title={law_title}

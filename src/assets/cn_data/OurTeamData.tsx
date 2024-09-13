@@ -3,6 +3,7 @@ export const image_block = {
   title: "提供一流的法律服务",
   text: "始终为您服务",
   color: "gray",
+  textColor: "white",
 };
 
 export const our_team_introduction = {

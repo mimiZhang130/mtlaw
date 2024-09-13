@@ -13,8 +13,8 @@ const FormattedText = ({ content, content_id }: Props) => {
         .replace(/list_end\n/g, "</ul>")
         // .replace(/link:(http[^\s/]+)_([^\/]+)\n/g, "<a  href='$1'>$2</a>")
         .replace(
-          /link:(\/[^\s\n]+)_([^\n]+)/g,
-          "<a style='color: gray' href='$1'>$2</a>"
+          /link:(\/[^\s\n]+)_([^\n]+)\n/g,
+          "<a style='color: #0269be' href='$1'>$2</a>"
         )
         .replace(/<b>(.*?)<\/b>/g, "<strong>$1</strong>")
         .replace(/\n/g, "<br>");

@@ -13,6 +13,7 @@ const ContactUs = ({ language, backgroundColor, color }: Props) => {
             backgroundColor: backgroundColor,
             color: color,
             borderColor: color,
+            width: "100%",
           }}
         >
           {language === "en" ? "Contact Us" : "联系我们"}

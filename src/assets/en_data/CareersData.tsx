@@ -2,8 +2,8 @@ export const image_block = {
   image: "/assets/careers.jpg",
   title: "Careers",
   text: "Join Us",
-  color: "aqua",
-  textColor: "black",
+  color: "blue",
+  textColor: "white",
 };
 
 export const careers_introduction = {

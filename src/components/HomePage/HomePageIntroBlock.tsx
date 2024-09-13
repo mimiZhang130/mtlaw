@@ -23,7 +23,7 @@ const HomePageIntroBlock = ({
           <Image
             image={image}
             border={false}
-            height={"auto"}
+            height={"450px"}
             color="blue"
           ></Image>
         </div>
@@ -31,15 +31,15 @@ const HomePageIntroBlock = ({
           className="right-flex-box text-padding"
           style={{ backgroundColor: backgroundColor }}
         >
-          <h1 className="center center-space center-title">{title}</h1>
+          <h1 className="center center-space">{title}</h1>
           <FormattedText content={content} content_id="homepageintro" />
-          <div style={{ margin: "2rem 0 0 0" }} className="center center-space">
+          {/* <div style={{ margin: "2rem 0 0 0" }} className="center center-space">
             <ContactUs
               language={language}
               backgroundColor="white"
               color="black"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

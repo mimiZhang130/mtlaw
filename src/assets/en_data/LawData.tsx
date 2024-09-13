@@ -2,11 +2,11 @@ export const law_data = [
   {
     title: "Immigration Law",
     image_block: {
-      image: "/assets/ImmigrationPage/ImmigrationTitle.jpg",
+      image: "/assets/LawPage/ImmigrationPage/ImmigrationTitle.jpg",
       title: "Immigration Law",
       text: "Experience developed from a great variety of cases",
       color: "blue",
-      textColor: "black",
+      textColor: "white",
     },
     introduction: {
       title: "Immigration Law",
@@ -17,33 +17,34 @@ export const law_data = [
     At MT Law, our immigration team brings extensive expertise across all facets of immigration law, coupled with a strong track record of client satisfaction. We are eager to assist you and your company in achieving your goals and unlocking successful opportunities in the United States.
         
     If you are interested in obtaining or extending a visa, please review the visa categories below to determine the best fit. Our attorneys are always available for consultation and advice so that we match you with the team that can best handle your immigration case. A standard initial consultation is usually $200 and includes a meeting in person or over the phone and initial document review. Please call or email us if you would like to set up a consultation.`,
-      image: "/assets/immigration2.jpg",
-      color: "lightgray",
+      image: "/assets/LawPage/ImmigrationPage/ImmigrationIntroduction.jpg",
+      color: "white",
     },
+    subpage_image: "/assets/LawPage/ImmigrationPage/ImmigrationVisa.jpg",
     link_info: [
       {
         key: 0,
         value: "EB-1A",
         content: `
-      EB-1A petitions are for individuals with extraordinary abilities and achievements who are at the very top of their field, industry, or sport. Obtaining EB-1 classification is usually the fastest way to immigrate to the United States, since there is rarely a visa backlog and visas are quickly available. Another advantage is that EB-1A petitions do not require a job offer, and extraordinary individuals can petition for themselves, without the help of an employer or family member.
-      
-      The key to a successful EB-1A petition is demonstrating sustained acclaim (a pattern of high-level achievement and recognition), in the sciences, arts, education, business, or athletics. Individuals can qualify if they won a major internationally recognized award (Nobel, Oscar, Pulitzer, etc.), or they can qualify by proving at least 3 of the following:
-      
-      • Nationally or internationally recognized awards
-      • Membership in associations that require members to have outstanding achievements
-      • Articles in professional or major media about the individual
-      • Invitations to judge the work of others in the field, industry, or sport
-      • Original contributions of major significance
-      • Authorship of scholarly articles in professional journals or major media
-      • Displays at artistic exhibitions or showcases
-      • Leading or critical roles in distinguished organizations or top companies
-      • Significantly higher pay than others in the field, industry, or sport
-      • Commercial success in the performing arts
+EB-1A petitions are for individuals with extraordinary abilities and achievements who are at the very top of their field, industry or sport. One advantage of the EB-1A petition is that it does not require a job offer, and extraordinary individuals can petition for themselves without the help of an employer or family member.
 
-      MT Law successfully represents extraordinary individuals in wide range of scientific disciplines, art, music, education, business, and sports. In addition to working with extraordinary individuals in established and popular areas of work, we regularly obtain approvals for individuals in obscure scientific fields, lesser-known sports, and niche art. We offer a high-level of personalization and take care to describe our clients’ achievements in detail and emphasize their importance through diligent comparative analysis.
+The key to a successful EB-1A petition is demonstrating sustained acclaim (a pattern of high-level achievement and recognition) in the sciences, arts, education, business or athletics. Individuals can qualify if they won a major, internationally recognized award (Nobel, Oscar, Pulitzer, etc.), or they can qualify by proving at least three of the following:
 
-      If you think you might qualify for EB-1A classification, please contact us today for a consultation.
-    `,
+list_start
+- Nationally or internationally recognized awards
+- Membership in associations that require members to have outstanding achievements
+- Articles in professional or major media about the individual
+- Invitations to judge the work of others in the field, industry or sport
+- Original contributions of major significance
+- Authorship of scholarly articles in professional journals or major media
+- Displays at artistic exhibitions or showcases
+- Leading or critical roles in distinguished organizations or top companies
+- Significantly higher pay than others in the field, industry or sport
+- Commercial success in the performing arts
+list_end
+
+Our attorneys represent extraordinary individuals in a wide range of scientific disciplines, art, music, education, business and sports. In addition to working with extraordinary individuals in established and popular areas of work, we regularly obtain approvals for individuals in obscure scientific fields, lesser-known sports and niche art. We offer a high-level of personalization and carefully describe our clients’ achievements in detail, emphasizing their importance through diligent comparative analysis.
+ `,
       },
       {
         key: 1,
@@ -460,7 +461,8 @@ If you are currently in the United States and wish to change to a different visa
       image: "/assets/business.jpg",
       title: "Business and Contract Law",
       text: "Experience developed from a great variety of cases",
-      color: "aqua",
+      color: "blue",
+      textColor: "white",
     },
     introduction: {
       title: "Business and Contract Law",

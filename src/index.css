@@ -1,5 +1,10 @@
 * {
-  font-family: 'Garamond', serif;
+  font-family: 'Helvetica', sans-serif;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-weight: 600 !important;
 }
 
 /* Image Text */
@@ -51,6 +56,7 @@
 /* Practices Card Flip Animation */
 .info-box-1{
   border: .01px solid white;
+  border-radius: 30px;
   margin: 1rem;
   width: 17.5rem;
   height: 18rem;
@@ -61,6 +67,7 @@
 
 .top-card{
   align-content: center;
+  /* border-radius: 30px; */
   padding: 0rem 2rem;
   color: #00467f;
   background-color: white;
@@ -76,9 +83,10 @@
 
 .bottom-card{
   padding: 1rem;
+  /* border-radius: 30px; */
   top: 0%;
-  background-color: #00467f;
-  color: white;
+  background-color: white;
+  color: #00467f;
 }
 
 .info-box-1:hover .flip-back{
@@ -86,9 +94,9 @@
 }
 
 /* Change color of image to white */
-.image-color-white {
+/* .image-color-white {
   filter: grayscale(100%) sepia(100%) invert(100%) brightness(1000%);
-}
+} */
 
 
 /* */
@@ -105,7 +113,7 @@
   justify-content: left;
   width: 40%;
   align-content: center;
-  background-color: lightgray;
+  background-color: black;
 }
 
 .left-flex-box-2{
@@ -290,7 +298,7 @@
   padding: 2rem;
   /* width: 40%; */
   height: 100%;
-  background-color: rgba(128, 128, 128, 0.75);;
+  background-color: rgba(128, 128, 128, 0.75);
 }
 
 .over-image-text {
@@ -323,6 +331,6 @@
     padding: 2rem;
     width: 100%;
     height: auto;
-    background-color: rgba(128, 128, 128);;
+    background-color: rgba(128, 128, 128);
   }
 }
