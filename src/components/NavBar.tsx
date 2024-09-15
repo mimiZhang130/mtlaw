@@ -26,7 +26,10 @@ const NavBar = ({ Active, language }: Props) => {
   return (
     <div>
       {/*NavBar*/}
-      <nav className="navbar navbar-expand-lg">
+      <nav
+        className="navbar navbar-expand-lg white-background"
+        style={{ borderBottom: "solid 2px var(--primary-color)" }}
+      >
         <div className="container-fluid">
           {/*MTLaw Logo */}
           <a className="navbar-brand" href="/">

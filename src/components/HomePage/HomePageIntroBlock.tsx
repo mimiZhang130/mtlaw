@@ -5,15 +5,9 @@ interface Props {
   title: string;
   content: any;
   image: string;
-  backgroundColor: string;
 }
 
-const HomePageIntroBlock = ({
-  title,
-  content,
-  image,
-  backgroundColor,
-}: Props) => {
+const HomePageIntroBlock = ({ title, content, image }: Props) => {
   return (
     <div>
       <div className="flex-container">
@@ -25,19 +19,9 @@ const HomePageIntroBlock = ({
             color="blue"
           ></Image>
         </div>
-        <div
-          className="right-flex-box text-padding"
-          style={{ backgroundColor: backgroundColor }}
-        >
+        <div className="right-flex-box text-padding primary-background">
           <h1 className="center center-space">{title}</h1>
           <FormattedText content={content} content_id="homepageintro" />
-          {/* <div style={{ margin: "2rem 0 0 0" }} className="center center-space">
-            <ContactUs
-              language={language}
-              backgroundColor="white"
-              color="black"
-            />
-          </div> */}
         </div>
       </div>
     </div>

@@ -1,3 +1,12 @@
+export const locations = [
+  { id: 0, name: "Quincy" },
+  { id: 1, name: "Boston" },
+  { id: 2, name: "New York" },
+  { id: 3, name: "Pasadena" },
+  { id: 4, name: "Santa Clara" },
+  { id: 5, name: "Beijing" },
+];
+
 export const links = [
   {
     id: 0,

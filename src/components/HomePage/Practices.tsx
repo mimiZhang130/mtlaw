@@ -24,48 +24,25 @@ const Practices = ({ language }: Props) => {
     loadData();
   }, [language]);
   return (
-    <div className="container">
-      <h1 className="center center-space" style={{ color: "white" }}>
-        {data?.practices.title}
-      </h1>
-      {/*<p className="paragraph-text">{text_block1.content}</p> */}
+    <div className="flex-container">
       <div
-        className="center"
-        style={{
-          flexDirection: "row",
-        }}
+        className="left-flex-box text-padding"
+        style={{ backgroundColor: "white" }}
       >
-        {data?.practices.law_types.map(
-          (law_type: any) =>
-            law_type.id <= 2 && (
-              <PracticesBox
-                key={law_type.id}
-                title={law_type.title}
-                subgroups={law_type.subgroups}
-                language={language}
-                icon={law_type.icon}
-              />
-            )
-        )}
+        <h1>Practices Hhahahah</h1>
       </div>
-      <div
-        className="center"
-        style={{
-          flexDirection: "row",
-        }}
-      >
-        {data?.practices.law_types.map(
-          (law_type: any) =>
-            law_type.id > 2 && (
+      <div className="right-flex-box">
+        <div className="practices">
+          <div className="center" style={{ flexDirection: "row" }}>
+            {data?.practices.law_types.map((law_type: any) => (
               <PracticesBox
-                key={law_type.id}
                 title={law_type.title}
-                subgroups={law_type.subgroups}
                 language={language}
                 icon={law_type.icon}
               />
-            )
-        )}
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

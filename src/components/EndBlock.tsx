@@ -6,6 +6,7 @@ interface Props {
 const EndBlock = ({ language }: Props) => {
   const [data, setData] = useState<{
     links: any;
+    locations: any;
   } | null>(null);
 
   useEffect(() => {
@@ -58,7 +59,7 @@ const EndBlock = ({ language }: Props) => {
       <div
         className="flex-container"
         style={{
-          backgroundColor: "lightgray",
+          backgroundColor: "white",
           color: "#00467f",
         }}
       >
@@ -67,7 +68,16 @@ const EndBlock = ({ language }: Props) => {
             {language === "en" ? "MTLaw Headquarters" : "MTLaw 列克星敦 HQ"}
           </h4>
           <h5>430 Bedford Street, Suite 200, Lexington, MA, USA</h5>
-          <p>+1 (800) 345 1899</p>
+          <a href="tel:+18003451899" style={{ color: "var(--primary-color)" }}>
+            <p>+1 (800) 345 1899</p>
+          </a>
+          <div className="flex-container">
+            {data?.locations.map((location: any) => (
+              <a style={{ color: "var(--primary-color)" }} href="/">
+                {location.name}
+              </a>
+            ))}
+          </div>
         </div>
         <div>
           <div className="text-padding flex-container">
@@ -106,6 +116,14 @@ const EndBlock = ({ language }: Props) => {
             ))}
           </div>
         </div>
+      </div>
+      <div style={{ backgroundColor: "var(--primary-color)" }}>
+        <p
+          className="center"
+          style={{ margin: "0", padding: ".5rem", color: "white" }}
+        >
+          COPYRIGHT © 2024 by MT Law LLC. All Rights Reserved.
+        </p>
       </div>
     </div>
   );

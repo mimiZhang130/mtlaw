@@ -1,57 +1,16 @@
 interface Props {
   title: string;
-  subgroups: string[];
   language: string;
   icon: string;
 }
-const PracticesBox = ({ title, subgroups, language, icon }: Props) => {
+const PracticesBox = ({ title, language, icon }: Props) => {
   return (
-    <div className="center info-box-1">
-      <div className="top-card flip">
-        <h4>{title}</h4>
-        <ul>
-          {subgroups.map((subgroup, index) => (
-            <li key={index}>{subgroup}</li>
-          ))}
-        </ul>
+    <div className="practice-box">
+      <img style={{ width: "64px", height: "64px" }} src={icon}></img>
+      <div style={{ padding: "1rem 1rem 0 1rem" }}>
         <a href={"/" + language + "/legalservices/" + title}>
-          {language === "en" ? (
-            <button
-              style={{
-                padding: ".2rem 1rem",
-                borderColor: "#00467f",
-                color: "#00467f",
-                backgroundColor: "white",
-              }}
-            >
-              Learn More
-            </button>
-          ) : (
-            <button
-              style={{
-                padding: ".2rem 1rem",
-                borderColor: "#00467f",
-                color: "#00467f",
-                backgroundColor: "white",
-              }}
-            >
-              读更多
-            </button>
-          )}
+          <h4>{title}</h4>
         </a>
-      </div>
-      <div
-        className="bottom-card flip-back flip hide-on-small-screen"
-        style={{ position: "relative", textAlign: "center" }}
-      >
-        <h3 style={{ paddingBottom: ".5rem" }}>{title}</h3>
-        <img src={icon}></img>
-        <div
-          className="center"
-          style={{ position: "absolute", bottom: "15px", left: "47%" }}
-        >
-          <img className="image-color-white" src="/assets/uparrow.svg"></img>
-        </div>
       </div>
     </div>
   );

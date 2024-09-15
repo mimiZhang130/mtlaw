@@ -2,7 +2,7 @@
 export const image_block = {
   image: "/assets/HomePage/HomeTitle.jpg",
   title: "A Premier Full-Service Law Firm",
-  text: "Professional - International - Resourceful",
+  text: `Our main office is located in Lexington, Massachusetts, and we have additional locations in New York, California and China. We look forward to learning about your needs so we can help you achieve your goals. To discuss your case and speak with our knowledgeable staff, you can contact our firm today.`,
   color: "blue",
   textColor: "white",
 };
@@ -12,12 +12,8 @@ export const home_introduction = {
   content: `Throughout Massachusetts and across the globe, we are known for our cutting-edge legal strategies, diverse staff, collaborative approach and ability to obtain positive results. Our firm is composed of a team of attorneys with extremely unique backgrounds, which allows us to creatively and successfully fulfill the needs of our clients.
   
   We provide services in the areas of real estate, estate planning, business law, immigration and more. If you have a legal need, we can help.
-
-Our main office is located in Lexington, Massachusetts, and we have additional locations in New York, California and China. We look forward to learning about your needs so we can help you achieve your goals. To discuss your case and speak with our knowledgeable staff, you can link:/en/contactus_contact our firm
- today.
 `,
   image: "/assets/HomePage/HomeIntroduction.jpeg",
-  color: "white",
 };
 
 export const practices = {
@@ -26,86 +22,38 @@ export const practices = {
     {
       id: 0,
       title: "Immigration Law",
-      subgroups: [
-        "EB-5 Immigration",
-        "L-1 Visa",
-        "EB-1A Visa",
-        "H-1B Visa",
-        "F-1 Student Visa",
-      ],
       icon: "/assets/HomePage/PracticesIcons/immigration.png",
-    },
+    }, // icon link
     {
       id: 1,
-      title: "Business and Contract Law",
-      subgroups: [
-        "Setting up Corp/LLC",
-        "Employment Agreements",
-        "Stock Options",
-        "NDA Agreements",
-      ],
+      title: "Business and Corporate Law",
       icon: "/assets/HomePage/PracticesIcons/company.png",
-    },
+    }, // icon link
     {
       id: 2,
       title: "Real Estate Law",
-      subgroups: [
-        "P&S Review",
-        "Real Estate Closings",
-        "Lease Agreements",
-        "Zoning and Permits",
-        "Realty Trusts",
-      ],
       icon: "/assets/HomePage/PracticesIcons/real-estate.png",
-    },
+    }, // good
     {
       id: 3,
-      title: "Tax",
-      subgroups: [
-        "Personal Tax",
-        "Business Tax",
-        "Tax Planning",
-        "Tax Consulting",
-        "Accounting",
-      ],
+      title: "Tax Law",
       icon: "/assets/HomePage/PracticesIcons/tax.png",
-    },
+    }, // icon link
     {
       id: 4,
       title: "Estate Planning",
-      subgroups: [
-        "Wills and Trusts",
-        "Powers of Attorney",
-        "Estate Tax Planning",
-        "Estate Administration",
-        "Living Wills",
-      ],
       icon: "/assets/HomePage/PracticesIcons/estate-planning.png",
-    },
+    }, // icon link
     {
       id: 5,
-      title: "Intellectual Property",
-      subgroups: [
-        "Patents",
-        "Trademarks",
-        "Copyrights",
-        "Trade Secrets",
-        "IP Protection Planning",
-      ],
+      title: "Trademark and Licensing",
       icon: "/assets/HomePage/PracticesIcons/ip.png",
-    },
+    }, // icon link
     {
       id: 6,
       title: "Civil/Criminal Litigation",
-      subgroups: [
-        "Personal Injury Claims",
-        "Breach of Contract",
-        "Business Disputes",
-        "Domestic Violence",
-        "White Collar Crimes",
-      ],
       icon: "/assets/HomePage/PracticesIcons/litigation.png",
-    },
+    }, // good
   ],
 };
 

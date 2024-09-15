@@ -6,13 +6,15 @@ interface Props {
   title: string;
   text: string;
   color: string;
-  textColor: string;
 }
-const ImageBlock = ({ image, title, text, color, textColor }: Props) => {
+const ImageBlock = ({ image, title, text, color }: Props) => {
   return (
     <div>
-      <div className="fluid-container" style={{ position: "relative" }}>
-        <div className={"underline-blue"}>
+      <div
+        className="fluid-container underline-blue"
+        style={{ position: "relative" }}
+      >
+        <div>
           <div>
             <Image
               image={image}
@@ -20,9 +22,9 @@ const ImageBlock = ({ image, title, text, color, textColor }: Props) => {
               height={"400px"}
               color={color}
             />
+            <ImageTextBox title={title} text={text} />
           </div>
         </div>
-        <ImageTextBox title={title} text={text} textColor={textColor} />
       </div>
     </div>
   );

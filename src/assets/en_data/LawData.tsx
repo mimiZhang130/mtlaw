@@ -42,80 +42,82 @@ list_start
 - Significantly higher pay than others in the field, industry or sport
 - Commercial success in the performing arts
 list_end
-
 Our attorneys represent extraordinary individuals in a wide range of scientific disciplines, art, music, education, business and sports. In addition to working with extraordinary individuals in established and popular areas of work, we regularly obtain approvals for individuals in obscure scientific fields, lesser-known sports and niche art. We offer a high-level of personalization and carefully describe our clients’ achievements in detail, emphasizing their importance through diligent comparative analysis.
  `,
       },
       {
         key: 1,
         value: "EB-1B",
-        content: `EB-1B petitions are for professors and researchers who are outstanding in their academic fields with international recognition. Obtaining EB-1 classification is usually the fastest way to immigrate to the United States, since there is rarely a visa backlog and visas are quickly available.
-
-EB-1B petitions require a “permanent” job offer from a U.S. employer. At colleges and universities, the job must be a tenure or tenure-track teaching position or a permanent research position. At other organizations, the job must be a permanent academic research position, and the organization must employ at least 3 researchers and have documented achievements in the field. Research positions that are renewable indefinitely or are commonly renewed in practice can be considered “permanent” for EB-1B petitions. Postdoctoral Fellows and Associate Professors with set term employment contracts usually meet the “permanent” requirement because these positions are usually renewable.
-
-Individuals must be internationally recognized as outstanding in their particular academic field to qualify for EB-1B classification. To do so, individuals must be able to prove at least 2 of the following:
-
-• Major prizes or awards
-• Membership in associations that require members to have outstanding achievements
-• Published material in professional publications about the individual’s work
-• Participation as a judge of the work of others in the academic field
-• Original scientific or scholarly research contributions
-• Authorship of scholarly books or articles with international circulation
-
-Individuals must also have at least 3 years of teaching and/or research experience. Teaching or research experience accumulated during a graduate program does not usually count, although it may if the teaching was done with a high level of responsibility or the research achieved significant recognition.
-
-MT Law successfully represents outstanding professors and researchers in wide range of academic fields. In addition to working with extraordinary individuals at some of the most well-regarded research institutions in the United States, we regularly obtain approvals for individuals in smaller or newer research organizations. We offer a high-level of personalization and take care to describe our clients’ achievements in detail and emphasize their importance through diligent comparative analysis.
-
-If you are an individual that thinks you might qualify for EB-1B classification, or if you are an employer who would like to sponsor a researcher for permanent residence, please contact us today for a consultation.`,
+        content: `
+    EB-1B petitions are for professors and researchers who are outstanding in their academic fields and have international recognition. These petitions require a “permanent” job offer from a U.S. employer. At colleges and universities, the job must be a tenure-track position or a permanent research position. At other organizations, the job must be a permanent academic research position, and the organization must employ at least three researchers and have documented achievements in the field. Research positions that are renewable indefinitely or are commonly renewed in practice can be considered “permanent” for EB-1B petitions. Postdoctoral fellows and associate professors with set term employment contracts usually meet the “permanent” requirement because these positions are typically renewable.
+    
+    Individuals must be internationally recognized as outstanding in their particular academic field to qualify for EB-1B classification. To do so, individuals must be able to prove at least two of the following:
+    
+    list_start
+    - Major prizes or awards
+    - Membership in associations that require members to have outstanding achievements
+    - Published material in professional publications about the individual’s work
+    - Participation as a judge of the work of others in the academic field
+    - Original scientific or scholarly research contributions
+    - Authorship of scholarly books or articles with international circulation
+    list_end
+    Individuals must also have at least three years of teaching and/or research experience. Teaching or research experience accumulated during a graduate program does not usually count, although it may if the teaching was done with a high level of responsibility or the research achieved significant recognition.
+    
+    Our attorneys successfully represent outstanding professors and researchers in a wide range of academic fields. In addition to working with extraordinary individuals at some of the most well-regarded research institutions in the United States, we regularly obtain approvals for individuals in smaller or newer research organizations.
+        `,
       },
       {
         key: 2,
         value: "EB-1C",
-        content: `EB-1C classification is for high-level multinational executives and managers seeking permanent residence in the United States. The definitions of executive and managerial positions are extremely specific, and both require a high level of authority within the company.
-
-EB-1C petitions require sponsorship from a multinational employer with offices in the United States and at least one other foreign country. The U.S. and foreign office(s) must have a qualifying corporate relationship, either having a direct majority-owned relationship or able to trace ownership back to a single parent company or group of shareholders. Additionally, the U.S. company must have been operating for at least one year and show income or investment sufficient to support the managerial or executive role.
-
-The executive or manager must have worked for the foreign subsidiary or affiliate for one whole year within the three years immediately preceding entrance to the United States (either with a green card or with a temporary work visa). As one example, many EB-1C executives and managers start with L-1A nonimmigrant visas, which have similar requirements, and then apply for EB-1C classification.
-
-MT Law successfully represents companies in wide range of industries, from large multinational corporations to small multinational trading companies. We offer detailed advice on business structure, investment, and high-level personnel organization to help companies meet their international staffing goals.
-
-If you are an individual that thinks you might qualify for EB-1C classification, or if you are an employer who would like to sponsor one of your executives or managers for permanent residence, please contact us today for a consultation.`,
+        content: `    
+    EB-1C classification is for high-level multinational executives and managers seeking permanent residence in the United States. The definitions of executive and managerial positions are extremely specific, and both require a high level of authority within the company.
+    
+    EB-1C petitions require sponsorship from a multinational employer with offices in the United States and at least one other foreign country. The U.S. and foreign offices must have a qualifying corporate relationship, either having a direct majority-owned relationship or the ability to trace ownership back to a single parent company or group of shareholders. Additionally, the U.S. company must have been in operation for at least one year and show income or investment sufficient to support the managerial or executive role.
+    
+    The executive or manager must have worked for the foreign subsidiary or affiliate for one whole year within the three years immediately preceding entrance to the United States — either with a green card or with a temporary work visa. For example, many EB-1C executives and managers start with L-1A nonimmigrant visas, which have similar requirements, and then apply for EB-1C classification.
+    
+    Our attorneys work with companies in a wide range of industries, from large multinational corporations to small multinational trading companies. We offer detailed advice on business structure, investment, and high-level personnel organization to help companies meet their international staffing goals.
+        `,
       },
       {
         key: 3,
         value: "National Interest Waiver",
-        content: `The U.S. government allows individuals that show great promise in work that is important to U.S. interests to skip the labor certification process and apply for permanent residence through a national interest waiver. The NIW is often the best choice for immigrants who are exceptional or have an advanced degree, but cannot meet the strict criteria for EB-1 classification. An advantage is that NIW petitions do not require a job offer, so individuals can petition for themselves, without the help of an employer or family member. Alternatively, an employer may choose to sponsor an employee under this program.
+        content: `The U.S. government allows individuals who show great promise in fields important to U.S. interests to skip the labor certification process and apply for permanent residence through a national interest waiver. This is often the best choice for immigrants who are exceptional or have an advanced degree, but cannot meet the strict criteria for EB-1 classification.
 
-To obtain NIW approval, the individual must either possess an advanced degree (at least a master’s degree or a bachelor’s degree with at least five years of progressive experience) or have exceptional ability. Additionally, individuals must be able to prove at least 3 of the following:
+National interest waiver petitions do not require a job offer, so individuals can apply without the sponsorship of an employer or family member. Alternatively, an employer may choose to sponsor an employee under this program. If you have questions, the attorneys at MT Law LLC can assist you. Our main office is in Lexington, Massachusetts, and we have additional locations in New York, California and China.
 
-• A degree or similar award from an institution of higher education related to the field
-• Letters documenting at least 10 years of full-time experience in the field
-• A license or certification to practice in the field
-• A high salary that shows exceptional ability
-• Membership in professional associations
-• Recognition of achievements and contributions by professionals or organizations
-• Other comparable evidence
+To obtain approval, you must either possess an advanced degree (at minimum a master’s degree or a bachelor’s degree with at least five years of progressive experience) or have exceptional ability. Additionally, you must be able to prove at least three of the following:
 
-Concrete evidence that places an individual at a higher level than his/her peers improves chances of NIW approval. Examples include a higher than average number of citations, media attention, patented technology currently in use, etc.
-
-MT Law successfully represents individuals in many areas involving the U.S. national interest. We offer a high-level of personalization and take care to describe our clients’ achievements in detail and emphasize their importance to U.S. national interests through diligent comparative analysis.
-
-If you are an individual that thinks you might qualify for a National Interest Waiver, or if you are an employer who would like to sponsor an employee for permanent residence under the program, please contact us today for a consultation.`,
+list_start
+- A degree or similar award from an institution of higher education related to the field
+- Letters documenting at least 10 years of full-time experience in the field
+- A license or certification to practice in the field
+- A high salary that shows exceptional ability
+- Membership in professional associations
+- Recognition of achievements and contributions by professionals or organizations
+- Other comparable evidence
+list_end
+Concrete evidence that places you at a higher level than your peers improves chances of approval. Examples include a higher than the average number of citations, media attention, and a patented technology currently in use.
+  `,
       },
       {
         key: 4,
         value: "PERM Labor Certification",
-        content: `The PERM labor certification process is necessary for most immigrant petitions. It was created to protect American workers by ensuring immigrants are paid standard wages and that American workers have first-priority consideration for the job. The PERM process is very complicated and requires a high level of attention to detail, as even insignificant mistakes can result in denial.
+        content: `After being implemented in March of 2005, the PERM labor certification process as become necessary for most immigrant petitions. The Program Electronic Review Management system was created to protect American workers by ensuring immigrants are paid standard wages and that American workers have first-priority consideration for the job
 
-The three major steps in the process are:
+Before an employer can file a petition for a foreign worker to become an employee, the Department of Labor must approve labor certification. If you are a business owner or employer in need of assistance with the PERM process, the experienced attorneys at MT Law LLC can guide you through every step.
 
-1. Obtain a prevailing wage determination for a specific job from the Department of Labor
-2. Conduct a recruitment campaign to ensure no qualified U.S. workers are interested
-3. Obtain labor certification for the immigrant to perform a specific job
-
-MT Law has extensive experience in filing PERM applications for businesses of all sizes and stages of development. We provide training and consultation to first-time PERM employers, and we offer consistent PERM programming to established companies.
-
-If you are an employer seeking to hire an immigrant on a permanent basis, please contact us today for a consultation on the PERM labor certification process.`,
+      The PERM process is essential for foreign nationals looking to obtain an EB-2 or EB-3 visa. The process is very complicated and requires a high level of attention to detail, as even insignificant mistakes can result in denial.
+      
+      The three major steps in the process are:
+      
+      list_start_numbered
+      - <b>Obtain a prevailing wage determination:</b> The Department of Labor will calculate a minimum wage for the specific job in question. This determination is essential to the process and protects immigrants from being paid too little for the work they will do.
+      - <b>Conduct a recruitment campaign:</b> U.S. workers are given priority when it comes to jobs in America. Employers must extensively recruit U.S. workers to see if there is a qualified candidate that is interested in the job.
+      - <b>Obtain labor certification:</b> If the campaign to recruit a U.S. worker does not result in an employee, the employer can then continue pursuing a foreign worker for the role.
+      list_end_numbered
+      Our attorneys have extensive experience in filing PERM applications for businesses of all sizes and stages of development. We also provide training and consultation to first-time PERM employers, and we offer consistent PERM programming to established companies.
+        `,
       },
       {
         key: 5,
@@ -247,13 +249,13 @@ EB-5 investment immigration is a core practice group at MT Law, and our attorney
       {
         key: 17,
         value: "L-1 Intracompany Transferee Visa",
-        content: `The L-1 visa can be used to transfer executives, managers, or key employees with specialized knowledge from a subsidiary/affiliate/branch office abroad to a U.S. company. Any employee transferred through the L visa program must have spent at least one year out of the last three years working for a subsidiary/affiliate/branch office abroad. Additionally, both the foreign employer and the U.S. employer must be continuously operating during the term of the L-1 visa. Visas are generally granted for three years and extended in two year increments, except that employees at new U.S. companies will be granted an initial stay of one year.
-
-L-1 visas are available to companies of all sizes and stages of development, including companies that have been operating in the U.S. for less than one year. They are popular with established companies who use rotation programs or are staffing teams for growth and expansion. They are also popular among new offices with foreign ties because they allow businesses to transfer key leaders and experts from within their corporate group to the U.S. to initiate operations.
-
-The standard for proving an executive, managerial, or specialized knowledge role is extremely high, and standards have tightened further over the past few years. It is important to understand the definitions applicable to each position and the extensive evidence needed to prove eligibility for L-1 classification.
-
-If you are a U.S. company seeking to benefit from key talent working for your foreign affiliates, or if you are a foreign company seeking to establish presence in the U.S., please contact MT Law to schedule a consultation for L-1 visa options.`,
+        content: `In today’s global economy, many employers need to transfer employees to the United States for a year or longer. To do this, an employee who is not a U.S. citizen will need an L-1 visa. At MT Law LLC , our attorneys are ready to assist you. We represent employers and employees from around the world who wish to live and work in the United States.
+        
+        The L-1 visa can be used to transfer executives, managers or key employees with specialized knowledge from a subsidiary, affiliate or branch office abroad to a U.S. company. Any employee transferred through the L visa program must have spent at least one year out of the last three years working for a subsidiary, affiliate or branch office abroad. Additionally, both the foreign employer and the U.S. employer must be continuously operating during the term of the L-1 visa. Visas are generally granted for three years and extended in two-year increments, except that employees at new U.S. companies will be granted an initial stay of one year.
+        
+        L-1 visas are available to companies of all sizes and stages of development, including companies that have been operating in the U.S. for less than one year. They are popular with established companies who use rotation programs or are staffing teams for growth and expansion. They are also popular among new offices with foreign ties because they allow businesses to transfer key leaders and experts from within their corporate group to the U.S. to initiate operations.
+        
+        The standard for proving an executive, managerial or specialized knowledge role is extremely high, and standards have tightened further over the past few years. It is important to understand the definitions applicable to each position and the extensive evidence needed to prove eligibility for L-1 classification.`,
       },
       {
         key: 18,
@@ -282,16 +284,30 @@ It is important not to use the B visa for any unauthorized activities. MT Law’
       {
         key: 19,
         value: "E-1 Treaty Trader Visa",
-        content: `Some countries have a treaty with the U.S. that allows entry for the purpose of conducting business. These “E” visas are applied for at the consulate, and after an interview, the person is granted entry to the U.S. 2-year periods. E trader visas require a person to be entering to carry out substantial international trade operations as an executive, supervisor, or in a position requiring special qualifications.
-
-If you are interested in learning more about E visa options, please contact MT Law to schedule a consultation.`,
+        content: `Some countries have a treaty with the U.S. that allows entry for the purpose of conducting business. Through these treaties, foreign nationals can pursue an E visa in order to promote trade and investment between both countries. These “E” visas are applied for at the consulate, and after an interview, the person is granted entry to the U.S. for two-year periods. If you have questions regarding trader visas, the knowledgeable attorneys at MT Law LLC can answer your questions and help you understand if this is the right visa for you.
+        
+        Foreign nationals can engage in trade with the United States under a treaty trader visa. In order to qualify for this visa, an individual must meet these specifications:
+    
+    list_start
+    - Be a national for the treaty country as classified by the U.S. State Department
+    - Complete numerous transactions over time and carry on a continuous flow of international trade items
+    - Carry on principal trade — more than 50 percent of the total international trade volume between the treaty country and the United States
+    list_end
+        `,
       },
       {
         key: 20,
         value: "E-2 Treaty Investor Visa",
-        content: `Some countries have a treaty with the U.S. that allows entry for the purpose of conducting business. These “E” visas are applied for at the consulate, and after an interview, the person is granted entry to the U.S. 2-year periods. E investor visas require substantial investment and proof of a viable business, and they are available both to the investors themselves and to key employees who are executives, supervisors, or in positions requiring special qualifications.
-
-If you are interested in learning more about E visa options, please contact MT Law to schedule a consultation.`,
+        content: `Some countries have a treaty with the U.S. that allows entry for the purpose of conducting business. Through these treaties, foreign nationals can pursue an E visa in order to promote trade and investment between both countries. These “E” visas are applied for at the consulate, and after an interview, the person is granted entry to the U.S. for two-year periods. If you have questions regarding trader visas, the knowledgeable attorneys at MT Law LLC can answer your questions and help you understand if this is the right visa for you.
+        
+        This visa allows foreign nationals to invest substantial capital in the United States. In order to qualify for this visa, an individual must meet these specifications:
+    
+    list_start
+    - Be a national of the treaty investor country as classified by the U.S. State Department
+    - Make substantial capital investments in a genuine and lawful enterprise based in the U.S.
+    - Actively contribute to directing and developing the continued investment through 50 percent ownership or managerial control
+    list_end
+        `,
       },
       {
         key: 21,

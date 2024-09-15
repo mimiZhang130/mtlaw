@@ -1,17 +1,21 @@
+import FormattedText from "./FormattedText";
+
 interface Props {
   title: string;
   text: string;
-  textColor: string;
 }
-const ImageTextBox = ({ title, text, textColor }: Props) => {
+const ImageTextBox = ({ title, text }: Props) => {
   return (
-    <div className="overlay image-text-background">
-      <h2 className="image-text" style={{ color: textColor }}>
-        {title}
-      </h2>
-      <h1 className="image-text" style={{ color: textColor }}>
-        <strong>{text}</strong>
-      </h1>
+    <div className="image-text-background">
+      <div className="image-text">
+        <h1>{title}</h1>
+        <h4>
+          <FormattedText
+            content={text}
+            content_id="title_image_text"
+          ></FormattedText>
+        </h4>
+      </div>
     </div>
   );
 };
