@@ -1,10 +1,18 @@
 export const locations = [
-  { id: 0, name: "昆西" },
-  { id: 1, name: "波士顿" },
-  { id: 2, name: "纽约" },
-  { id: 3, name: "帕萨迪纳" },
-  { id: 4, name: "圣克拉拉" },
-  { id: 5, name: "北京" },
+  { id: 0, name: "昆西", link: "https://maps.app.goo.gl/h7qA4FMXbaW3jaHv8" },
+  { id: 1, name: "波士顿", link: "https://maps.app.goo.gl/sQKyptepUiXMLdft9" },
+  { id: 2, name: "纽约", link: "https://maps.app.goo.gl/si4qU8yE8XLdU9VY9" },
+  {
+    id: 3,
+    name: "帕萨迪纳",
+    link: "https://maps.app.goo.gl/zBJbMp7r6zr14bQg6",
+  },
+  {
+    id: 4,
+    name: "圣克拉拉",
+    link: "https://maps.app.goo.gl/o6mFzeJT8yo3XSzC7",
+  },
+  { id: 5, name: "北京", link: "/cn/contactus" },
 ];
 
 export const links = [

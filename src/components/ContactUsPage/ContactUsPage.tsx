@@ -38,23 +38,25 @@ const ContactUsPage = ({ language }: Props) => {
         <h1 style={{ color: "var(--primary-color)" }}>
           {data?.contact_us.title}
         </h1>
-        {data?.contact_us_data.map((contact: any) => (
-          <div className="contact-us-card">
-            <h5 className="card-title">{contact.title}</h5>
-            <p className="card-text">{contact.content}</p>
-          </div>
-        ))}
+        <div className="flex-container">
+          {data?.contact_us_data.map((contact: any) => (
+            <a href={contact.link} className="contact-us-card">
+              <h5 className="card-title">{contact.title}</h5>
+              <p className="card-text">{contact.content}</p>
+            </a>
+          ))}
+        </div>
       </div>
       <div className="text-padding">
         <h1 style={{ color: "var(--primary-color)" }}>
           {data?.locate_us.title}
         </h1>
-        <div className="flex-container">
+        <div className="flex-container" style={{ justifyContent: "center" }}>
           {data?.locate_us_data.map((contact: any) => (
-            <div className="locate-us-card">
+            <a href={contact.link} className="locate-us-card">
               <h5 className="card-title">{contact.title}</h5>
               <p className="card-text">{contact.content}</p>
-            </div>
+            </a>
           ))}
         </div>
       </div>

@@ -11,7 +11,7 @@ const ImageBlock = ({ image, title, text, color }: Props) => {
   return (
     <div>
       <div
-        className="fluid-container underline-blue"
+        className={"fluid-container " + "underline-" + color}
         style={{ position: "relative" }}
       >
         <div>

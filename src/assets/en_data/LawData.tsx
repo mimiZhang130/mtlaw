@@ -8,7 +8,7 @@ export const law_data = [
       text: `Our team assists with all aspects of immigration law, including temporary visas, green
 cards, employment-based immigration, and citizenship applications, ensuring a seamless and compliant
 immigration process.`,
-      color: "white",
+      color: "green",
     },
     introduction: {
       title: "Immigration Services",
@@ -114,7 +114,7 @@ the door to new opportunities in the United States.</b>
       text: `MT Law provides full-service legal support for residential and commercial real estate
 transactions, including acquisitions, sales, leasing, and zoning, ensuring every deal is handled smoothly
 and in compliance with local laws.`,
-      color: "white",
+      color: "green",
     },
     introduction: {
       title: "MT Law Real Estate Services Overview",
@@ -198,7 +198,7 @@ for real estate transactions, leasing, financing, and investment.
       title: "Estate Planning",
       text: `Our attorneys offer expert guidance on wills, trusts, probate, and asset protection,
 helping individuals and families preserve wealth and efficiently transfer assets across generations.`,
-      color: "white",
+      color: "green",
     },
     introduction: {
       title: "Estate Planning Services",
@@ -231,7 +231,7 @@ At MT Law, we are committed to delivering personalized estate planning and admin
       title: "Civil/Criminal Litigation",
       text: `MT Law represents clients in a broad range of civil disputes, providing comprehensive
 litigation services from pretrial strategy to resolution in business, contract, and employment matters.`,
-      color: "white",
+      color: "green",
     },
     introduction: {
       title: "Civil/Criminal Litigation",
@@ -360,7 +360,7 @@ every step of the way.
       text: `We counsel businesses on entity formation, contract negotiation, mergers,
 acquisitions, and corporate governance, delivering strategic legal solutions for sustainable growth and
 regulatory compliance.`,
-      color: "white",
+      color: "blue",
     },
     introduction: {
       title: "Business and Corporate Law",
@@ -450,7 +450,7 @@ to discuss how we can assist with your business and corporate legal needs.
       text: `MT Law provides tailored tax planning and compliance services for individuals and businesses,
 with specialized expertise in international tax strategies to minimize liabilities and ensure full
 compliance with tax regulations.`,
-      color: "white",
+      color: "green",
     },
     introduction: {
       title: "Tax Law",
@@ -525,7 +525,7 @@ tax complexities and plan for long-term success.
       text: `We protect and enforce clients’ intellectual property rights
 through trademark registration, franchise agreements, and licensing deals, helping clients maximize the
 value of their IP assets while ensuring legal protection domestically and internationally.`,
-      color: "white",
+      color: "green",
     },
     introduction: {
       title: "Trademark, Franchise, and Licensing",
@@ -571,7 +571,7 @@ assets.
       text: `We advise employers and employees on workplace policies, employment
 contracts, regulatory compliance, and dispute resolution, ensuring lawful and equitable employment
 practices.`,
-      color: "white",
+      color: "green",
     },
     introduction: {
       title: "Employment Law",

@@ -325,11 +325,19 @@ h1 {
 .contact-us-card{
   width: 27%;
   margin: 1rem;
+  border: .2rem solid var(--accent-color);
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
 }
 
 .locate-us-card{
   width: 22%;
   margin: 1rem;
+  border: .2rem solid var(--accent-color);
+  padding: 1rem;
+  text-decoration: none;
+  color: black;
 }
 
 @media (max-width: 767px) {

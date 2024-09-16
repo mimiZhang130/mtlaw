@@ -2,27 +2,22 @@ export const image_block = {
   image: "/assets/OurTeamPage/OurTeam.jpg",
   title: "Providing Top-Notch Legal Services",
   text: `At MT Law, our strength lies in the collective expertise and dedication of our diverse team of professionals. Our attorneys, CPAs, paralegals, and support staff work collaboratively to ensure that we provide our clients with comprehensive legal and advisory services tailored to meet their unique needs.`,
-  color: "gray",
-  textColor: "white",
-};
-
-export const our_team_introduction = {
-  title: "A Law Firm Right for You",
-  content: `At MT Law, our strength lies in the collective expertise and dedication of our diverse team of professionals. Our attorneys, CPAs, paralegals, and support staff work collaboratively to ensure that we provide our clients with comprehensive legal and advisory services tailored to meet their unique needs.`,
-  image: "/assets/ourteam2.jpg",
-  color: "#EDF6F9",
+  color: "green",
 };
 
 export const people = [
   {
+    id: 0,
     name: "Tian Shengxi",
     image: "/assets/OurTeamPage/Profiles/Shengxi Tian Photo.jpg",
   },
   {
+    id: 1,
     name: "Liyang Yu",
     image: "/assets/OurTeamPage/Profiles/Liyang Yu Photo.jpg",
   },
   {
+    id: 2,
     name: "Martin",
     image: "/assets/OurTeamPage/Profiles/martin.jpg",
   },
@@ -167,7 +162,7 @@ export const people = [
     image: "/assets/OurTeamPage/Profiles/placeholder.jpg",
   },
   {
-    name: "Yuan Dipersio  ",
+    name: "Yuan Dipersio",
     image: "/assets/OurTeamPage/Profiles/placeholder.jpg",
   },
 ];
@@ -205,7 +200,6 @@ With her wealth of experience in corporate formation, investment fund setup, and
                 - Oregon, 11/2003 - 01/2005
                 - Virginia, 04/2005 - 01/2014
                 list_end
-                
                 <h2>Practices: </h2>
                 list_start
                 - Real Estate Law
@@ -217,11 +211,12 @@ With her wealth of experience in corporate formation, investment fund setup, and
                 - Trademark, Franchising, and Licensing
                 - Employment Law
                 list_end
+                <h2>Hobbies?: </h2>
       `,
       contact_info: {
         email: "tian@mtlawllc.com",
         wechat: "mtlawllc1",
-        phone_number: "+1 (757) 469 0024",
+        phone_number: "+1 (757)-469-0024",
       },
     },
   },

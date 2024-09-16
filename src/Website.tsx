@@ -10,6 +10,7 @@ import ContactUsPage from "./components/ContactUsPage/ContactUsPage";
 import HeadLiner from "./components/HeadLiner";
 import { useState, useEffect } from "react";
 import NavBar from "./components/NavBar";
+import Payment from "./components/PaymentPage/PaymentPage";
 
 interface Props {
   language: string;
@@ -131,6 +132,10 @@ const Website = ({ language }: Props) => {
             <Route
               path={"/" + language + "/careers"}
               render={() => <CareersPage language={language} />}
+            />
+            <Route
+              path={"/" + language + "/payment"}
+              render={() => <Payment language={language} />}
             />
             <Route
               path={"/" + language + "/contactus"}

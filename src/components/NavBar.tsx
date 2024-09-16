@@ -119,6 +119,15 @@ const NavBar = ({ Active, language }: Props) => {
                   {language === "en" ? "Careers" : "职业"}
                 </a>
               </li>
+              {/* Payments */}
+              <li className="nav-item">
+                <a
+                  className={"nav-link " + Active[5]}
+                  href={"/" + language + "/payment"}
+                >
+                  {language === "en" ? "Payment" : "职业"}
+                </a>
+              </li>
             </ul>
           </div>
         </div>

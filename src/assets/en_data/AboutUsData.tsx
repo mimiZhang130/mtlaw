@@ -4,8 +4,7 @@ export const image_block = {
   text: `At MT Law, we are dedicated to providing comprehensive legal solutions tailored to the unique needs of
 individuals, families, and businesses. With over 14 years of experience, we have successfully served
 more than 1,000 corporate clients and over 30,000 individual and family clients.`,
-  color: "blue",
-  textColor: "white",
+  color: "green",
 };
 
 export const about_us_introduction = {
