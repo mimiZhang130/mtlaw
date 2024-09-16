@@ -5,7 +5,7 @@
 
 :root {
   --primary-color: #00467f; /* Deep Blue */
-  --accent-color: #7ba729; /* Mint */
+  --accent-color: #7ba729; 
 }
 
 
@@ -16,12 +16,14 @@ h1 {
 .custom-nav-bar{
   --bs-dropdown-link-active-bg:var(--accent-color) !important;
 }
+
 .sticky-top{
   position: sticky;
   top: 0;
   z-index: 1000;
   width: 100%;  
 }
+
 /* Image Text */
 .image-text-background{
   position: absolute;
@@ -348,6 +350,16 @@ h1 {
     width: 100%;
   }
 }
+
+/* Payment */ 
+.payment-card{
+  width: 40%;
+  margin: 6rem;
+  border-left: .7rem groove var(--accent-color);
+  padding: 3rem;
+  background-color:white;
+}
+
 /* CLEAN */
 
 

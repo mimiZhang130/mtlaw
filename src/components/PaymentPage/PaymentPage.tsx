@@ -1,3 +1,4 @@
+import FormattedText from "../FormattedText";
 import HeadLiner from "../HeadLiner";
 import ImageBlock from "../ImageBlock";
 import NavBar from "../NavBar";
@@ -8,7 +9,7 @@ interface Props {
 }
 const PaymentPage = ({ language }: Props) => {
   const [data, setData] = useState<{
-    home_introduction: any;
+    payment_options: any;
     image_block?: any;
   } | null>(null);
 
@@ -38,6 +39,14 @@ const PaymentPage = ({ language }: Props) => {
         text={data?.image_block.text}
         color={data?.image_block.color}
       />
+      {data?.payment_options.map((payment: any) => (
+        <div className="payment-card">
+          <h1 style={{ color: "var(--primary-color)" }}>
+            {payment.payment_method}
+          </h1>
+          <FormattedText content={payment.content} content_id={payment.id} />
+        </div>
+      ))}
     </div>
   );
 };
