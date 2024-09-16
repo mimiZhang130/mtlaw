@@ -8,11 +8,11 @@ export const image_block = {
 export const payment_options = [
   {
     id: 0,
-    payment_method: "Payment by Check",
-    content: `<b>Please make checks payable to:</b>
+    payment_method: "支票",
+    content: `<b>支票抬头请填写:</b>
     MT Law LLC
-    <b>Our mailing address is:</b>
-    Attn: The person who is taking care of your case
+    <b>邮寄地址如下:</b>
+    请注明负责您案件的人员姓名
     430 Bedford Street, Suite 200
     Lexington, MA 02420
     (800)345-1899`,
@@ -20,15 +20,15 @@ export const payment_options = [
   },
   {
     id: 1,
-    payment_method: "Payment by Wire Transfer",
-    content: `<b>Bank Name</b>: East West Bank
-    <b>Bank Address</b>: 68 Harrison Ave, Boston MA 02111 
-    <b>Routing Number</b>: 322070381
-    <b>Swift Code</b>: EWBKUS66
-    <b>Account Number</b>: 8659004769
-    <b>Account Name</b>: MT Law LLC
-    <b>Beneficiary Name</b>: MT Law LLC
-    <b>Beneficiary address</b>: 430 Bedford St, STE 200, Lexington, MA 02420-1548`,
+    payment_method: "电汇",
+    content: `<b>银行名称</b>: 华美银行
+    <b>银行地址</b>: 68 Harrison Ave, Boston MA 02111 
+    <b>银行路由号</b>: 322070381
+    <b>Swift代码</b>: EWBKUS66
+    <b>银行账号</b>: 8659004769
+    <b>账户名</b>: MT Law LLC
+    <b>收款人</b>: MT Law LLC
+    <b>收款人地址</b>: 430 Bedford St, STE 200, Lexington, MA 02420-1548`,
     side: "right",
   },
   {

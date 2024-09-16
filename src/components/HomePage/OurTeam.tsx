@@ -1,5 +1,4 @@
 import Image from "../Image";
-import ContactUs from "../ContactUs";
 import FormattedText from "../FormattedText";
 
 interface Props {
@@ -10,13 +9,7 @@ interface Props {
   language: string;
 }
 
-const OurTeam = ({
-  title,
-  content,
-  image,
-  backgroundColor,
-  language,
-}: Props) => {
+const OurTeam = ({ title, content, image, backgroundColor }: Props) => {
   return (
     <div>
       <div className="flex-container">
@@ -32,7 +25,7 @@ const OurTeam = ({
           className="right-flex-box text-padding"
           style={{ backgroundColor: backgroundColor }}
         >
-          <h1 className="center center-space" style={{ color: "white" }}>
+          <h1 className="center-space" style={{ color: "white" }}>
             {title}
           </h1>
           <div
@@ -43,13 +36,6 @@ const OurTeam = ({
             }}
           >
             <FormattedText content={content} content_id="homeourteam" />
-          </div>
-          <div className="center center-space">
-            <ContactUs
-              language={language}
-              backgroundColor="#00467f"
-              color="white"
-            />
           </div>
         </div>
       </div>

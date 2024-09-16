@@ -352,12 +352,24 @@ h1 {
 }
 
 /* Payment */ 
-.payment-card{
-  width: 40%;
-  margin: 6rem;
+.payment-card-left{
+  width: 35%;
+  margin: 5%;
+  padding: 0 3rem;
   border-left: .7rem groove var(--accent-color);
+  border-top: .7rem groove var(--accent-color);
   padding: 3rem;
-  background-color:white;
+}
+
+.payment-card-right{
+  width: 45%;
+  margin-left: 45%;
+  margin-right: 5%;
+  margin-top: -12%;
+  margin-bottom: -12%;
+  border-right: .7rem groove var(--accent-color);
+  border-bottom: .7rem groove var(--accent-color);
+  padding: 3rem;
 }
 
 /* CLEAN */
