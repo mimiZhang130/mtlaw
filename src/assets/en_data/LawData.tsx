@@ -1,874 +1,649 @@
 export const law_data = [
   {
+    id: 0,
     title: "Immigration Law",
     image_block: {
       image: "/assets/LawPage/ImmigrationPage/ImmigrationTitle.jpg",
-      title: "Immigration Law",
-      text: "Experience developed from a great variety of cases",
-      color: "blue",
-      textColor: "white",
-    },
-    introduction: {
-      title: "Immigration Law",
-      content: `MT Law’s immigration team provides comprehensive immigration law services for temporary visas, immigrant classifications, green cards, and citizenship based on U.S. employment, family ties, investment, and residency.
-        
-    We serve individuals and companies of all sizes with a commitment to ensuring tailored solutions for every client's unique needs through time and planning. Our attorneys and legal professionals are committed to answering all our clients’ questions and collaborating closely with our clients to determine the best strategies for achieving their goals. We advise investors and executives on how to successfully position financial investments and business interests to sponsor their own temporary status or immigration to the U.S. We also work closely with our corporate clients to ensure that they understand all of their legal rights and obligations when sponsoring employees for temporary and/or permanent immigration.
-      
-    At MT Law, our immigration team brings extensive expertise across all facets of immigration law, coupled with a strong track record of client satisfaction. We are eager to assist you and your company in achieving your goals and unlocking successful opportunities in the United States.
-        
-    If you are interested in obtaining or extending a visa, please review the visa categories below to determine the best fit. Our attorneys are always available for consultation and advice so that we match you with the team that can best handle your immigration case. A standard initial consultation is usually $200 and includes a meeting in person or over the phone and initial document review. Please call or email us if you would like to set up a consultation.`,
-      image: "/assets/LawPage/ImmigrationPage/ImmigrationIntroduction.jpg",
+      title: "Immigration",
+      text: `Our team assists with all aspects of immigration law, including temporary visas, green
+cards, employment-based immigration, and citizenship applications, ensuring a seamless and compliant
+immigration process.`,
       color: "white",
     },
-    subpage_image: "/assets/LawPage/ImmigrationPage/ImmigrationVisa.jpg",
-    link_info: [
-      {
-        key: 0,
-        value: "EB-1A",
-        content: `
-EB-1A petitions are for individuals with extraordinary abilities and achievements who are at the very top of their field, industry or sport. One advantage of the EB-1A petition is that it does not require a job offer, and extraordinary individuals can petition for themselves without the help of an employer or family member.
-
-The key to a successful EB-1A petition is demonstrating sustained acclaim (a pattern of high-level achievement and recognition) in the sciences, arts, education, business or athletics. Individuals can qualify if they won a major, internationally recognized award (Nobel, Oscar, Pulitzer, etc.), or they can qualify by proving at least three of the following:
-
-list_start
-- Nationally or internationally recognized awards
-- Membership in associations that require members to have outstanding achievements
-- Articles in professional or major media about the individual
-- Invitations to judge the work of others in the field, industry or sport
-- Original contributions of major significance
-- Authorship of scholarly articles in professional journals or major media
-- Displays at artistic exhibitions or showcases
-- Leading or critical roles in distinguished organizations or top companies
-- Significantly higher pay than others in the field, industry or sport
-- Commercial success in the performing arts
-list_end
-Our attorneys represent extraordinary individuals in a wide range of scientific disciplines, art, music, education, business and sports. In addition to working with extraordinary individuals in established and popular areas of work, we regularly obtain approvals for individuals in obscure scientific fields, lesser-known sports and niche art. We offer a high-level of personalization and carefully describe our clients’ achievements in detail, emphasizing their importance through diligent comparative analysis.
- `,
-      },
-      {
-        key: 1,
-        value: "EB-1B",
-        content: `
-    EB-1B petitions are for professors and researchers who are outstanding in their academic fields and have international recognition. These petitions require a “permanent” job offer from a U.S. employer. At colleges and universities, the job must be a tenure-track position or a permanent research position. At other organizations, the job must be a permanent academic research position, and the organization must employ at least three researchers and have documented achievements in the field. Research positions that are renewable indefinitely or are commonly renewed in practice can be considered “permanent” for EB-1B petitions. Postdoctoral fellows and associate professors with set term employment contracts usually meet the “permanent” requirement because these positions are typically renewable.
-    
-    Individuals must be internationally recognized as outstanding in their particular academic field to qualify for EB-1B classification. To do so, individuals must be able to prove at least two of the following:
-    
-    list_start
-    - Major prizes or awards
-    - Membership in associations that require members to have outstanding achievements
-    - Published material in professional publications about the individual’s work
-    - Participation as a judge of the work of others in the academic field
-    - Original scientific or scholarly research contributions
-    - Authorship of scholarly books or articles with international circulation
-    list_end
-    Individuals must also have at least three years of teaching and/or research experience. Teaching or research experience accumulated during a graduate program does not usually count, although it may if the teaching was done with a high level of responsibility or the research achieved significant recognition.
-    
-    Our attorneys successfully represent outstanding professors and researchers in a wide range of academic fields. In addition to working with extraordinary individuals at some of the most well-regarded research institutions in the United States, we regularly obtain approvals for individuals in smaller or newer research organizations.
-        `,
-      },
-      {
-        key: 2,
-        value: "EB-1C",
-        content: `    
-    EB-1C classification is for high-level multinational executives and managers seeking permanent residence in the United States. The definitions of executive and managerial positions are extremely specific, and both require a high level of authority within the company.
-    
-    EB-1C petitions require sponsorship from a multinational employer with offices in the United States and at least one other foreign country. The U.S. and foreign offices must have a qualifying corporate relationship, either having a direct majority-owned relationship or the ability to trace ownership back to a single parent company or group of shareholders. Additionally, the U.S. company must have been in operation for at least one year and show income or investment sufficient to support the managerial or executive role.
-    
-    The executive or manager must have worked for the foreign subsidiary or affiliate for one whole year within the three years immediately preceding entrance to the United States — either with a green card or with a temporary work visa. For example, many EB-1C executives and managers start with L-1A nonimmigrant visas, which have similar requirements, and then apply for EB-1C classification.
-    
-    Our attorneys work with companies in a wide range of industries, from large multinational corporations to small multinational trading companies. We offer detailed advice on business structure, investment, and high-level personnel organization to help companies meet their international staffing goals.
-        `,
-      },
-      {
-        key: 3,
-        value: "National Interest Waiver",
-        content: `The U.S. government allows individuals who show great promise in fields important to U.S. interests to skip the labor certification process and apply for permanent residence through a national interest waiver. This is often the best choice for immigrants who are exceptional or have an advanced degree, but cannot meet the strict criteria for EB-1 classification.
-
-National interest waiver petitions do not require a job offer, so individuals can apply without the sponsorship of an employer or family member. Alternatively, an employer may choose to sponsor an employee under this program. If you have questions, the attorneys at MT Law LLC can assist you. Our main office is in Lexington, Massachusetts, and we have additional locations in New York, California and China.
-
-To obtain approval, you must either possess an advanced degree (at minimum a master’s degree or a bachelor’s degree with at least five years of progressive experience) or have exceptional ability. Additionally, you must be able to prove at least three of the following:
-
-list_start
-- A degree or similar award from an institution of higher education related to the field
-- Letters documenting at least 10 years of full-time experience in the field
-- A license or certification to practice in the field
-- A high salary that shows exceptional ability
-- Membership in professional associations
-- Recognition of achievements and contributions by professionals or organizations
-- Other comparable evidence
-list_end
-Concrete evidence that places you at a higher level than your peers improves chances of approval. Examples include a higher than the average number of citations, media attention, and a patented technology currently in use.
-  `,
-      },
-      {
-        key: 4,
-        value: "PERM Labor Certification",
-        content: `After being implemented in March of 2005, the PERM labor certification process as become necessary for most immigrant petitions. The Program Electronic Review Management system was created to protect American workers by ensuring immigrants are paid standard wages and that American workers have first-priority consideration for the job
-
-Before an employer can file a petition for a foreign worker to become an employee, the Department of Labor must approve labor certification. If you are a business owner or employer in need of assistance with the PERM process, the experienced attorneys at MT Law LLC can guide you through every step.
-
-      The PERM process is essential for foreign nationals looking to obtain an EB-2 or EB-3 visa. The process is very complicated and requires a high level of attention to detail, as even insignificant mistakes can result in denial.
-      
-      The three major steps in the process are:
-      
-      list_start_numbered
-      - <b>Obtain a prevailing wage determination:</b> The Department of Labor will calculate a minimum wage for the specific job in question. This determination is essential to the process and protects immigrants from being paid too little for the work they will do.
-      - <b>Conduct a recruitment campaign:</b> U.S. workers are given priority when it comes to jobs in America. Employers must extensively recruit U.S. workers to see if there is a qualified candidate that is interested in the job.
-      - <b>Obtain labor certification:</b> If the campaign to recruit a U.S. worker does not result in an employee, the employer can then continue pursuing a foreign worker for the role.
-      list_end_numbered
-      Our attorneys have extensive experience in filing PERM applications for businesses of all sizes and stages of development. We also provide training and consultation to first-time PERM employers, and we offer consistent PERM programming to established companies.
-        `,
-      },
-      {
-        key: 5,
-        value: "EB-2 Based on PERM",
-        content: `EB-2 petitions are for individuals with exceptional ability or advanced degrees (at least a master’s degree or a bachelor’s degree with at least five years of progressive experience) who are hired for jobs that require advanced degrees.
-
-Most EB-2 petitions must start with the PERM process, which involves government determination of a minimum wage for the employee and extensive recruiting to determine that no U.S. worker is available for the position. Once the Department of Labor issues a labor certification at the end of that process, employers can sponsor their employees for permanent residence by filing Form I-140. Most immigrants can apply for permanent residence (green card) immediately after I-140 approval, but there are significant backlogs for immigrants from some countries.
-
-Individuals with approved I-140s can apply for extensions of H-1B status until they are able to obtain a green card. This rule allows employees from China, India, and any other country with a backlog to remain in the United States while waiting for their green cards.
-
-MT Law has significant experience with I-140 petitions, and regularly provides innovative solutions to companies seeking to move and retain talent in the United States.
-
-If you are thinking about sponsoring an employee for permanent residence under EB-2 classification, please contact us today for a consultation.
-
-`,
-      },
-      {
-        key: 6,
-        value: "EB-3 Based on PERM",
-        content: `EB-3 petitions are for individuals who are professionals (with bachelor’s degrees), skilled workers, or unskilled workers. The first step is the PERM process, which includes a minimum wage for the employee and extensive recruiting to determine that no U.S. worker is available for the position. Once the Department of Labor issues a labor certification at the end of that process, employers can sponsor these employees for permanent residence by filing Form I-140. Most immigrants can apply for permanent residence (green card) immediately after I-140 approval, but there are significant backlogs for immigrants from China, India, and the Philippines. There are also backlogs for immigrants from other countries.
-
-Individuals with approved I-140s can apply for extensions of H-1B status until they are able to obtain a green card. This rule allows employees from China, India, and the Philippines to remain in the United States while waiting for their green cards.
-
-MT Law has significant experience with I-140 petitions, and regularly provides innovative solutions to companies seeking to move and retain talent in the United States while the employees wait for green cards.
-
-If you are thinking about sponsoring an employee for permanent residence under EB-3 classification, please contact us today for a consultation.`,
-      },
-      {
-        key: 7,
-        value: "Adjustment of Status",
-        content: `The adjustment of status process starts with the filing of Form I-485 and allows eligible immigrants who are lawfully present in the United States to file for permanent residence in the United States. This process is open to almost any person who entered the United States in a lawful status, has an approved or pending application for immigrant status (usually Form I-140 or I-130), and does not have a visa backlog for their country. The U.S. Department of State issues a monthly “Visa Bulletin” which determines whether immigrant visas are available for each preference category, based on the immigrant’s home country. If the immigrant’s preference category is current, denoted with a “C”, then an immigrant visa is immediately available and the foreign national may apply to adjust their status and receive their green card without needing to travel abroad.
-
-The application for an adjustment of status, Form I-485, is commonly filed with an application for employment authorization and an application for advance parole (travel authorization). Processing times can vary based on where the application is filed and under which basis the foreign national qualifies for an immigrant visa (also known as a green card or lawful permanent residence).
-
-For more information, please contact MT Law for a consultation with one of our experienced attorneys today.`,
-      },
-      {
-        key: 8,
-        value: "Consular Processing",
-        content: `The consular processing of immigrant visas allows immigrants who have an approved application for immigrant status (usually Form I-140 or I-130) to apply for entry to the United States, where they will receive their green card. This process requires submitting Form DS-260 to a U.S. consulate in the immigrant’s home country and submitting additional documents. The applicants are also interviewed before their immigrant visas are approved.
-
-Our team of immigration attorneys has extensive experience working with foreign nationals and U.S. consulates around the world to ensure the smooth and timely issuance of visas abroad. Please contact us today to schedule a consultation.`,
-      },
-      {
-        key: 9,
-        value: "Advance Parole",
-        content: `Advance parole is authorization granted before travel that allows a foreign national to leave the United States and reenter without needing to apply for a visa during travel. Typically, the application for advance parole is meant for individuals present in the United States; however, in extraordinary circumstances an individual outside of the United States may apply for and be granted advance parole to enter the United States. Since immigrants who have filed an I-485 application for permanent residence cannot usually leave the U.S. without cancelling the application, an advance parole document is useful because it allows these immigrants to travel during the lengthy processing of the I-485. Please note that advance parole only allows for entrance into the United States and is not considered being “admitted” into the United States, so it is usually impossible to file an application to adjust to a different legal status after receiving advance parole.
-
-If you have any questions, or would like to review your eligibility for advance parole, please contact MT Law for a consultation.`,
-      },
-      {
-        key: 10,
-        value: "Employment Authorization Document",
-        content: `Commonly called an “EAD Card”, the work permit allows certain foreign nationals who are eligible to work in the United States the ability to work in the United States. Eligible foreign nationals include, but are not limited to, applicants for adjustment of status to permanent residency, spouses of L-1 nonimmigrants, certain spouses of H-1B nonimmigrants, or refugees and asylees. The application for employment authorization (Form I-765) is often filed along with adjustment of status petitions for individuals present in the United States and eligible for legal permanent residence.
-
-If you are wondering whether you might be eligible for employment authorization, our team of experienced and knowledgeable attorneys is here to guide you through the process. Please contact us today for a consultation.`,
-      },
-      {
-        key: 11,
-        value: "K-1 [Fiancé/Fiancée of U.S. Citizen]",
-        content: `The K-1 classification is a nonimmigrant visa reserved for the fiancé of a U.S. citizen who intends to travel to the United States and marry their prospective U.S. citizen spouse within 90 days of that entry. Since this is a nonimmigrant visa, the foreign fiancé will be allowed entry in the United States only up to four months at a time. To be eligible for the K-1 visa, the U.S. citizen spouse must prove that there is a bona fide intention to marry the fiancé, there are no legal impediments to marriage, and that the couple met in person within two years of the filing of the petition.
-
-Once the U.S. citizen spouse files his or her application in the United States with USCIS, and the fiancé abroad is issued a K-1 visa at their local U.S. consulate after a scheduled interview, the fiancé may travel to the United States, marry, and adjust their status to that of a permanent resident.
-
-MT Law assists couples in navigating the process for international marriages. If you are thinking about sponsoring a fiancé for marriage in the United States, please contact us today for a consultation.`,
-      },
-      {
-        key: 12,
-        value: "K-3 [Spouse of U.S. Citizen]",
-        content: `K-3 Visas allow for the foreign spouse of a U.S. citizen to travel to the United States to visit while their immigrant petition is pending. This visa is available for two year periods. The minor children of K-3 beneficiaries may also be granted admission under the K-4 visa classification.
-
-To be eligible for the K-3 visa, the U.S. citizen spouse must file an I-130 petition as well as an I-129F with USCIS in the United States. Upon approval of the I-129F, but prior to the approval of the I-130, the foreign-based spouse will be able to apply for a visa abroad and subsequently travel to the United States.
-
-MT Law’s experienced and knowledgeable attorneys understand the process and pitfalls involved with the K-3 visa classification. Please contact our office today for a consultation.`,
-      },
-      {
-        key: 13,
-        value: "I-130 Petition",
-        content: `The I-130 Petition for Alien Relative allows a U.S. citizen or lawful permanent resident to establish the existence of their family relationship with certain alien relatives who wish to immigrate to the United States. Alien relatives who qualify include:
-
-(1) immediate relatives of U.S. citizens, including spouses and minor children
-(2) unmarried sons and daughters of U.S. citizens
-(3) spouses and minor children of permanent residents
-(4) unmarried sons and daughters of permanent residents
-(5) married sons and daughters of U.S. citizens
-(6) siblings of adult U.S. citizens
-
-This petition does not grant immediate travel authorization into the United States. Instead, the I-130 petition allows a U.S. citizen to prove that their relationship with an alien relative exists and that alien relative qualifies for immigration benefits. An alien relative of a U.S. citizen or lawful permanent resident will only be eligible for a green card upon the approval of an I-130 petition. Due to extensive visa backlogs for many countries, it can be months or years before an approved I-130 can be used to obtain a green card.
-
-MT Law LLC has extensive experience working with family members of U.S. citizens and permanent residents to sponsor family members for immigration to the U.S. Please contact us today to schedule a consultation.`,
-      },
-      {
-        key: 14,
-        value: "U.S. Citizenship",
-        content: `To be eligible for U.S. citizenship, an immigrant must generally have been a green card holder for at least five years, or at least three years if permanent residence was obtained through marriage to a U.S. citizen. In addition, applicants must also have been physically present in the United States for at least half of the time they were green card holders. Extended trips abroad which last over six months may break the chain of continuous presence in the United States and prevent naturalization.
-
-Other immigrants eligible for naturalization include certain individuals who are serving or have served in the U.S. Armed Forces, spouses of U.S. citizens who died during a period of honorable active duty service in the U.S. Armed Forces, and certain noncitizens who owe permanent allegiance to the U.S. and who have become residents of any of the U.S. States.
-
-All applicants for naturalization must have good moral character, an understanding of the English language, a knowledge and understanding of U.S. history and the principles and form of government, and an attachment to the U.S. Constitution. The language and knowledge requirements may be waived in certain circumstances, including age or disability.
-
-MT Law can guide you through the process and prepare you to naturalize as a U.S. citizen. Please contact our office today to schedule a consultation to review your situation and provide a personalized plan of action.
-
-`,
-      },
-      {
-        key: 15,
-        value: "EB-5 Immigration Investor Program: Regional Centers",
-        content: `
-    The EB-5 Regional Center Program began in 1990 to spur economic growth through job creation and investment by foreigners. Administered by the United States Citizenship and Immigration Services (USCIS), the EB-5 program directs foreign investment into projects that revitalize local economies. On March 15, 2022, President Biden signed the EB-5 Reform and Integrity Act which created new requirements for obtaining an EB-5 Visa. To qualify for a green card, 10 full-time positions must be created directly or indirectly through the invested capital.
-
-Regional Centers, designated by the U.S. government, promote job creation in a defined geographic area. Regional center investment is ideal for investors because (1) the regional center investors will not need to manage the project directly and (2) the “10 full-time job opportunities” requirement includes all the job opportunities created by the investment funds in the project.
- 
-Currently, most of the regional center programs are Target Employment Area projects. A Target Employment Area can be 1) a rural area – defined as an area within a metropolitan statistical area or within the outer boundary of a city or town with a population of 20,000 or more – and 2) an area where the unemployment rate is at least 150% of the national average unemployment rate. For petitions filed past 3/15/2022, a $800,000 investment towards Target Employment Areas is needed to qualify for an EB-5 visa. 
-
-EB-5 investment immigration is a core practice group at MT Law, and our attorneys have vast experience with regional centers. If you are an individual foreign investor interested in investment immigration or a U.S. organization seeking more information about obtaining EB-5 funds, please schedule a consultation with one of our attorneys.
-    `,
-      },
-      {
-        key: 16,
-        value: "EB-5 Immigrant Investor Program: Direct Investment",
-        content: `
-    The EB-5 Regional Center Program began in 1990 to spur economic growth through job creation and investment by foreigners. Administered by the United States Citizenship and Immigration Services (USCIS), the EB-5 program directs foreign investment into projects that revitalize local economies. On March 15, 2022, President Biden signed the EB-5 Reform and Integrity Act which created new requirements for obtaining an EB-5 Visa. To qualify for a green card, 10 full-time positions must be created directly through the invested capital.
-
-While most EB-5 projects are accomplished through regional centers, investors have the option to bypass that structure with direct investment. This is a better option for investors who wish to retain control over the business they are investing in. However, the minimum amount is $1,050,000 for petitions filed past 3/15/2022 which is greater than investment needed for regional centers. Direct investment requires a strong business plan and demonstrated proof of ability to create jobs.
-
-EB-5 investment immigration is a core practice group at MT Law, and our attorneys have experience advising on direct investment projects from start to finish. If you are an individual foreign investor interested in investment immigration or a U.S. organization seeking more information about obtaining EB-5 funds, please schedule a consultation with one of our attorneys.
-    `,
-      },
-      {
-        key: 17,
-        value: "L-1 Intracompany Transferee Visa",
-        content: `In today’s global economy, many employers need to transfer employees to the United States for a year or longer. To do this, an employee who is not a U.S. citizen will need an L-1 visa. At MT Law LLC , our attorneys are ready to assist you. We represent employers and employees from around the world who wish to live and work in the United States.
-        
-        The L-1 visa can be used to transfer executives, managers or key employees with specialized knowledge from a subsidiary, affiliate or branch office abroad to a U.S. company. Any employee transferred through the L visa program must have spent at least one year out of the last three years working for a subsidiary, affiliate or branch office abroad. Additionally, both the foreign employer and the U.S. employer must be continuously operating during the term of the L-1 visa. Visas are generally granted for three years and extended in two-year increments, except that employees at new U.S. companies will be granted an initial stay of one year.
-        
-        L-1 visas are available to companies of all sizes and stages of development, including companies that have been operating in the U.S. for less than one year. They are popular with established companies who use rotation programs or are staffing teams for growth and expansion. They are also popular among new offices with foreign ties because they allow businesses to transfer key leaders and experts from within their corporate group to the U.S. to initiate operations.
-        
-        The standard for proving an executive, managerial or specialized knowledge role is extremely high, and standards have tightened further over the past few years. It is important to understand the definitions applicable to each position and the extensive evidence needed to prove eligibility for L-1 classification.`,
-      },
-      {
-        key: 18,
-        value: "B1/B2 Travel Visa",
-        content: `The B visa allows temporary trips to the U.S. for business or pleasure. This visa requires a DS-160 application at a U.S. consulate and, in most cases, an interview. B visas are only available to people who can prove strong ties to their home country and nonimmigrant intent.
-
-The B1 visa allows the following activities, among others:
-
-• Meetings with business associates
-• Conventions, conferences, and other large-scale events and meetings
-• Estate settlements
-• Contract negotiations
-
-The B2 visa allows the following activities, among others:
-
-• Tourism
-• Vacation
-• Visits with friends or relatives
-• Medical treatment
-• Social events
-• Amateur events, competitions, and contests (no paid participation)
-• Short recreational classes and activities not for degree credit
-
-It is important not to use the B visa for any unauthorized activities. MT Law’s attorneys are experienced in determining whether a B visa is appropriate for the circumstances and walking applicants through the process of applying. Please contact us today if you would like to schedule a consultation.`,
-      },
-      {
-        key: 19,
-        value: "E-1 Treaty Trader Visa",
-        content: `Some countries have a treaty with the U.S. that allows entry for the purpose of conducting business. Through these treaties, foreign nationals can pursue an E visa in order to promote trade and investment between both countries. These “E” visas are applied for at the consulate, and after an interview, the person is granted entry to the U.S. for two-year periods. If you have questions regarding trader visas, the knowledgeable attorneys at MT Law LLC can answer your questions and help you understand if this is the right visa for you.
-        
-        Foreign nationals can engage in trade with the United States under a treaty trader visa. In order to qualify for this visa, an individual must meet these specifications:
-    
-    list_start
-    - Be a national for the treaty country as classified by the U.S. State Department
-    - Complete numerous transactions over time and carry on a continuous flow of international trade items
-    - Carry on principal trade — more than 50 percent of the total international trade volume between the treaty country and the United States
-    list_end
-        `,
-      },
-      {
-        key: 20,
-        value: "E-2 Treaty Investor Visa",
-        content: `Some countries have a treaty with the U.S. that allows entry for the purpose of conducting business. Through these treaties, foreign nationals can pursue an E visa in order to promote trade and investment between both countries. These “E” visas are applied for at the consulate, and after an interview, the person is granted entry to the U.S. for two-year periods. If you have questions regarding trader visas, the knowledgeable attorneys at MT Law LLC can answer your questions and help you understand if this is the right visa for you.
-        
-        This visa allows foreign nationals to invest substantial capital in the United States. In order to qualify for this visa, an individual must meet these specifications:
-    
-    list_start
-    - Be a national of the treaty investor country as classified by the U.S. State Department
-    - Make substantial capital investments in a genuine and lawful enterprise based in the U.S.
-    - Actively contribute to directing and developing the continued investment through 50 percent ownership or managerial control
-    list_end
-        `,
-      },
-      {
-        key: 21,
-        value: "F-1 Student Visa",
-        content: `An F visa is a student visa available to students of all ages and educational levels who wish to study at U.S. schools, colleges, and universities. This is a nonimmigrant visa that requires maintenance of a residence abroad and significant ties to the student’s home country. Students must be self-supporting and cannot usually work in the U.S., but employment authorization may be available as part of a post-study training program.
-
-MT Law works with many students on their visa applications and is available for consultation on legal issues for students already present in the U.S. Please contact us to schedule a consultation.`,
-      },
-      {
-        key: 22,
-        value: "H-1B Specialty Occupation Visa",
-        content: `H-1B visas are for foreigners who hold at least a bachelor’s degree or equivalent who are going to work in a “specialty occupation” in the U.S., commonly defined as a job that requires at least a bachelor’s degree to perform. The worker’s education and the job must be closely related.
-
-Employers must pay all legal and government filing fees associated with H-1B petitions, and they must guarantee the worker the minimum prevailing wage calculated for the industry and geographic area. Employers must also pay return travel costs if they terminate employment of an H-1B worker.
-
-H-1B applications are accepted each year starting at the beginning of April. Only 65,000 H-1B visas are authorized each year, with an additional 20,000 authorized for master’s degree graduates from U.S. institutions. In most recent years, this cap has been fully reached and even exceeded during the first week of April. When the cap is exceeded, USCIS conducts a random lottery of all H-1B petitions and returns all petitions not selected. It is essential to submit H-1B petitions during the first week of April to guarantee they will be considered in the lottery.
-
-An initial H-1B visa is granted for a maximum period of 3 years, with the possibility to be extended for an additional 3 years, allowing a maximum H-1B stay of 6 years. Only time spent in the United States counts toward this time period, allowing workers to extend their stay further based on the amount of time they spent outside the U.S. over the 6 years in H-1B status. There are certain circumstances that allow further extension as well.
-
-MT Law’s attorneys have extensive experience with H-1B programs, advising workers and companies of all sizes throughout the process. MT Law also offers full service H-1B programming for growing companies, ensuring that employers have the tools they need to maintain compliance without interruption to their workforces.
-
-If you are a company who wishes to sponsor workers for H-1B visas, please schedule a consultation with one of our attorneys today.`,
-      },
-      {
-        key: 23,
-        value: "J-1 Visa",
-        content: `The J-1 visa requires sponsorship from an organization and is for the purpose of international exchange in the arts, sciences, and education. Workers with a J-1 visa must be engaged in “teaching, instructing or lecturing, studying, observing, conducting research, consulting, demonstrating special skills, receiving training, or receiving graduate medical education or training.”
-
-Many J-1 visitors are required to spend at least 2 years in their home country after the end of the J-1 program before they enter the U.S. again. This 2-year residency requirement may be waived in many situations.
-
-MT Law works with sponsors, companies, and workers to ensure a smooth J-1 visa process for everyone involved. Our attorneys are also experienced with obtaining waivers of the 2-year residency requirement. If you are an employer or an individual interested in more information, please schedule a consultation today.`,
-      },
-      {
-        key: 24,
-        value: "M-1 Visa",
-        content: `An M visa is a student visa for vocational (nonacademic) training. This is a nonimmigrant visa that requires maintenance of a residence abroad and significant ties to the student’s home country. Students must be self-supporting and cannot usually work in the U.S., but employment authorization may be available as part of a post-study training program.
-
-MT Law works with many students on their visa applications and is available for consultation on legal issues for students already present in the U.S. Please contact us to schedule a consultation.`,
-      },
-      {
-        key: 25,
-        value: "O-1 Visa",
-        content: `O-1 petitions are for individuals with extraordinary abilities and achievements who are at the very top of their field, industry, or sport. Although the focus of the petition is on proving individual achievement and reputation, O-1 visas must be sponsored by an employer or agent.
-
-The key to a successful O-1 petition is demonstrating sustained acclaim (a pattern of high-level achievement and recognition), in the sciences, arts, education, business, or athletics. Individuals can qualify if they won a major internationally recognized award (Nobel, Oscar, Pulitzer, etc.), or they can qualify by proving at least 3 criteria, which vary based on the type of work.
-
-Scientists, educators, businesspeople, and athletes/coaches must prove at least 3 of the following:
-
-• Nationally or international prizes or awards
-• Membership in associations that require members to have outstanding achievements
-• Articles in professional or major media about the individual
-• Original contributions of major significance
-• Authorship of scholarly articles in professional journals or major media
-• Significantly higher pay than others in the field, industry, or sport
-• Participation as a judge of the work of others in the field, industry, or sport
-• Employment in a critical/essential capacity in distinguished organizations or top companies
-
-Artists (including those in the movie industry) must prove at least 3 of the following:
-
-• Performing in a lead or starring role for a distinguished production or event
-• Performing in a lead or starring role for a distinguished organization or establishment
-• Acclaimed critical reviews or articles in major publications
-• Commercial success in the performing arts
-• Testimonials from experts and authorities showing significant recognition in the arts
-• Significantly higher pay than others in the field
-
-MT Law successfully represents extraordinary individuals in wide range of scientific disciplines, art, movies, music, education, business, and sports. In addition to working with extraordinary individuals in established and popular areas of work, we regularly obtain approvals for individuals in obscure scientific fields, lesser-known sports, and niche art. We offer a high-level of personalization and take care to describe our clients’ achievements in detail and emphasize their importance through diligent comparative analysis.
-
-If you think you might qualify for O-1 classification, or if you would like to sponsor an employee, please contact us today for a consultation.`,
-      },
-      {
-        key: 26,
-        value: "Third Country Visa",
-        content: `
-In some cases, nonimmigrants in the United States may obtain visas at a U.S. consulate in Canada or Mexico. Please contact an MT Law attorney for more information and an assessment of whether this applies to your situation.`,
-      },
-      {
-        key: 27,
-        value: "Changing/Extending Status in the United States",
-        content: `Once a person is in the United States on any valid, nonimmigrant status, they may consider changing their status or extending it without needing to travel abroad. This option is only available if the person has an unexpired I-94 or is within one of the short grace periods that allows them to stay past the I-94 expiration date.
-
-Applications for changing or extending status are not available for premium processing, and there may be significant processing delays that can impact ability to travel and authorization for work in the U.S. Applicants should carefully weigh their options before deciding to file an application.
-
-If you are currently in the United States and wish to change to a different visa status or extend your stay, please contact us to schedule a consultation.`,
-      },
-    ],
-    subpages: [
-      {
-        subpage_type: "links",
-        subpage_title: "Immigrant Visas",
-        linked_pages: true,
-        links: [
-          {
-            title: "Employment-Based Visas",
-            items: [
-              { key: 0, value: "EB-1A" },
-              { key: 1, value: "EB-1B" },
-              { key: 2, value: "EB-1C" },
-              { key: 3, value: "National Interest Waiver" },
-              { key: 4, value: "PERM Labor Certification" },
-              { key: 5, value: "EB-2 Based on PERM" },
-              { key: 6, value: "EB-3 Based on PERM" },
-              { key: 7, value: "Adjustment of Status" },
-              { key: 8, value: "Consular Processing" },
-              { key: 9, value: "Advance Parole" },
-              { key: 10, value: "Employment Authorization Document" },
-            ],
-          },
-          {
-            title: "Family-Based Visas",
-            items: [
-              { key: 0, value: "K-1 [Fiancé/Fiancée of U.S. Citizen]" },
-              { key: 1, value: "K-3 [Spouse of U.S. Citizen]" },
-              { key: 2, value: "I-130 Petition" },
-              { key: 3, value: "U.S. Citizenship" },
-              { key: 4, value: "Adjustment of Status" },
-              { key: 5, value: "Consular Processing" },
-              { key: 6, value: "Advance Parole" },
-            ],
-          },
-          {
-            title: "EB-5 Immigration Investor Program",
-            items: [
-              {
-                key: 0,
-                value: "EB-5 Immigration Investor Program: Regional Centers",
-              },
-              {
-                key: 1,
-                value: "EB-5 Immigrant Investor Program: Direct Investment",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        subpage_type: "links",
-        subpage_title: "Non-Immigrant Visas",
-        linked_pages: true,
-        links: [
-          {
-            title: "",
-            items: [
-              { key: 0, value: "L-1 Intracompany Transferee Visa" },
-              { key: 1, value: "B1/B2 Travel Visa" },
-              { key: 2, value: "E-1 Treaty Trader Visa" },
-              { key: 3, value: "E-2 Treaty Investor Visa" },
-              { key: 4, value: "F-1 Student Visa" },
-              { key: 5, value: "H-1B Specialty Occupation Visa" },
-              { key: 6, value: "J-1 Visa" },
-              { key: 7, value: "M-1 Visa" },
-              { key: 8, value: "O-1 Visa" },
-              { key: 9, value: "Third Country Visa" },
-              {
-                key: 10,
-                value: "Changing/Extending Status in the United States",
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
-    title: "Business and Contract Law",
-    image_block: {
-      image: "/assets/business.jpg",
-      title: "Business and Contract Law",
-      text: "Experience developed from a great variety of cases",
-      color: "blue",
-      textColor: "white",
-    },
     introduction: {
-      title: "Business and Contract Law",
-      content: `MT Law’s corporate practice is founded on our skills in commercial transactions and in-depth expertise in all aspects of corporate law. We are particularly dedicated to providing first-rate legal counsel to start-up companies, from high-tech biopharmaceutical companies to educational and cultural services enterprises. In addition, through MT Law’s extensive experience in advising our clients, both large and small, international and domestic, we enjoy a reputation for excellence in M&A and foreign direct investment. Our lawyers are well-equipped to provide our clients with valuable and sophisticated advice and assistance at each and every stage of the process.`,
-      image: "/assets/business2.jpg",
-      color: "#EDF6F9",
+      title: "Immigration Services",
+      content: `MT Law’s immigration team offers comprehensive legal services for individuals and businesses seeking
+temporary visas, immigrant classifications, green cards, and U.S. citizenship. Our team specializes in
+immigration based on employment, family relationships, investment, and residency, providing
+personalized solutions to meet the unique needs of our clients.
+
+<h2>Immigration Services for Individuals</h2>
+Our immigration attorneys have deep expertise in assisting individuals with specialized or complex visa
+and green card applications, including:
+
+list_start
+- <b>EB-5 Immigrant Investor Program</b>: We guide investors through both the regional center and
+direct investment paths for the EB-5 visa, ensuring compliance with all U.S. immigration and
+investment requirements.
+- <b>EB-1A (Extraordinary Ability)</b>: We help individuals with extraordinary abilities in the sciences,
+arts, education, business, or athletics to secure an EB-1A visa, ensuring that their qualifications
+meet the rigorous standards of this category.
+- <b>EB-1B (Outstanding Professors and Researchers)</b>: Our attorneys assist academics and
+researchers in obtaining permanent residency through the EB-1B category by carefully crafting
+applications that highlight significant contributions to their field.
+- <b>EB-1C (Multinational Executives and Managers)</b>: We provide guidance to executives and
+managers of multinational companies seeking to transition to permanent residency in the U.S.
+through the EB-1C visa category.
+- <b>National Interest Waiver (NIW)</b>: We assist individuals whose work benefits the U.S. national
+interest in applying for a green card without requiring a labor certification, crafting detailed
+petitions that demonstrate how their expertise supports vital U.S. interests.
+- <b>Family based Immigration</b>: MT Law is committed to helping families reunite and navigate the
+complex immigration process with ease. We handle the preparation and submission of I-130
+petitions, K-1 and K-3 visas, as well as adjustment of status and consular processing. Our team
+ensures that your family’s immigration journey is as smooth and efficient as possible, offering
+personalized support and expert legal advice along the way.
+list_end
+<h2>Immigration Services for Businesses and Corporations</h2>
+MT Law works with corporate clients to design and implement immigration strategies that align with
+their business objectives while ensuring full legal compliance. Our services include:
+
+list_start
+- <b>Corporate Immigration Compliance and Structure Design</b>: We help companies structure their
+workforce immigration plans, ensuring that they comply with U.S. immigration laws and
+regulations for international employees. This includes assisting businesses in establishing visa
+strategies for hiring and transferring foreign talent, designing long-term immigration compliance
+systems, and managing visa sponsorship programs.
+- <b>Employment-Based Immigration Sponsorship</b>: We work closely with businesses of all sizes to
+sponsor employees for various employment-based visas, including H-1B, L-1, and O-1 visas, as
+well as permanent residency through EB-2 and EB-3 categories, PERM Labor Certification, and
+more.
+- <b>International Employee Immigration Planning</b>: We advise corporate clients on developing
+strategic immigration plans for their global workforce, ensuring smooth transitions for
+executives and employees coming to or from the U.S.
+list_end
+<h2>Nonimmigrant Visas</h2>
+MT Law assists clients with various temporary visa options, ensuring compliance with U.S. immigration
+regulations. Our services include:
+
+list_start
+- <b>L-1 (Intracompany Transferee Visa)</b>: For transferring employees between foreign and U.S.
+offices.
+- <b>B1/B2 (Travel Visa)</b>: For business or tourism.
+- <b>E-1 (Treaty Trader Visa) and E-2 (Treaty Investor Visa)</b>: For businesspeople from treaty
+countries.
+- <b>F-1 (Student Visa) and M-1 (Student Visa)</b>: For students pursuing academic or vocational studies
+in the U.S.
+- <b>H-1B (Specialty Occupation Visa)</b>: For professionals in specialty occupations.
+- <b>O-1 Visa</b>: For individuals with extraordinary ability in their field.
+- <b>U-1 Visa</b>: MT Law assists victims of certain crimes in obtaining U-1 visas, providing protection
+and immigration benefits for those who have suffered mental or physical abuse and are assisting
+law enforcement in the investigation or prosecution of criminal activity.
+- <b>P-1 Visa</b>: MT Law offers legal services for athletes, entertainers, and performers seeking P-1
+visas, enabling internationally recognized individuals or teams to participate in events or
+performances in the U.S.
+- <b>Assistance</b> with third-country visas, status changes, and visa extensions within the U.S.
+list_end
+<h2>Student Visa Issues & Criminal Consequences</h2>
+MT Law is also equipped to handle sensitive immigration issues such as F-1 visa cancellations or
+terminations due to academic performance or criminal acts. We provide comprehensive support to
+students dealing with these issues, helping them understand and manage the immigration
+consequences of criminal charges. Our team can also advise on political-related immigration issues and
+their impact on visa status or potential immigration proceedings.
+
+<h2>Commitment to Client Success</h2>
+MT Law’s immigration team is known for its vast experience, high level of client satisfaction, and
+commitment to achieving successful results. Whether you are an individual looking to extend a visa or a
+company seeking to sponsor employees, we are here to assist you at every step.
+
+Our attorneys are available for consultation to help you determine the best approach for your
+immigration needs. For an initial consultation, which typically costs $400 and includes document review
+and strategic advice, please contact us via phone or email.
+<b>
+Let MT Law LLC help you and your business navigate the complexities of U.S. immigration law and open
+the door to new opportunities in the United States.</b>
+`,
+      color: "white",
     },
-    subpages: [
-      {
-        subpage_type: "links",
-        subpage_title: "",
-        linked_pages: false,
-        links: [
-          {
-            title: "Labor and Human Resources",
-            items: [
-              {
-                key: 0,
-                value:
-                  "Draft Incentive Stock Option Plan and Employment Stock Agreement.",
-              },
-              {
-                key: 1,
-                value:
-                  "Advise on federal and state employment law and compliance. ",
-              },
-            ],
-          },
-          {
-            title: "Corporate / Foreign Direct Investment",
-            items: [
-              {
-                key: 0,
-                value:
-                  "Draft and review company establishment documents (including joint venture contract and articles of association) and technical license agreement, and prepare for relevant negotiations",
-              },
-              {
-                key: 1,
-                value:
-                  "Help structure investments and perform legal due diligence",
-              },
-              {
-                key: 2,
-                value:
-                  "Provide consultation regarding government's approval and registration, facilitate with relevant legal procedures",
-              },
-              {
-                key: 3,
-                value:
-                  "Provide compliance advice on corporate's daily operations",
-              },
-              {
-                key: 4,
-                value:
-                  "Help set up non-profit organizations and advise on its legal compliance",
-              },
-            ],
-          },
-          {
-            title: "Mergers & Acquisitions",
-            items: [
-              {
-                key: 0,
-                value:
-                  "Cross border mergers and acquisitions, reinvestment by Foreign Invested Enterprises",
-              },
-              { key: 1, value: "Conduct due diligence" },
-              {
-                key: 2,
-                value:
-                  "Advise on restructuring, merger, dissolution and liquidation",
-              },
-              { key: 3, value: "Participate in negotiations" },
-              {
-                key: 4,
-                value:
-                  "Draft and review the investment agreements such as stock purchase agreement, asset purchase agreement and related documents",
-              },
-            ],
-          },
-          {
-            title: "Private Equity & Venture Capital",
-            items: [
-              {
-                key: 0,
-                value:
-                  "MT Law provides illuminating investment structuring and tax analysis for PE and VC clients over the years.",
-              },
-              {
-                key: 1,
-                value:
-                  "MT Law not only serves as legal consultant for investor of various funds, but also actively provides comprehensive legal services to funds initiators and managers.",
-              },
-            ],
-          },
-        ],
-      },
-      {
-        subpage_type: "cases",
-        subpage_title: "",
-        linked_pages: false,
-        cases: [
-          {
-            id: 0,
-            text: "From 2012-2013, MT Law advised a Chinese public biopharmaceutical company in a 14 million dollar acquisition of a German pharmaceutical manufacturer based in California. MT Law has been providing legal services for this company’s investment and subsequent acquisitions within the United States.",
-          },
-          {
-            id: 1,
-            text: "In 2011, MT Law conducted due diligence in a tentative asset purchase transaction of a pharmaceutical factory in Mississippi on behalf of a famous Chinese Animal Husbandry company. MT Law discovered major adverse conditions in the course of its investigation and such discovery and analysis helped the client avoid future losses.",
-          },
-          {
-            id: 2,
-            text: "MT Law has been retained by Hainan Airlines as legal counsel and provides legal services for its Boston Branch in all aspects of law.",
-          },
-        ],
-      },
-    ],
   },
   {
+    id: 1,
     title: "Real Estate Law",
     image_block: {
-      image: "/assets/realestate.jpg",
-      title: "Real Estate Law",
-      text: "Experience developed from a great variety of cases",
-      color: "pink",
+      image: "/assets/LawPage/RealEstatePage/RealEstateTitle.jpg",
+      title: "Real Estate",
+      text: `MT Law provides full-service legal support for residential and commercial real estate
+transactions, including acquisitions, sales, leasing, and zoning, ensuring every deal is handled smoothly
+and in compliance with local laws.`,
+      color: "white",
     },
     introduction: {
-      title: "Real Estate Law",
-      content: `MT Law LLC has a full-service real estate practice, with a team of experienced lawyers ready to assist you with your needs. We handle all facets of real estate transactions, and have years of experience with matters including:
+      title: "MT Law Real Estate Services Overview",
+      content: `MT Law LLC is a full-service real estate law firm offering a wide range of residential and commercial legal
+services. With a team of experienced attorneys, we are dedicated to guiding clients through every phase
+of real estate transactions, from acquisitions and financing to leasing and closing. Our deep
+understanding of the legal landscape ensures that our clients' interests are protected, whether they are
+homeowners, investors, or corporate entities.
 
-Residential primary residences and investment properties;
-Condominium law and condominium document review;
-New constructions;
-Commercial transactions;
-Curing title defects;
-Short sales
+<h2>Residential Real Estate Services</h2>
+list_start
+- Primary Residences and Investment Properties: We represent buyers and sellers in the
+purchase and sale of homes, condos, and investment properties, including new constructions,
+ensuring all legal aspects are carefully managed.
+- Condominium Law: Our team reviews condominium documents and provides advice on condo
+law to help clients understand their rights and responsibilities.
+- Title Examination and Insurance: As a registered agent for four (4) major national title insurance
+companies, Old Republic, First America, Chicago and Fidelity National Title Insurance Company,
+MT Law ensures accurate title examinations and provides title insurance to safeguard ownership
+rights.
+- Curing Title Defects: We assist in identifying and resolving title defects, allowing transactions to
+proceed smoothly.
+- Short Sales and Foreclosures: Our attorneys handle the negotiation and completion of short
+sales and foreclosures, protecting clients' interests throughout the process.
+list_end
+<h2>Commercial Real Estate Services</h2>
+list_start
+- Business Acquisitions or Sales: We assist clients with the purchase or sale of commercial
+properties, including land acquisitions and business sales, handling contract negotiations and
+due diligence.
+- Commercial Leasing: MT Law negotiates and drafts office, industrial, and retail lease
+agreements, including subleases, ensuring that lease terms meet our clients' needs and legal
+protections.
+- Investment Properties: We advise on the acquisition and management of commercial
+investment properties, assisting with land development, leasing, and transactions.
+list_end
+<h2>Real Estate Financing</h2>
+list_start
+- Real Estate Investment Funds: MT Law specializes in setting up real estate investment funds,
+advising clients on fund structure, regulatory compliance, and investor agreements for large-
+scale property investments.
+- Mortgage Companies and Lenders: We provide legal support to over 100 mortgage companies
+and lenders, facilitating residential and commercial real estate transactions and investments.
+Our experience in finance law ensures that our clients’ transactions are legally sound and
+financially viable.
+list_end
+<h2>Regional Expertise: Massachusetts, New York, and New Jersey</h2>
+MT Law provides real estate transactional services with a focus on Massachusetts, New York, and New
+Jersey. Our team has in-depth knowledge of local regulations and procedures, ensuring that each
+transaction complies with state-specific legal requirements while protecting the interests of our clients.
 
-MT Law LLC is a registered agent for both Old Republic National Title Insurance Company and Fidelity National Title Insurance Company. We work closely with multiple real estate brokers, lenders, and mortgage brokers.
+<h2>National Real Estate Finance and Leasing Support</h2>
+MT Law extends its real estate-related finance and commercial leasing services to corporate clients
+across the U.S. We work collaboratively with local legal counsel when needed, ensuring compliance with
+state laws while structuring complex financing arrangements and negotiating lease agreements tailored
+to our clients’ objectives.
 
-We are able to assist clients who speak English, Mandarin, Korean, Spanish, and Portuguese.`,
-      image: "/assets/realestate2.jpg",
-      color: "#FFDDD2",
+<h2>Due Diligence for Large Real Estate Transactions</h2>
+MT Law offers comprehensive legal services for large real estate transactions, including conducting due
+diligence investigations, assessing risks, and reviewing contracts. Our meticulous approach ensures that
+every aspect of the transaction is thoroughly evaluated and meets legal standards.
+
+<h2>Closing and Beyond</h2>
+Our team manages the entire closing process, ensuring that all legal requirements are met, and the
+transaction is completed smoothly. We maintain close relationships with real estate brokers, lenders,
+and mortgage brokers, facilitating a seamless transition from the offer to closing.
+
+<b>
+At MT Law LLC, our commitment to excellence and client-focused approach make us a trusted partner
+for real estate transactions, leasing, financing, and investment.
+</b>
+`,
+      color: "white",
     },
-    subpages: [
-      {
-        subpage_type: "links",
-        subpage_title: "",
-        linked_pages: false,
-        links: [
-          {
-            title: "Commercial Property",
-            items: [
-              {
-                key: 0,
-                value: "Business Acquisition or Sale",
-              },
-              {
-                key: 1,
-                value: "Land Acquisition or Divestment",
-              },
-              {
-                key: 2,
-                value: "Investment Properties",
-              },
-              {
-                key: 3,
-                value: "Office Lease Space",
-              },
-              {
-                key: 4,
-                value: "Industrial Properties",
-              },
-              {
-                key: 5,
-                value: "Retail Lease Space",
-              },
-            ],
-          },
-          {
-            title: "Residential Property",
-            items: [
-              {
-                key: 0,
-                value: "Purchase and Sale Agreement",
-              },
-              {
-                key: 1,
-                value: "Closing",
-              },
-              {
-                key: 2,
-                value: "Title Insurance/Title Exam",
-              },
-            ],
-          },
-        ],
-      },
-    ],
   },
   {
-    title: "Tax Law",
-    image_block: {
-      image: "/assets/tax.jpg",
-      title: "Tax Law",
-      text: "Experience developed from a great variety of cases",
-      color: "pink",
-    },
-    introduction: {
-      title: "Tax Law",
-      content: `MT Law LLC is dedicated to providing tax compliance and tax consultation for individuals and businesses, specializing in international taxation issues. We work with you to develop a service menu to ensure we stay on top of your financial needs. We interact and listen to you, ask you questions to assess the particulars of your situation, and leverage our training and professional experience to advise you on matters such as operating, plans for capital expenditures, ways to increase profitability and tax saving strategies, etc.
-
-We help you to prepare federal and state income tax returns, as well as foreign bank and foreign accounts report, foreign assets disclosure and foreign gift report, etc. If you have specific international tax issue or legal issues, our attorneys at law can always provide sound advice.`,
-      image: "/assets/tax2.jpg",
-      color: "#FFDDD2",
-    },
-    subpages: [
-      {
-        subpage_type: "links",
-        subpage_title: "Our Services",
-        linked_pages: false,
-        links: [
-          {
-            title: "Taxation",
-            items: [
-              {
-                key: 0,
-                value:
-                  "Individual taxpayer identification number (ITIN) application",
-              },
-              {
-                key: 1,
-                value: "Individual tax preparation",
-              },
-              {
-                key: 2,
-                value: "Individual tax planning and consulting",
-              },
-              {
-                key: 3,
-                value: "Business tax preparation",
-              },
-              {
-                key: 4,
-                value: "Business tax planning and consulting",
-              },
-              {
-                key: 5,
-                value: "International tax consulting",
-              },
-              {
-                key: 6,
-                value: "Nonresident alien US income tax preparation",
-              },
-              {
-                key: 7,
-                value: "FBAR report and foreign financial assets disclosure",
-              },
-              {
-                key: 8,
-                value: "Pre immigration tax planning",
-              },
-              {
-                key: 9,
-                value: "IRS representation",
-              },
-            ],
-          },
-          {
-            title: "Accounting",
-            items: [
-              {
-                key: 0,
-                value: "Corporate accounting consulting and analysis",
-              },
-              {
-                key: 1,
-                value: "Review financial statements",
-              },
-              {
-                key: 2,
-                value: "Accounting system set up and support",
-              },
-              {
-                key: 3,
-                value: "Accounting software consulting and training",
-              },
-            ],
-          },
-          {
-            title: "Related Information",
-            items: [
-              {
-                key: 0,
-                value: "Estimated Taxes",
-              },
-              {
-                key: 1,
-                value: "",
-              },
-            ],
-          },
-        ],
-      },
-    ],
-  },
-  {
+    id: 2,
     title: "Estate Planning",
     image_block: {
-      image: "/assets/estate.jpg",
+      image: "/assets/LawPage/EstatePlanningPage/EstatePlanningTitle.jpg",
       title: "Estate Planning",
-      text: "Experience developed from a great variety of cases",
-      color: "aqua",
+      text: `Our attorneys offer expert guidance on wills, trusts, probate, and asset protection,
+helping individuals and families preserve wealth and efficiently transfer assets across generations.`,
+      color: "white",
     },
     introduction: {
-      title: "Estate Planning",
-      content: `Estate planning is the process of anticipating and arranging for the distribution of an estate during a person’s life. Estate planning typically attempts to ensure that a person’s wishes are carried out, avoids conflict due to ambiguity, eliminates the delay and expense of probate, and maximizes the value of the estate through strategic tax planning. The ultimate goal of an estate plan, however, is always determined by the specific goals of each client, and may be as simple or complex as the client’s needs and desires dictate.
+      title: "Estate Planning Services",
+      content: `At MT Law, we offer comprehensive estate planning services for individuals and families, focusing on protecting assets and ensuring that your wishes are honored. We develop customized estate plans that reflect your personal and financial goals.
 
-Proper estate planning requires a relationship with a knowledgeable and experienced estate planning attorney. It requires thoroughness, understanding, and respect for the overall well-being of both you and your family, now and in the future. MT Law practices the highest ethical professional standards in dealing with our clients. We understand that there is no such thing as a “standard” estate plan, and we are dedicated to helping each and every client create an individualized plan that meets their personal goals.
+<h2>Wills and Trusts</h2>
+We assist in creating legally sound wills and trusts, ensuring your assets are distributed according to your wishes, with structures tailored to your needs.
 
-In all cases, our objective is to help you feel comfortable with the estate-planning process, while creating a personally-tailored plan that helps you preserve your hard-earned legacy and provide a secure financial future for you and your loved ones. We provide a comprehensive array of estate-planning services, from simple wills and advance directives to complex trusts for high net worth individuals. Whatever your age and financial situation, our estate-planning attorneys can help provide you peace of mind in knowing you and your family are prepared for any contingency.`,
-      image: "/assets/estate2.jpg",
-      color: "#EDF6F9",
+<h2>Revocable and Irrevocable Trusts</h2>
+We provide guidance on setting up revocable and irrevocable trusts, offering flexibility and permanence to minimize estate taxes and protect beneficiaries.
+
+<h2>Health Care Directives and Powers of Attorney</h2>
+Our attorneys draft health care directives (living wills) and powers of attorney to ensure that your medical and financial decisions are handled by trusted individuals should you become incapacitated.
+
+<h2>Wealth Transfer and Tax Planning</h2>
+We develop estate plans that maximize the transfer of wealth while minimizing tax liabilities, preserving family wealth for future generations.
+
+<h2>Business Succession Planning</h2>
+At MT Law, we are committed to delivering personalized estate planning and administration services tailored to meet the unique needs of our clients. link:/en/contactus_Contact us
+ today to begin planning for the future.
+`,
+      color: "white",
     },
-    subpages: [
-      {
-        subpage_title: "",
-        subpage_type: "links",
-        linked_pages: false,
-        links: [
-          {
-            title: "Estate Planning",
-            items: [
-              {
-                key: 0,
-                value: "Basic Estate Plan",
-              },
-              {
-                key: 1,
-                value: "Probate Administration and Litigation",
-              },
-              {
-                key: 2,
-                value: "Trust Plan",
-              },
-              {
-                key: 3,
-                value: "Irrevocable Life Insurance Trust",
-              },
-              {
-                key: 4,
-                value: "Last Will and Testament",
-              },
-            ],
-          },
-        ],
-      },
-    ],
   },
   {
-    title: "Intellectual Property",
-    image_block: {
-      image: "/assets/intellectualproperty.jpg",
-      title: "Intellectual Property",
-      text: "Experience developed from a great variety of cases",
-      color: "pink",
-    },
-    introduction: {
-      title: "Intellectual Property",
-      content: `MT Law represents both domestic and international clients across a broad spectrum of IP-related matters, both transactional and litigation, ranging from electronic commerce, network IP rights, license trading, and franchising to contact dispute and infringement issues. We are a full-service law firm dedicated to protecting our clients’ intellectual property interests. Since intellectual property rights are vital to our clients’ businesses, we strive to provide to them the most effective legal solutions to safeguard their interests both domestically and abroad.
-
-MT Law's IP attorneys focus on leveraging our clients' intellectual property to help them achieve success in the marketplace. From patents to trademarks and copyrights to licensing and technology transfers to IP audits and IP asset due diligence, our attorneys offer clients portfolio management and strategic advice on obtaining and protecting valuable intellectual property.`,
-      image: "/assets/intellectualproperty2.jpg",
-      color: "#FFDDD2",
-    },
-    subpages: [],
-  },
-  {
+    id: 3,
     title: "Civil/Criminal Litigation",
     image_block: {
-      image: "/assets/litigation.jpg",
+      image: "/assets/LawPage/LitigationPage/LitigationTitle.jpg",
       title: "Civil/Criminal Litigation",
-      text: "Experience developed from a great variety of cases",
-      color: "pink",
+      text: `MT Law represents clients in a broad range of civil disputes, providing comprehensive
+litigation services from pretrial strategy to resolution in business, contract, and employment matters.`,
+      color: "white",
     },
     introduction: {
       title: "Civil/Criminal Litigation",
-      content: `MT Law has extensive experience in litigation and provides our clients with support, representation and advice at every stage of the litigation process.`,
-      image: "/assets/litigation2.jpg",
-      color: "#FFDDD2",
+      content: `At MT Law, our Litigation Practice is tailored to meet the complex needs of corporations involved in civil
+disputes. We provide comprehensive representation to businesses across a range of industries, ensuring
+effective dispute resolution and protection of their legal rights. Our approach emphasizes strategic
+planning and a deep understanding of the unique challenges faced by corporations, both in and out of
+court. From initial demand letters to mediation, arbitration, litigation, appeals, and international
+judgment enforcement, our experienced litigation team is prepared to guide clients through each step
+of the process.
+
+<h1>Corporate Civil Litigation</h1>
+We offer specialized civil litigation services for corporations, handling disputes with a focus on
+protecting business interests and minimizing disruptions. Our practice areas include:
+
+<h2>Shareholder Litigation</h2>
+Our firm represents corporations and shareholders in disputes involving breaches of fiduciary
+duties, minority shareholder oppression, and conflicts over company control. We assist in
+resolving shareholder disputes, whether through direct negotiation, mediation, or litigation.
+
+<h2>Employment and Independent Contractor Litigation</h2>
+We provide defense and litigation services for employment-related disputes, including wrongful
+termination, wage and hour disputes, discrimination, harassment claims, and employee
+misclassification issues. Our experience extends to both traditional employee matters and
+independent contractor agreements, ensuring compliance with labor laws and protecting
+businesses from potential liabilities.
+
+<h2>Commercial Contract Violations</h2>
+Breaches of commercial contracts can have significant financial implications. Our team handles
+disputes arising from contract violations, including partnership agreements, vendor contracts,
+non-compete clauses, and service agreements. We work to resolve these matters efficiently,
+whether through settlement negotiations or litigation.
+
+<h2>Patent, Trademark, License, and Franchise-Related Disputes and Litigation</h2>
+Intellectual property is one of the core assets of a business, and disputes involving patents,
+trademarks, licenses, and franchises can significantly impact a company's market position and
+operations. We provide comprehensive legal support for both plaintiffs and defendants in cases
+involving patent infringement, trademark disputes, license agreement breaches, and franchise
+contract disputes. Whether through litigation or other dispute resolution methods, our team is
+dedicated to helping businesses protect their intellectual property and commercial interests,
+ensuring that legal rights are fully upheld and, where possible, securing maximum compensation
+or fair legal outcomes.
+
+<h2>Product Liability</h2>
+Corporations involved in manufacturing, distribution, or sales may face claims related to
+defective products. We provide defense strategies for businesses facing product liability claims,
+including cases involving design defects, manufacturing defects, or inadequate product
+warnings.
+
+<h2>Fraud and Misrepresentation</h2>
+Fraudulent activities and misrepresentation can cause significant harm to a corporation's
+reputation and financial stability. We primarily represent plaintiffs in cases involving fraud,
+deceptive trade practices, and fraudulent inducement, aggressively pursuing legal remedies to
+recover damages and protect our clients' interests. Our focus is on holding wrongdoers
+accountable and securing the best possible outcomes for businesses that have been harmed by
+fraudulent actions.
+
+<h2>Immigration-Related Fraud</h2>
+Immigration-related litigation is an increasingly critical area for businesses, especially those
+utilizing employment-based immigration pathways. We represent corporations in cases
+involving immigration-related fraud, including fraudulent EB-5 investment schemes, L-1 and EB-
+1C intra-company transferee visa disputes, and other employment-based immigration issues.
+Our firm has a particular focus on safeguarding corporations involved in investment immigration
+matters, ensuring compliance and defending against fraudulent claims.
+
+<h1>Criminal Defense for Selective Clients</h1>
+While our primary focus is on corporate civil litigation, MT Law selectively provides criminal defense
+services for high-profile or unique cases involving business and corporate-related criminal matters.
+These cases may include:
+
+list_start
+- Corporate Fraud
+- White-Collar Crime
+- Immigration Fraud
+list_end
+We offer criminal defense for clients facing allegations that intersect with corporate or commercial
+activities, providing strategic representation tailored to each client’s specific legal and business needs.
+Our criminal defense services are limited to carefully selected clients and situations where the case is of
+significant corporate relevance.
+
+<h2>Comprehensive Dispute Resolution Services</h2>
+Our litigation services extend beyond traditional courtroom litigation. We offer a full spectrum of
+dispute resolution methods, ensuring that our clients can choose the most efficient and cost-effective
+approach for their unique situation. Our services include:
+
+<h2>Demand Letters</h2>
+We initiate dispute resolution by crafting well-reasoned demand letters, often
+resolving conflicts before they escalate into formal legal action.
+
+<h2>Mediation</h2>
+We represent clients in mediation, helping to resolve disputes without the need for
+lengthy litigation. Our focus is on reaching a settlement that aligns with our clients' best
+interests.
+
+<h2>Arbitration</h2>
+We have extensive experience representing businesses in arbitration proceedings,
+both domestically and internationally, offering a less formal and more flexible dispute resolution
+option compared to traditional litigation.
+
+<h2>Litigation and Appeals</h2>
+When a dispute cannot be resolved through alternative means, our firm
+provides aggressive representation in court. We handle cases in both state and federal courts
+and are experienced in handling appeals when necessary.
+
+<h2>International Judgment Enforcement</h2>
+In an increasingly globalized economy, corporations may
+find themselves needing to enforce judgments across borders. We provide assistance in
+enforcing international judgments, ensuring that your business can recover what is owed even
+in foreign jurisdictions.
+
+<b>
+At MT Law, we are committed to providing tailored legal solutions that resolve disputes effectively while
+protecting the long-term interests of our corporate clients. Whether you need proactive risk
+management, strategic dispute resolution, or vigorous defense in court, our team is here to guide you
+every step of the way.
+</b>
+`,
     },
-    subpages: [],
+  },
+  {
+    id: 4,
+    title: "Business and Corporate Law",
+    image_block: {
+      image: "/assets/LawPage/BusinessPage/BusinessTitle.jpg",
+      title: "Business and Corporate Law",
+      text: `We counsel businesses on entity formation, contract negotiation, mergers,
+acquisitions, and corporate governance, delivering strategic legal solutions for sustainable growth and
+regulatory compliance.`,
+      color: "white",
+    },
+    introduction: {
+      title: "Business and Corporate Law",
+      content: `At MT Law, we provide comprehensive legal solutions for businesses at every stage, from startups to
+multinational corporations, covering company formation, governance, compliance, and beyond. Our
+services include:
+
+<h2>Business Formation and Operations</h2>
+list_start
+- Company setup, business licensing, and registered agent services across U.S. states.
+- Advising on corporate structures and drafting legal documents for equity distribution, including
+common stock, preferred stock, employee incentive shares, convertible bonds, and options.
+- Day-to-day operational support, including compliance, corporate governance, board
+responsibilities, and key resolutions.
+list_end
+<h2>Employment and Labor Law</h2>
+list_start
+- Legal advice on employment matters such as payroll, tax, leave policies, and employee
+termination.
+- Drafting employee-related documents: employment agreements, contractor agreements, non-
+compete clauses, confidentiality agreements, and employee handbooks.
+- Representation and counsel in labor disputes.
+list_end
+<h2>Real Estate Transactions and Commercial Leasing</h2>
+list_start
+- Representation in commercial real estate sales, development, leasing, and financing.
+- Negotiation and drafting of commercial lease agreements and advising on landlord/tenant
+obligations.
+list_end
+<h2>Tax Services</h2>
+list_start
+- Corporate tax planning and advising for executives.
+- Structuring tax-efficient corporate setups and applying for tax exemptions.
+- Consulting on corporate finances and providing tax-saving strategies.
+list_end
+<h2>Immigration Law</h2>
+list_start
+- Comprehensive immigration services, including visa planning and design for employees.
+- Support for employment-based visas (O, J, P, H1B, L1A, L1B) and green cards (EB-1A, EB-1C,
+NIW, EB-2, EB-3).
+- Multi-faceted visa solutions for companies with significant employee deployments to the U.S.
+list_end
+<h2>Intellectual Property Law</h2>
+list_start
+- Trademark application services and ongoing compliance.
+- Collaboration with external firms for patent and copyright services.
+- Providing legal support for IP disputes and transfers.
+list_end
+<h2>Mergers, Acquisitions, and Equity Transfers</h2>
+list_start
+- Pre-acquisition due diligence and equity transfer legal services.
+- Drafting and reviewing acquisition agreements and other related legal documents, such as NDAs
+and Letters of Intent.
+- Handling tax implications, government filings, and dispute resolution related to M&A and equity
+transfers.
+list_end
+<h2>Investment and Financing</h2>
+list_start
+- Assisting with fund and trust formation and preparing essential documentation.
+- Providing legal advice for corporate financing and drafting investment-related documents.
+- Handling disputes related to investment and financing transactions.
+list_end
+<h2>Franchise Law</h2>
+list_start
+- For Franchisors: Assisting with obtaining the necessary permits and ensuring compliance with
+federal and state franchise regulations. We help in drafting franchise agreements, disclosure
+documents, and operational guidelines to meet legal requirements.
+- For Franchisees: We provide guidance on reviewing and negotiating franchise agreements,
+ensuring that your rights are protected, and advising on compliance with franchisor policies and
+legal obligations. We also assist with resolving disputes between franchisors and franchisees.
+list_end
+<b>
+Our experienced team at MT Law is dedicated to delivering strategic, tailored legal solutions that ensure
+smooth operations, compliance, and growth for your business at all stages of development. link:/cn/contactus_Contact us
+
+to discuss how we can assist with your business and corporate legal needs.
+</b>
+`,
+    },
+  },
+  {
+    id: 5,
+    title: "Tax Law",
+    image_block: {
+      image: "/assets/LawPage/TaxPage/TaxTitle.jpg",
+      title: "Tax Law",
+      text: `MT Law provides tailored tax planning and compliance services for individuals and businesses,
+with specialized expertise in international tax strategies to minimize liabilities and ensure full
+compliance with tax regulations.`,
+      color: "white",
+    },
+    introduction: {
+      title: "Tax Law",
+      content: `<h1>Tax Services for Individuals and Families</h1>
+
+<h2>Pre-Immigration Tax Planning</h2>
+We help individuals moving to the U.S. minimize their tax liabilities by strategically planning their finances before immigration, ensuring compliance with both U.S. and foreign tax laws.
+
+<h2>Exit Tax Planning</h2>
+For those giving up their green card or U.S. citizenship, we provide expert exit tax planning, helping to reduce or eliminate potential tax burdens that may arise from expatriation.
+
+<h2>Real Estate Purchase or Investment Tax Planning</h2>
+We offer tailored tax planning for real estate purchases or investments, taking into account the owner’s immigration status, as well as their domestic and international financial situation. Our strategies focus on maximizing tax benefits while ensuring compliance with U.S. tax laws, such as capital gains tax implications and deductions related to property investments.
+
+<h2>Individual Tax Preparation</h2>
+We assist with the preparation and filing of federal and state income tax returns, ensuring accuracy and full compliance with tax regulations.
+
+<h2>Individual Tax Planning and Consulting</h2>
+Our team offers customized tax planning advice, focusing on strategies to minimize your tax liabilities and maximize savings.
+
+<h2>Nonresident Alien U.S. Income Tax Preparation</h2>
+We specialize in preparing U.S. tax returns for nonresident aliens, ensuring that income earned in the U.S. is properly reported and taxed according to IRS guidelines.
+
+<h2>FBAR and Foreign Financial Asset Disclosure</h2>
+We assist individuals with reporting foreign bank accounts and assets to ensure compliance with U.S. regulations, helping to avoid costly penalties for failure to report.
+
+<h2>IRS Representation</h2>
+If you face an audit or any other issue with the IRS, our attorneys provide expert representation, ensuring that your rights are protected and disputes are resolved in your favor.
+
+<h1>Tax Services for Businesses and Corporations</h1>
+
+<h2>Company Structure Design and Tax Planning</h2>
+Before your company is established or major corporate changes are made, we assist in designing a tax-efficient company structure. Our planning focuses on minimizing tax liabilities and maximizing operational efficiency.
+
+<h2>Transaction Tax Structuring</h2>
+Whether you're engaging in mergers, acquisitions, or other major transactions, we provide expert advice on structuring transactions to achieve optimal tax outcomes.
+
+<h2>Business Tax Preparation</h2>
+We prepare and file corporate and business tax returns, ensuring that your company is in full compliance with federal, state, and international tax laws.
+
+<h2>Business Tax Planning and Consulting</h2>
+Our team works with your business to develop strategic tax plans that reduce tax liabilities, optimize profits, and ensure long-term financial stability.
+
+<h2>International Tax Consulting</h2>
+We specialize in advising businesses with international operations on cross-border tax issues, foreign income reporting, and compliance with international tax treaties.
+
+<h2>Corporate Accounting Consulting and Analysis</h2>
+We provide accounting consulting services to help you analyze your company’s financial statements, identify potential issues, and optimize financial operations.
+
+<h2>Review of Financial Statements</h2>
+We review and evaluate your financial statements to ensure accuracy, compliance, and financial health.
+
+<h2>Accounting System Set-Up and Support</h2>
+Our team assists businesses in establishing and maintaining effective accounting systems, offering ongoing support as needed.
+
+<h2>Accounting Software Consulting and Training</h2>
+We provide expert advice on selecting and implementing accounting software, as well as training your staff to use it effectively.
+<b>
+At MT Law LLC, we are dedicated to offering businesses strategic and compliant tax advice. Whether
+your company is in the early stages or undergoing significant changes, we are here to help you navigate
+tax complexities and plan for long-term success.
+</b>
+`,
+    },
+  },
+  {
+    id: 6,
+    title: "Trademark and Licensing",
+    image_block: {
+      image: "/assets/LawPage/TrademarkPage/TrademarkTitle.jpg",
+      title: "Trademark, Franchise, and Licensing",
+      text: `We protect and enforce clients’ intellectual property rights
+through trademark registration, franchise agreements, and licensing deals, helping clients maximize the
+value of their IP assets while ensuring legal protection domestically and internationally.`,
+      color: "white",
+    },
+    introduction: {
+      title: "Trademark, Franchise, and Licensing",
+      content: `MT Law offers comprehensive intellectual property (IP) services for both domestic and international
+clients, helping protect and leverage their intellectual assets in today’s competitive marketplace. Our IP
+practice covers a wide range of matters, including trademark registration and protection, franchise
+agreements, licensing deals, and patent infringement litigation. We are dedicated to securing our
+clients' intellectual property rights and ensuring that their brands and innovations are safeguarded
+against infringement.
+
+<h2>Trademark Services</h2>
+Our trademark attorneys help clients register, manage, and enforce their trademarks, ensuring that their
+brand identity is protected both domestically and globally. We assist with trademark searches,
+applications, renewals, and handle trademark disputes and infringement cases to defend our clients'
+brand reputation.
+
+<h2>Franchise Law</h2>
+MT Law provides legal counsel for franchisors and franchisees, ensuring that franchise agreements are
+carefully structured to protect the interests of both parties. We assist with drafting, negotiating, and
+reviewing franchise agreements, as well as advising on compliance with local and international franchise
+regulations.
+
+<h2>Licensing</h2>
+Our licensing services help clients create and negotiate licensing agreements that allow them to
+commercialize their intellectual property, from technology transfers to brand licensing. We focus on
+maximizing the value of IP assets while minimizing legal risks, ensuring that our clients retain control
+over how their intellectual property is used by others.
+
+In conclusion MT Law is committed to providing comprehensive intellectual property services tailored to the unique
+needs of both domestic and international clients. Whether you're seeking to protect your
+brand through trademark registration, navigating the complexities of franchise agreements, or
+negotiating licensing deals, our experienced attorneys are dedicated to safeguarding your intellectual
+assets.
+`,
+    },
+  },
+  {
+    id: 7,
+    title: "Employment Law",
+    image_block: {
+      image: "/assets/LawPage/EmploymentPage/EmploymentTitle.jpg",
+      title: "Employment Law",
+      text: `We advise employers and employees on workplace policies, employment
+contracts, regulatory compliance, and dispute resolution, ensuring lawful and equitable employment
+practices.`,
+      color: "white",
+    },
+    introduction: {
+      title: "Employment Law",
+      content: `At MT Law, our Employment Law practice is dedicated to providing comprehensive legal services
+primarily for employers. We understand the complexities of managing a workforce in today&#39;s evolving
+legal landscape. Our team offers expert guidance to help businesses navigate intricate employment
+regulations, minimize legal risks, and safeguard their operations. From drafting employment policies to
+defending against claims, we are committed to protecting the best interests of your business.
+
+We primarily offer our employment-related services in Massachusetts, New York, New Jersey, California,
+Washington D.C., and Virginia, but our expertise extends nationwide. Whether directly or in
+collaboration with local employment lawyers, we assist corporate clients with employment matters
+across all states, ensuring seamless compliance and effective legal representation wherever their
+employees are located. Our focus is on delivering consistent, high-quality support that addresses the
+specific employment needs of each client.
+
+<h1>Employer Representation</h1>
+Our firm specializes in advising businesses on a wide range of employment-related matters, including:
+
+<h2>Employment-Related Documents Review and Drafting</h2>
+list_start
+- Drafting, reviewing, and negotiating all types of employment contracts, including but not limited to:
+  - Employment agreements
+  - Severance agreements
+  - Nondisclosure agreements
+  - Noncompete agreements
+  - Independent Contractor agreements, if not Employees
+- Drafting and reviewing employee handbooks, workplace policies, and employee contracts to ensure clarity and compliance.
+- Ensuring compliance with wage and hour laws, employee classification (employee vs. independent contractor), and workplace safety regulations.
+list_end
+
+<h2>Employment-Related Dispute Resolution and Litigation Related to Employment</h2>
+list_start
+- Representing employers in employment contract disputes.
+- Defending employers in disputes related to discrimination, harassment, wrongful termination, and retaliation claims before state and federal authorities.
+- Providing counsel and representation in employee-related investigations and disputes with federal and state authorities.
+- Assisting employers in resolving issues related to employee benefits, leave policies (such as FMLA), and worker’s compensation claims.
+list_end
+
+<h2>Employment-Related Immigration Compliance and Application</h2>
+list_start
+- Assisting employers with employment-based visa applications, including work visas (H-1B, L-1, E-2, L1A, L1B, and O visa).
+- Providing legal support for green card sponsorships (EB-1A, EB-1B, EB-1C, NIW, EB-2, EB-3, and EB-5).
+- Ensuring compliance with I-9 regulations and advising on other employment-related immigration matters.
+list_end
+
+<h2>Employment-Related Tax Planning and Compliance</h2>
+MT Law LLC assists employers in navigating complex employment-related tax issues. Our services include:
+list_start
+- Advising on tax implications of employee compensation packages, including stock options, bonuses, and other benefits.
+- Ensuring compliance with payroll tax regulations, including federal and state withholdings, unemployment taxes, and reporting obligations.
+- Structuring tax-efficient employee benefits plans, including retirement plans, health insurance, and other fringe benefits.
+- Advising on tax consequences of employee classification decisions (employee vs. independent contractor).
+- Assisting with audits and disputes related to employment taxes, ensuring compliance with IRS and state tax authorities.
+list_end
+This comprehensive service ensures that your company remains compliant while minimizing tax liabilities related to employment matters.
+
+<h2>Dispute Resolution</h2>
+We provide robust representation in resolving disputes between companies and their employees or independent contractors. Whether it involves litigation or alternative dispute resolution methods such as arbitration or mediation, we help businesses manage conflicts efficiently and cost-effectively. Our experience includes handling claims before various state employment-related authorities, including but not limited to:
+list_start
+- U.S. Department of Labor (DOL)
+- State Department of Unemployment Assistance (DUA)
+- State Commission Against Discrimination (CAD)
+- State Fair Employment Practices Division
+- Occupational Safety and Health Administration (OSHA)
+- State Attorney General’s Fair Labor Division
+list_end
+We also assist in resolving conflicts with regulatory bodies, such as state and federal Departments of Labor, ensuring your company meets all employment-related legal requirements.
+<b>
+At MT Law, we are committed to providing employers with practical, effective legal solutions that safeguard their operations and ensure compliance with ever-evolving employment laws. Whether you need advice on employment policies, dispute resolution, or immigration compliance, our team is here to support your business.
+</b>
+`,
+    },
   },
 ];

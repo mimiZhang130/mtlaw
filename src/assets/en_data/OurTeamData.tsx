@@ -1,17 +1,14 @@
 export const image_block = {
   image: "/assets/OurTeamPage/OurTeam.jpg",
   title: "Providing Top-Notch Legal Services",
-  text: "Always Here For You",
+  text: `At MT Law, our strength lies in the collective expertise and dedication of our diverse team of professionals. Our attorneys, CPAs, paralegals, and support staff work collaboratively to ensure that we provide our clients with comprehensive legal and advisory services tailored to meet their unique needs.`,
   color: "gray",
   textColor: "white",
 };
 
 export const our_team_introduction = {
   title: "A Law Firm Right for You",
-  content: `Our attorneys are deeply knowledgeable and experienced across industries, disciplines and geographies.
-  
-  Our team is committed to meeting your legal needs by providing high-quality representation that is crafted to your specific situation. No matter what your legal circumstances are, we work as a team to address your concerns in an efficient and effective manner. Let us help you find a solution to your legal need. Call us today at 800-345-1899 to get started. We want to add you to our proven record of excellence.`,
-
+  content: `At MT Law, our strength lies in the collective expertise and dedication of our diverse team of professionals. Our attorneys, CPAs, paralegals, and support staff work collaboratively to ensure that we provide our clients with comprehensive legal and advisory services tailored to meet their unique needs.`,
   image: "/assets/ourteam2.jpg",
   color: "#EDF6F9",
 };
@@ -181,17 +178,25 @@ export const people_info = [
     name: "Tian Shengxi",
     info: {
       image: "/assets/OurTeamPage/Profiles/Shengxi Tian Photo.jpg",
-      content: `<b>Position: </b>Founder & Managing Partner
+      content: `
+      <h2>Shengxi Tian</h2>
+      <b>Shengxi “Tina” Tian, Esq.</b>,is the founding attorney and managing partner of MT Law. She possesses extensive legal experience and a unique problem-solving ability. Tina is dedicated to providing comprehensive legal solutions for both corporations and individuals, with particular expertise in handling complex cases and multifaceted legal matters.
 
-                <b>Email: </b>tian@mtlawllc.com
+After earning her Master of Laws from Peking University and her Juris Doctor from Lewis & Clark Law School, Tina obtained bar admissions in six U.S. states. Throughout her career, she has assisted in the formation of over 1,000 corporations, dozens of investment funds, and non-profit organizations, demonstrating her outstanding capabilities in corporate and business law. Her experience spans corporate structuring, international tax planning, immigration law, asset protection, as well as civil and criminal litigation. Tina has worked at a top 20 global law firm’s Beijing office, a mid-sized litigation firm in the U.S., and a boutique U.S. law firm. She also interned at the U.S. Federal District Court and a State Tax Court, and worked in the corporate legal department of a major title insurance company on the West Coast. This diverse background allows her to provide comprehensive legal support to both corporate and individual clients.
+
+Tina excels in solving complex legal issues for corporate clients, offering comprehensive solutions for challenges related to interstate and international compliance, mergers and acquisitions, and investment-related legal risks. As a long-standing legal advisor for numerous companies, she helps clients navigate corporate governance, commercial disputes, fund establishment, and compliance matters, while providing strategic, integrated solutions tailored to their diverse needs—a rare skill set in today’s legal market.
+
+Since founding MT Law in 2010, Tina has been a driving force behind the firm’s rapid growth. What started as a solo practice has evolved into a mid-sized firm with over 60 attorneys, certified public accountants, and paralegals. MT Law has provided legal and tax services to more than 1,000 companies and over 20,000 individual and family clients, spanning more than 50 countries and regions.
+
+With her wealth of experience in corporate formation, investment fund setup, and non-profit organization establishment, combined with her expertise in solving complex legal challenges, Tina has become the legal advisor of choice for numerous corporations and individuals. Whether it’s corporate governance, tax planning, non-immigrant visas or immigration strategies for individuals and businesses, or resolving commercial and litigation disputes, she consistently finds optimal solutions to help clients achieve long-term legal and business success.
                 
-                <b>Education: </b>
+                <h2>Education: </h2>
                 list_start
                 - Lewis & Clark Law School, J. D.
                 - Peking University Law School, LL.M.
                 - Changchun Institute of Optics and Fine Mechanics, B.A.
                 list_end
-                <b>Bar Admissions: </b>
+                <h2>Bar Admissions: </h2>
                 list_start
                 - Massachusetts, 2009-present
                 - New York, 2016-present
@@ -200,19 +205,24 @@ export const people_info = [
                 - Oregon, 11/2003 - 01/2005
                 - Virginia, 04/2005 - 01/2014
                 list_end
-                <b>Profile: </b>
-                Attorney Tian has a background in practicing law both nationally and internationally. Attorney Tian has over 10 years of experience practicing Immigration Law and is committed to offering bilingual legal services (English and Chinese) to domestic and international clients. Admitted to state bars in six states in the United States, Attorney Tian has also earned a distinguished reputation as a knowledgeable and skilled attorney proficient in Real Estate Law, Business Law, Taxation and Estate Planning. An active legal counselor of corporate clients, Attorney Tian frequently leads seminars at a variety of institutions and universities such as the Massachusetts Institute of Technology (MIT), Harvard University, Northeastern University, and Boston University. Oversea Chinese-American Entrepreneurs Association and Chinese American Semiconductor Professional Association, on Business Law, International Investment, Immigration and Entrepreneur related topics.
-
-Attorney Tian began her legal career at a major British Law Firm's Beijing Office, then came to the United States to enhance her legal education with a Juris Doctorate from Lewis & Clark Law School in Portland, Oregon. After serving as an intern in the Federal District Court of Oregon in 2001 and the State Tax Court of Oregon in 2002, Attorney Tian worked in the legal department of one of the largest title insurance companies where she amassed extensive experience in the area of real estate law. After she was admitted to the Virginia State Bar, Attorney Tian became an Associate at Terrence K. Martin & Associates and Ventker & Warman, where she was exposed to a variety of legal practices and was able to specialize in immigration and business law areas. In 2009, Attorney Tian relocated to Massachusetts where she found MT Law. She was instrumental in the growth of MT Law’s offices in Boston, New York City, San Francisco, Los Angeles and Beijing.
-
-                <b>Practices: </b>
+                
+                <h2>Practices: </h2>
                 list_start
-                - Real Estate
+                - Real Estate Law
                 - Immigration Law
-                - Business Law
+                - Business and Corporate Law
                 - Estate Planning
+                - Tax Law
+                - Civil/Criminal Litigation
+                - Trademark, Franchising, and Licensing
+                - Employment Law
                 list_end
       `,
+      contact_info: {
+        email: "tian@mtlawllc.com",
+        wechat: "mtlawllc1",
+        phone_number: "+1 (757) 469 0024",
+      },
     },
   },
   {

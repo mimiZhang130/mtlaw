@@ -13,6 +13,9 @@ h1 {
   font-weight: 600 !important;
 }
 
+.custom-nav-bar{
+  --bs-dropdown-link-active-bg:var(--accent-color) !important;
+}
 .sticky-top{
   position: sticky;
   top: 0;
@@ -25,7 +28,7 @@ h1 {
   top: 0%;
   width:100%;
   height:100%;
-  background-color: #00467f99;
+  background-color: #00467f87;
 }
 
 .image-text{
@@ -76,7 +79,7 @@ h1 {
   border-bottom-color: var(--primary-color);
 }
 
-.underline-gray{
+.underline-green{
   border-bottom-style: solid;
   border-bottom-width: .75rem;
   border-bottom-color: var(--accent-color);
@@ -144,9 +147,9 @@ h1 {
 }
 
 .practice-box a{
-  color: var(--primary-color);
+  color: white;
   text-decoration: none;
-  text-align: center;
+  text-align: left;
 }
 
 @media (max-width: 767px) {
@@ -197,9 +200,13 @@ h1 {
 
 .right-flex-box-3{
   justify-content: right;
-  width: 70%;
+  width: 75%;
 }
 
+.right-flex-box-4{
+  justify-content: right;
+  width: 70%;
+}
 @media (max-width: 767px) {
   .right-flex-box{
     width:100%;
@@ -214,6 +221,9 @@ h1 {
     width: 100%;
   }
   .right-flex-box-3{
+    width: 100%;
+  }
+  .right-flex-box-4{
     width: 100%;
   }
 }
@@ -271,7 +281,12 @@ h1 {
   padding: 3rem 5rem 3rem;
 }
 
-
+.custom-accordian {
+  --bs-accordion-active-bg: var(--accent-color) !important;
+  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem #4e6a1a !important;
+  --bs-accordion-active-color: white !important;
+  /* --bs-accordion-btn- */
+}
 /* Wechat Popup */
 .wechat-pop-up{
   position: fixed;
@@ -283,6 +298,48 @@ h1 {
   flex-direction: column;
 }
 
+/* Legal Services */
+@media (max-width: 767px) {
+  .disappear-when-small{
+    display: none;
+  }
+}
+
+.law-types-btn-container{
+  padding: 8rem 0 4rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: sticky;
+  top: 15%;
+}
+.law-types-btn{
+  width: 100%;
+  height: 4rem;
+  /* margin: 1rem 0 0 0; */
+  background-color: var(--accent-color);
+  color: white;
+}
+
+/* Contact Us */
+.contact-us-card{
+  width: 27%;
+  margin: 1rem;
+}
+
+.locate-us-card{
+  width: 22%;
+  margin: 1rem;
+}
+
+@media (max-width: 767px) {
+  .contact-us-card{
+    width: 100%;
+  }
+  .locate-us-card{
+    width: 100%;
+  }
+}
 /* CLEAN */
 
 
@@ -338,13 +395,6 @@ h1 {
   .law-list-5{
     width: 100%;
   }
-}
-
-
-.custom-accordian {
-  --bs-accordion-active-bg: lightgray !important;
-  --bs-accordion-btn-focus-box-shadow: 0 0 0 0.25rem gray !important;
-  /* --bs-accordion-btn- */
 }
 
 .footer-button {

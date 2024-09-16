@@ -28,11 +28,13 @@ const TeamTextBlock = ({ language }: Props) => {
       </h1>
       <div className="flex-container" style={{ margin: "0% 5%" }}>
         {data?.people.map((person: any) => (
-          <PhotoCard
-            name={person.name}
-            photo={person.image}
-            language={language}
-          />
+          <div>
+            <PhotoCard
+              name={person.name}
+              photo={person.image}
+              language={language}
+            />
+          </div>
         ))}
       </div>
     </div>

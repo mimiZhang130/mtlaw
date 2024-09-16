@@ -30,7 +30,7 @@ const CareersTextBlock1 = ({ language }: Props) => {
             <div className="accordion-item">
               <h2 className="accordion-header">
                 <button
-                  className="accordion-button"
+                  className="accordion-button collapsed"
                   type="button"
                   data-bs-toggle="collapse"
                   data-bs-target={"#collapse" + job.id}
@@ -42,7 +42,7 @@ const CareersTextBlock1 = ({ language }: Props) => {
               </h2>
               <div
                 id={"collapse" + job.id}
-                className="accordion-collapse collapse show"
+                className="accordion-collapse collapse"
                 data-bs-parent="#accordionExample"
               >
                 <div style={{ margin: "3%" }}>

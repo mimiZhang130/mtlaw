@@ -1,4 +1,3 @@
-import ContactUs from "../ContactUs";
 import FormattedText from "../FormattedText";
 import Image from "../Image";
 import { useEffect, useState } from "react";
@@ -30,19 +29,12 @@ const WorkWithUs = ({ language }: Props) => {
         className="right-flex-box text-padding"
         style={{ backgroundColor: "#00467f", color: "white" }}
       >
-        <h1 className="center center-space">{data?.work_with_us.title}</h1>
+        <h1 className="center-space">{data?.work_with_us.title}</h1>
         <FormattedText
           content={data?.work_with_us.content}
           content_id="workwithus"
         />
         <br></br>
-        <div className="center center-space">
-          <ContactUs
-            language={language}
-            backgroundColor="#00467f"
-            color="white"
-          />
-        </div>
       </div>
       <div className="left-flex-box">
         <Image

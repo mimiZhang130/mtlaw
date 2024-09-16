@@ -57,9 +57,7 @@ const HomePage = ({ language }: Props) => {
           />
         </div>
 
-        <div style={{ padding: "2rem 0rem" }}>
-          <Practices language={language} />
-        </div>
+        <Practices language={language} />
 
         <div>
           <OurTeam

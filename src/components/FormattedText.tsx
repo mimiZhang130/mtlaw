@@ -13,6 +13,14 @@ const FormattedText = ({ content, content_id }: Props) => {
         .replace(/- ([^]*?)\n/g, "<li>$1</li>")
         .replace(/list_end_numbered\n/g, "</ol>")
         .replace(/list_end\n/g, "</ul>")
+        .replace(
+          /<h2>([^]*?)<\/h2>\n/g,
+          "<h3 style='color: var(--accent-color)'>$1</h3>"
+        )
+        .replace(
+          /<h1>([^]*?)<\/h1>\n/g,
+          "<h1 style='color: var(--accent-color); font-weight: 400 !important'>$1</h1>"
+        )
         // .replace(/link:(http[^\s/]+)_([^\/]+)\n/g, "<a  href='$1'>$2</a>")
         .replace(
           /link:(\/[^\s\n]+)_([^\n]+)\n/g,

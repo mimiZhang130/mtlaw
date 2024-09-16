@@ -1,5 +1,5 @@
 export const image_block = {
-  image: "/assets/careers.jpg",
+  image: "/assets/CareerPage/CareerTitle.jpg",
   title: "Careers",
   text: "Join Us",
   color: "blue",
@@ -8,118 +8,71 @@ export const image_block = {
 
 export const careers_introduction = {
   title: "Careers",
-  content: `At MT Law, we believe that our people are our greatest asset. We are a dynamic and forward-thinking law firm committed to delivering exceptional legal services and fostering a culture of excellence and innovation. Our team is comprised of dedicated professionals who are passionate about their work and driven by a shared commitment to our clients' success.
-      
-    We are always looking for talented and motivated individuals to join our team. Explore our current job openings and find out how you can contribute to MT Law’s mission to provide outstanding legal services and make a difference in our clients' lives.
-
-    We look forward to meeting you!`,
-
-  image: "/assets/careers2.jpg",
+  content: `At MT Law, we are committed to providing exceptional legal services and fostering a collaborative, supportive work environment. Our growing firm is seeking talented and motivated individuals to join our team in Lexington, MA. We offer competitive compensation and benefits packages, along with opportunities for professional growth and advancement.
+  
+  For full-time employees, we provide the following benefits:
+  list_start
+- Competitive salary based on experience.
+- Paid vacation and holidays.
+- Comprehensive insurance coverage (medical, dental, vision).
+- 401(k) with company matching.
+- Opportunities for professional growth and advancement.
+list_end
+To apply, please send your resume and cover letter to <b>hiring@mtlawllc.com</b> and <b>tian@mtlawllc.com</b>. Be sure to include the position and the location you are applying for in the subject line. We look forward to hearing from you!
+  `,
+  image: "/assets/CareerPage/CareerIntroduction.jpg",
   color: "white",
 };
 
 export const job_openings = [
-  //   {
-  //     id: 0,
-  //     job_title: "Associate Attorney",
-  //     location: "Lexington, MA",
-  //     content: `<b>Job Responsibilities: </b>
-  //     The job responsibilities may include but not limited to advising and handling all nonimmigrant/immigrant visa and all employment-based/family-based immigration matters, with a focus on temporary worker in specialty occupation (H visas), intercompany transferee executives or managers (L visas), priority workers (EB-1), members of professions holding advanced degrees or aliens of exceptional ability (EB-2), skilled workers, professional and other workers (EB-3), immigrant investors (EB-5), national interest waiver (NIW), and permanent labor certificate program (PERM).
-  //     Join and support the team and work in a fast-paced environment
-  //     Associates will work both in support and primary roles as their responsibilities grow with the goal of handling their own cases with the first 6 to 9 months
-  //     Draft and file documents with USCIS
-  //     Support and coordinate with clients from different backgrounds and cultures
-  //     Substantial opportunities for advancement within the firm
-  //     <b>Requirements: </b>
-  //     J.D. or LLM Degree from accredited law school or foreign equivalent;
-  //     Detail-oriented, computer-savvy;
-  //     Self-starter, seeking an entrepreneurial environment;
-  //      Proven strong legal research, writing, and analytical skills;
-  //     Ability to interpret, organize and analyze complex legal material quickly and accurately;
-  //     Strong attention to details and organizational skills;
-  //     High levels of self-direction, self-motivation, and energy;
-  //     Strong communication, presentation, and interpersonal skills;
-  //     Ability to thrive in a team environment;
-  //     Superior writing and communication skills; and
-  //     Excellent attention to detail and organizational skills.
-  //     <b>Desired (Not Required): </b>
-  //     Experience in immigration law;
-  //     Active U.S. bar license;
-  //     Fluency in Mandarin or other foreign language.
-  //     <b>Benefits: </b>
-  //     Competitive compensation
-  //     Paid vacation
-  //     Insurance coverage (medical, dental, vision)
-  //     401(k) with company matching`,
-  //   },
-  //   {
-  //     id: 1,
-  //     job_title: "Paralegal",
-  //     location: "Lexington, MA",
-  //     content: `
-  //         <b>Job Responsibilities: </b>
-  //     The job responsibilities may include but not limited to advising and handling all nonimmigrant/immigrant visa and all employment-based/family-based immigration matters, with a focus on temporary worker in specialty occupation (H visas), intercompany transferee executives or managers (L visas), priority workers (EB-1), members of professions holding advanced degrees or aliens of exceptional ability (EB-2), skilled workers, professional and other workers (EB-3), immigrant investors (EB-5), national interest waiver (NIW), and permanent labor certificate program (PERM).
-  //     Join and support the team and work in a fast-paced environment
-  //     Associates will work both in support and primary roles as their responsibilities grow with the goal of handling their own cases with the first 6 to 9 months
-  //     Draft and file documents with USCIS
-  //     Support and coordinate with clients from different backgrounds and cultures
-  //     Substantial opportunities for advancement within the firm
-  //     <b>Requirements: </b>
-  //     J.D. or LLM Degree from accredited law school or foreign equivalent;
-  //     Detail-oriented, computer-savvy;
-  //     Self-starter, seeking an entrepreneurial environment;
-  //      Proven strong legal research, writing, and analytical skills;
-  //     Ability to interpret, organize and analyze complex legal material quickly and accurately;
-  //     Strong attention to details and organizational skills;
-  //     High levels of self-direction, self-motivation, and energy;
-  //     Strong communication, presentation, and interpersonal skills;
-  //     Ability to thrive in a team environment;
-  //     Superior writing and communication skills; and
-  //     Excellent attention to detail and organizational skills.
-  //     <b>Desired (Not Required): </b>
-  //     Experience in immigration law;
-  //     Active U.S. bar license;
-  //     Fluency in Mandarin or other foreign language.
-  //     <b>Benefits: </b>
-  //     Competitive compensation
-  //     Paid vacation
-  //     Insurance coverage (medical, dental, vision)
-  //     401(k) with company matching
-  //         `,
-  //   },
-  //   {
-  //     id: 2,
-  //     job_title: "Paralegal",
-  //     location: "Lexington, MA",
-  //     content: `
-  //         <b>Job Responsibilities: </b>
-  //     The job responsibilities may include but not limited to advising and handling all nonimmigrant/immigrant visa and all employment-based/family-based immigration matters, with a focus on temporary worker in specialty occupation (H visas), intercompany transferee executives or managers (L visas), priority workers (EB-1), members of professions holding advanced degrees or aliens of exceptional ability (EB-2), skilled workers, professional and other workers (EB-3), immigrant investors (EB-5), national interest waiver (NIW), and permanent labor certificate program (PERM).
-  //     Join and support the team and work in a fast-paced environment
-  //     Associates will work both in support and primary roles as their responsibilities grow with the goal of handling their own cases with the first 6 to 9 months
-  //     Draft and file documents with USCIS
-  //     Support and coordinate with clients from different backgrounds and cultures
-  //     Substantial opportunities for advancement within the firm
-  //     <b>Requirements: </b>
-  //     J.D. or LLM Degree from accredited law school or foreign equivalent;
-  //     Detail-oriented, computer-savvy;
-  //     Self-starter, seeking an entrepreneurial environment;
-  //      Proven strong legal research, writing, and analytical skills;
-  //     Ability to interpret, organize and analyze complex legal material quickly and accurately;
-  //     Strong attention to details and organizational skills;
-  //     High levels of self-direction, self-motivation, and energy;
-  //     Strong communication, presentation, and interpersonal skills;
-  //     Ability to thrive in a team environment;
-  //     Superior writing and communication skills; and
-  //     Excellent attention to detail and organizational skills.
-  //     <b>Desired (Not Required): </b>
-  //     Experience in immigration law;
-  //     Active U.S. bar license;
-  //     Fluency in Mandarin or other foreign language.
-  //     <b>Benefits: </b>
-  //     Competitive compensation
-  //     Paid vacation
-  //     Insurance coverage (medical, dental, vision)
-  //     401(k) with company matching
-  //         `,
-  //   },
+  {
+    id: 0,
+    job_title: "Business Immigration Attorney",
+    location: "Lexington, MA",
+    content: `<b>Responsibilities</b>
+Handle employment-based immigration matters including H-1B, L-1, O-1, PERM, EB-5, EB-1A, and NIW petitions. Provide legal counsel to corporate clients on immigration compliance and workforce planning.
+
+<b>Requirements</b>
+JD and admission to practice in MA; 2+ years of business immigration experience; excellent legal writing and communication skills.`,
+  },
+  {
+    id: 1,
+    job_title: "Real Estate Attorney",
+    location: "Lexington, MA",
+    content: `<b>Responsibilities</b>
+Assist clients with residential and commercial real estate transactions, including purchases, sales, leases, and financing. Advise on zoning and land use matters.
+
+<b>Requirements</b>
+JD and admission to practice in MA; 3+ years of real estate law experience; strong negotiation and communication skills.`,
+  },
+  {
+    id: 2,
+    job_title: "Litigation Attorney",
+    location: "Lexington, MA",
+    content: `<b>Responsibilities</b>
+Represent clients in civil litigation matters including contract disputes, employment law, business litigation, and intellectual property disputes. Handle all stages of litigation from pretrial to settlement or trial.
+
+<b>Requirements</b>
+JD and admission to practice in MA; 5+ years of litigation experience; strong research, writing, and courtroom skills.`,
+  },
+  {
+    id: 3,
+    job_title: "Estate Planning Attorney",
+    location: "Lexington, MA",
+    content: `<b>Responsibilities</b>
+Provide legal counsel in estate planning, including wills, trusts, probate, and asset protection. Advise clients on tax planning strategies and family wealth management.
+
+<b>Requirements</b>
+JD and admission to practice in MA; 5+ years of estate planning experience; proficiency in drafting complex estate documents.`,
+  },
+  {
+    id: 4,
+    job_title: "Receptionist",
+    location: "Lexington, MA",
+    content: `<b>Responsibilities</b>
+Greet clients, answer phones, manage office communications, schedule appointments, and assist with administrative tasks to ensure the office runs smoothly.
+
+<b>Requirements</b>
+Strong organizational and communication skills, experience in a professional office setting preferred, customer service-oriented mindset.`,
+  },
 ];

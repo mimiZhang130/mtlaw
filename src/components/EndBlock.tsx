@@ -65,7 +65,7 @@ const EndBlock = ({ language }: Props) => {
       >
         <div className="left-flex-box2" style={{ padding: "4rem 0 0 4rem" }}>
           <h4>
-            {language === "en" ? "MTLaw Headquarters" : "MTLaw 列克星敦 HQ"}
+            {language === "en" ? "MT Law Headquarters" : "MT Law 列克星敦 HQ"}
           </h4>
           <h5>430 Bedford Street, Suite 200, Lexington, MA, USA</h5>
           <a href="tel:+18003451899" style={{ color: "var(--primary-color)" }}>
@@ -98,16 +98,27 @@ const EndBlock = ({ language }: Props) => {
                     </div>
                     {link.other_links.length != 0 ? (
                       <ul style={{ listStyleType: "none" }}>
-                        {link.other_links.map((other_link: any) => (
-                          <li>
-                            <a
-                              style={{ color: "#00467f" }}
-                              href={"/en/legalservices/" + other_link.link}
-                            >
-                              {other_link.link}
-                            </a>
-                          </li>
-                        ))}
+                        {link.other_links.map((other_link: any) =>
+                          language === "en" ? (
+                            <li>
+                              <a
+                                style={{ color: "#00467f" }}
+                                href={"/en/legalservices/" + other_link.link}
+                              >
+                                {other_link.link}
+                              </a>
+                            </li>
+                          ) : (
+                            <li>
+                              <a
+                                style={{ color: "#00467f" }}
+                                href={"/cn/legalservices/" + other_link.link}
+                              >
+                                {other_link.link}
+                              </a>
+                            </li>
+                          )
+                        )}
                       </ul>
                     ) : null}
                   </div>

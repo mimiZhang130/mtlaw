@@ -101,7 +101,7 @@ const NavBar = ({ Active, language }: Props) => {
                   {LawData?.law_data.map((law: any) => (
                     <li>
                       <a
-                        className="dropdown-item"
+                        className="dropdown-item custom-nav-bar"
                         href={"/" + language + "/legalservices/" + law.title}
                       >
                         {law.title}

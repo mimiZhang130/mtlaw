@@ -24,15 +24,18 @@ const Practices = ({ language }: Props) => {
     loadData();
   }, [language]);
   return (
-    <div className="flex-container">
+    <div className="flex-container" style={{ flexDirection: "row-reverse" }}>
       <div
         className="left-flex-box text-padding"
         style={{ backgroundColor: "white" }}
       >
-        <h1>Practices Hhahahah</h1>
+        <h1 style={{ color: "var(--accent-color)" }}>Practices Hhahahah</h1>
       </div>
       <div className="right-flex-box">
-        <div className="practices">
+        <div
+          className="practices"
+          style={{ backgroundColor: "var(--accent-color)", padding: "2rem" }}
+        >
           <div className="center" style={{ flexDirection: "row" }}>
             {data?.practices.law_types.map((law_type: any) => (
               <PracticesBox

@@ -4,7 +4,6 @@ export const image_block = {
   title: "顶级全方位服务律师事务所",
   text: "专业 - 国际化 - 足智多谋",
   color: "blue",
-  textColor: "white",
 };
 
 export const home_introduction = {
@@ -15,7 +14,6 @@ export const home_introduction = {
 
 我们的主办公室位于马萨诸塞州莱克星顿，并在纽约、加利福尼亚和中国设有办事处。我们期待了解您的需求，帮助您实现目标。若要讨论您的案件并与我们知识渊博的员工交谈，今天就可以联系我们的事务所。`,
   image: "/assets/HomePage/HomeIntroduction.jpeg",
-  color: "white",
 };
 
 export const practices = {
@@ -24,68 +22,42 @@ export const practices = {
     {
       id: 0,
       title: "移民法",
-      subgroups: [
-        "EB-5 移民",
-        "L-1 签证",
-        "EB-1A 签证",
-        "H-1B 签证",
-        "F-1 学生签证",
-      ],
-      icon: "/assets/HomePage/PracticesIcons/immigration.png",
+      icon: "/assets/HomePage/PracticesIcons/immigration.svg",
     },
     {
       id: 1,
-      title: "商业与合同法",
-      subgroups: [
-        "公司/有限责任公司设立",
-        "并购",
-        "雇佣协议",
-        "股票期权",
-        "保密协议",
-      ],
-      icon: "/assets/HomePage/PracticesIcons/company.png",
+      title: "商业与公司法",
+      icon: "/assets/HomePage/PracticesIcons/company.svg",
     },
     {
       id: 2,
       title: "房地产法",
-      subgroups: [
-        "购房协议审查",
-        "房地产交割",
-        "租赁协议",
-        "分区与许可",
-        "房地产信托",
-      ],
-      icon: "/assets/HomePage/PracticesIcons/real-estate.png",
+      icon: "/assets/HomePage/PracticesIcons/real-estate.svg",
     },
     {
       id: 3,
-      title: "税务",
-      subgroups: ["个人税", "公司税", "税务规划", "税务咨询", "会计"],
-      icon: "/assets/HomePage/PracticesIcons/tax.png",
+      title: "税法",
+      icon: "/assets/HomePage/PracticesIcons/tax.svg",
     },
     {
       id: 4,
-      title: "遗产规划",
-      subgroups: ["遗嘱和信托", "授权书", "遗产税规划", "遗产管理", "生前遗嘱"],
-      icon: "/assets/HomePage/PracticesIcons/estate-planning.png",
+      title: "资产传承规划",
+      icon: "/assets/HomePage/PracticesIcons/estate-planning.svg",
     },
     {
       id: 5,
-      title: "知识产权",
-      subgroups: ["专利", "商标", "版权", "商业秘密", "知识产权保护规划"],
-      icon: "/assets/HomePage/PracticesIcons/ip.png",
+      title: "商标，专营权，许可",
+      icon: "/assets/HomePage/PracticesIcons/ip.svg",
     },
     {
       id: 6,
       title: "民事/刑事诉讼",
-      subgroups: [
-        "人身伤害索赔",
-        "合同违约",
-        "商业纠纷",
-        "家庭暴力",
-        "白领犯罪",
-      ],
-      icon: "/assets/HomePage/PracticesIcons/litigation.png",
+      icon: "/assets/HomePage/PracticesIcons/litigation.svg",
+    },
+    {
+      id: 7,
+      title: "劳动法和雇佣",
+      icon: "/assets/HomePage/PracticesIcons/employment.svg",
     },
   ],
 };

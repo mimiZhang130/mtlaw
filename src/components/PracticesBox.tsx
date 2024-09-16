@@ -6,7 +6,11 @@ interface Props {
 const PracticesBox = ({ title, language, icon }: Props) => {
   return (
     <div className="practice-box">
-      <img style={{ width: "64px", height: "64px" }} src={icon}></img>
+      <img
+        className="image-color-white"
+        style={{ width: "64px", height: "64px" }}
+        src={icon}
+      ></img>
       <div style={{ padding: "1rem 1rem 0 1rem" }}>
         <a href={"/" + language + "/legalservices/" + title}>
           <h4>{title}</h4>

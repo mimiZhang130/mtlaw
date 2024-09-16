@@ -1,7 +1,7 @@
 export const image_block = {
   image: "/assets/OurTeamPage/OurTeam.jpg",
   title: "提供一流的法律服务",
-  text: "始终为您服务",
+  text: `在MT律师事务所，我们的力量源自于我们多元化的专业团队的集体专业知识和奉献精神。我们的律师、注册会计师(CPA)、法律助理和支持人员紧密协作，确保为客户提供量身定制的全面法律和咨询服务，满足他们的独特需求。`,
   color: "gray",
   textColor: "white",
 };

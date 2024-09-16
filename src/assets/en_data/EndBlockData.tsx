@@ -36,27 +36,31 @@ export const links = [
       },
       {
         id: 1,
-        link: "Business and Contract Law",
-      },
-      {
-        id: 2,
         link: "Real Estate Law",
       },
       {
-        id: 3,
-        link: "Tax Law",
-      },
-      {
-        id: 4,
+        id: 2,
         link: "Estate Planning",
       },
       {
+        id: 3,
+        link: "Civil/Criminal Litigation",
+      },
+      {
+        id: 4,
+        link: "Business and Corporate Law",
+      },
+      {
         id: 5,
-        link: "Intellectual Property",
+        link: "Tax Law",
       },
       {
         id: 6,
-        link: "Civil/Criminal Litigation",
+        link: "Trademark and Licensing",
+      },
+      {
+        id: 7,
+        link: "Employment Law",
       },
     ],
   },

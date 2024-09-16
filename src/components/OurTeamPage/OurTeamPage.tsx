@@ -30,14 +30,15 @@ const OurTeamPage = ({ language }: Props) => {
 
   return (
     <div>
-      <HeadLiner></HeadLiner>
-      <NavBar Active={["", "", "active", "", ""]} language={language} />
+      <div className="sticky-top">
+        <HeadLiner></HeadLiner>
+        <NavBar Active={["", "", "active", "", ""]} language={language} />
+      </div>
       <ImageBlock
         image={data?.image_block.image}
         title={data?.image_block.title}
         text={data?.image_block.text}
         color={data?.image_block.color}
-        textColor={data?.image_block.textColor}
       />
       <TeamTextBlock language={language} />
       <EndBlock language={language} />

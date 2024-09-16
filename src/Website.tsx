@@ -9,6 +9,7 @@ import CareersPage from "./components/CareersPage/CareersPage";
 import ContactUsPage from "./components/ContactUsPage/ContactUsPage";
 import HeadLiner from "./components/HeadLiner";
 import { useState, useEffect } from "react";
+import NavBar from "./components/NavBar";
 
 interface Props {
   language: string;
@@ -79,12 +80,18 @@ const Website = ({ language }: Props) => {
                   path={"/" + language + "/legalservices/" + law.title}
                   render={() => (
                     <div>
-                      <HeadLiner />
+                      <div className="sticky-top">
+                        <HeadLiner></HeadLiner>
+                        <NavBar
+                          Active={["", "", "", "active", ""]}
+                          language={language}
+                        />
+                      </div>
                       <LawPage
                         image_block={law.image_block}
                         introduction={law.introduction}
-                        subpages={law.subpages}
-                        title={law.title}
+                        // subpages={law.subpages}
+                        // title={law.title}
                         language={language}
                       />
                     </div>
@@ -102,7 +109,13 @@ const Website = ({ language }: Props) => {
                       path={"/" + language + "/" + law.title + "/" + item.value}
                       render={() => (
                         <div>
-                          <HeadLiner />
+                          <div className="sticky-top">
+                            <HeadLiner></HeadLiner>
+                            <NavBar
+                              Active={["", "", "", "active", ""]}
+                              language={language}
+                            />
+                          </div>
                           <LawSubPage
                             image_block={law.image_block}
                             item={item}

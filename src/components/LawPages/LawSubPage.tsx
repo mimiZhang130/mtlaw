@@ -1,4 +1,3 @@
-import NavBar from "../NavBar.tsx";
 import ImageBlock from "../ImageBlock.tsx";
 import IntroTextBlock from "../IntroTextBlock.tsx";
 import EndBlock from "../EndBlock.tsx";
@@ -12,13 +11,11 @@ interface Props {
 const LawSubPage = ({ image_block, item, language, subpage_image }: Props) => {
   return (
     <div>
-      <NavBar Active={["", "", "", "active", ""]} language={language} />
       <ImageBlock
         image={image_block.image}
         title={image_block.title}
         text={image_block.text}
         color={image_block.color}
-        textColor={image_block.textColor}
       />
       <IntroTextBlock
         title={item.value}

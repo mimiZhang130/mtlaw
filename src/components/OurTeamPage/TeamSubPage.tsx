@@ -37,13 +37,13 @@ const TeamSubPage = ({ name, info, language }: Props) => {
         title={data?.image_block.title}
         text={data?.image_block.text}
         color={"blue"}
-        textColor={data?.image_block.textColor}
       />
       <TeamIntroBlock
         title={name}
         content={info.content}
         image={info.image}
         language={language}
+        contact_info={info.contact_info}
       />
       <EndBlock language={language} />
     </div>

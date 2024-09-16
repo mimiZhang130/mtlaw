@@ -20,6 +20,14 @@ const OurTeam = ({
   return (
     <div>
       <div className="flex-container">
+        <div className="left-flex-box">
+          <Image
+            image={image}
+            border={false}
+            height={"auto"}
+            color="blue"
+          ></Image>
+        </div>
         <div
           className="right-flex-box text-padding"
           style={{ backgroundColor: backgroundColor }}
@@ -43,14 +51,6 @@ const OurTeam = ({
               color="white"
             />
           </div>
-        </div>
-        <div className="left-flex-box">
-          <Image
-            image={image}
-            border={false}
-            height={"auto"}
-            color="blue"
-          ></Image>
         </div>
       </div>
     </div>
