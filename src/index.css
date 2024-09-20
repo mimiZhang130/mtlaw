@@ -368,7 +368,7 @@ h1 {
   margin-top: -12%;
   margin-bottom: -12%;
   border-right: .7rem groove var(--accent-color);
-  border-bottom: .7rem groove var(--accent-color);
+  border-top: .7rem groove var(--accent-color);
   padding: 3rem;
 }
 

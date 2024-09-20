@@ -1,3 +1,4 @@
+import { payment_options } from "../../assets/cn_data/PaymentData";
 import FormattedText from "../FormattedText";
 import HeadLiner from "../HeadLiner";
 import ImageBlock from "../ImageBlock";
@@ -39,7 +40,69 @@ const PaymentPage = ({ language }: Props) => {
         text={data?.image_block.text}
         color={data?.image_block.color}
       />
-      <div style={{ display: "grid" }}>
+      <div style={{ margin: "5% 5% 5% 5%" }}>
+        <div className="accordion custom-accordian" id="accordionExample">
+          <div className="accordion-item">
+            <h2 className="accordion-header">
+              <button
+                className="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target={"#collapse" + data?.payment_options[0].id}
+                aria-expanded="true"
+                aria-controls={"collapse" + data?.payment_options[0].id}
+              >
+                {data?.payment_options[0].payment_method}
+              </button>
+            </h2>
+            <div
+              id={"collapse" + data?.payment_options[0].id}
+              className="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div style={{ margin: "3%" }}>
+                <FormattedText
+                  content={data?.payment_options[0].content}
+                  content_id="0"
+                />
+              </div>
+            </div>
+          </div>
+          {data?.payment_options.map(
+            (payment: any) =>
+              payment.id > 0 && (
+                <div className="accordion-item">
+                  <h2 className="accordion-header">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target={"#collapse" + payment.id}
+                      aria-expanded="true"
+                      aria-controls={"collapse" + payment.id}
+                    >
+                      {payment.payment_method}
+                    </button>
+                  </h2>
+                  <div
+                    id={"collapse" + payment.id}
+                    className="accordion-collapse collapse"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div style={{ margin: "3%" }}>
+                      <FormattedText
+                        content={payment.content}
+                        content_id={payment.id}
+                      />
+                    </div>
+                  </div>
+                </div>
+              )
+          )}
+        </div>
+      </div>
+
+      {/* <div style={{ display: "grid" }}>
         {data?.payment_options.map((payment: any) => (
           <div className={"payment-card-" + payment.side}>
             <h1 style={{ color: "var(--primary-color)" }}>
@@ -48,7 +111,7 @@ const PaymentPage = ({ language }: Props) => {
             <FormattedText content={payment.content} content_id={payment.id} />
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 };

@@ -33,8 +33,15 @@ export const payment_options = [
   },
   {
     id: 2,
-    payment_method: "Payment by LawPay",
-    content: `If you choose this option, please follow the instructions as provided below. Please note that there will be an extra 4% fee to be charged through this payment option.`,
+    payment_method: "Payment by Online Methods",
+    content: `<b>Zelle:</b>
+    Account: tian@mtlawllc.com
+    <b>PayPal:</b>
+    Account: tax@mtlawllc.com
+    Service Fee: 
+    <b>LawPay:</b> 
+    If you choose this option, please follow the instructions as provided below. Please note that there will be an extra 4% fee to be charged through this payment option.
+    `,
     side: "left",
   },
 ];
