@@ -94,6 +94,13 @@ const PaymentPage = ({ language }: Props) => {
                         content={payment.content}
                         content_id={payment.id}
                       />
+                      <br></br>
+                      <a href="https://secure.lawpay.com/pages/mtlawllc/trust">
+                        <img
+                          style={{ border: "solid 1px black" }}
+                          src="/public/assets/PaymentPage/LawPayButton.png"
+                        ></img>
+                      </a>
                     </div>
                   </div>
                 </div>
