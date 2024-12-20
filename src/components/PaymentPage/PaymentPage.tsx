@@ -1,4 +1,4 @@
-import { payment_options } from "../../assets/cn_data/PaymentData";
+// import { payment_options } from "../../assets/cn_data/PaymentData";
 import FormattedText from "../FormattedText";
 import HeadLiner from "../HeadLiner";
 import ImageBlock from "../ImageBlock";
