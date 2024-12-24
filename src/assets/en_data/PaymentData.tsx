@@ -15,7 +15,7 @@ export const payment_options = [
     Attn: The person who is taking care of your case
     430 Bedford Street, Suite 200
     Lexington, MA 02420
-    (800)345-1899`,
+    (800) 345-1899`,
     side: "left",
   },
   {

@@ -23,7 +23,7 @@ const Carousel = ({ language }: Props) => {
     loadData();
   }, [language]);
   return (
-    <div>
+    <div className="carousel">
       <div
         id="carouselExampleIndicators"
         className="carousel slide"

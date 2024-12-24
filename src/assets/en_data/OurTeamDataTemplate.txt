@@ -1,0 +1,39 @@
+{
+    id: -,
+    name: "Name",
+    info: {
+      image: "/assets/OurTeamPage/Profiles/Name Photo.jpg",
+      content: `<h2>Name</h2>
+      <h5><b>Position</b></h5>
+      <b>Name</b> profile
+                  
+      <h2>Education: </h2>
+      list_start
+      - School, Degree
+      - Lewis & Clark Law School, J.D.
+      list_end
+      <h2>Bar Admissions: </h2>
+      list_start
+      - State, years holding
+      - Massachusetts, 2014-present
+      list_end
+      <h2>Practices: </h2>
+      list_start
+      - Real Estate Law
+      - Immigration Law
+      - Business and Corporate Law
+      - Estate Planning
+      - Tax Law
+      - Civil/Criminal Litigation
+      - Trademark, Franchising, and Licensing
+      - Employment Law
+      list_end
+`,
+contact_info: {
+      email: " - ",
+      wechat: " - ",
+      phone_number: " - ",
+},
+},
+},
+

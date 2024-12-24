@@ -91,8 +91,6 @@ const Website = ({ language }: Props) => {
                       <LawPage
                         image_block={law.image_block}
                         introduction={law.introduction}
-                        // subpages={law.subpages}
-                        // title={law.title}
                         language={language}
                       />
                     </div>

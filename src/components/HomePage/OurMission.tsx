@@ -31,7 +31,10 @@ const OurMission = ({ language }: Props) => {
             <p>{data?.our_mission.content}</p>
           </div>
         </div>
-        <div className="left-flex-box-2" style={{ position: "relative" }}>
+        <div
+          className="left-flex-box-2"
+          style={{ position: "relative", alignContent: "center" }}
+        >
           <Carousel language={language} />
         </div>
       </div>

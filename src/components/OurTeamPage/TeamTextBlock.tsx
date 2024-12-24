@@ -6,6 +6,8 @@ interface Props {
 const TeamTextBlock = ({ language }: Props) => {
   const [data, setData] = useState<{
     people: any;
+    partners_and_principal_text: string;
+    our_team_text: string;
   } | null>(null);
 
   useEffect(() => {
@@ -23,10 +25,22 @@ const TeamTextBlock = ({ language }: Props) => {
   }, [language]);
   return (
     <div style={{ marginBottom: "1.5rem" }}>
-      <h1 className="center center-space text-padding">
-        {language === "en" ? "Our Team" : "我们的团队"}
+      <h1
+        className="center center-space text-padding"
+        style={{ paddingBottom: "1rem" }}
+      >
+        {language === "en" ? "Partners and Principal CPA" : "我们的团队"}
       </h1>
-      <div className="flex-container" style={{ margin: "0% 5%" }}>
+      <div className="center">
+        <h5>{data?.partners_and_principal_text}</h5>
+      </div>
+      <div
+        className="flex-container"
+        style={{
+          margin: "0% 5%",
+          justifyContent: "center",
+        }}
+      >
         {data?.people.map((person: any) => (
           <div>
             <PhotoCard
@@ -36,6 +50,21 @@ const TeamTextBlock = ({ language }: Props) => {
             />
           </div>
         ))}
+      </div>
+      <h1
+        className="center center-space text-padding"
+        style={{ paddingBottom: "1rem" }}
+      >
+        {language === "en" ? "Our Team" : "我们的团队"}
+      </h1>
+      <div className="center">
+        <h5>{data?.our_team_text}</h5>
+      </div>
+      <div className="center" style={{ marginTop: "2rem" }}>
+        <img
+          src="/assets/OurTeamPage/MTLawTeam.jpeg"
+          style={{ height: "30rem" }}
+        ></img>
       </div>
     </div>
   );

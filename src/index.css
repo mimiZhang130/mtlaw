@@ -187,7 +187,6 @@ h1 {
 .left-flex-box-2{
   justify-content: left;
   width: 35%;
-
 }
 
 .left-flex-box-3{
@@ -231,17 +230,21 @@ h1 {
 }
 
 /* Carousel */
+.carousel{
+  text-align: -webkit-center;
+}
 
 .carousel-fact-box{
   background-color: var(--accent-color);
-  padding: 4vw 6vw 4vw 6vw;
+  padding: 4vw 2vw 4vw 6vw;
   /* width: 33rem; */
   color: white;
   height: 23rem;
   text-align: center;
+  place-content: center;
 }
 .carousel-fact-box h1{
-  font-size: 7rem;
+  font-size: 7vw;
 }
 
 .carousel-fact-box h2{
@@ -254,6 +257,11 @@ h1 {
   }
   .carousel-fact-box h1{
     font-size: 6rem;
+  }
+}
+@media (max-width: 400px) {
+  .carousel-fact-box h1{
+    font-size: 4rem;
   }
 }
 
@@ -271,12 +279,15 @@ h1 {
 }
 
 .photo-card{
-  width: 14rem;
-  margin: 1rem .5rem;
+  width: 15rem;
+  margin: 1rem 1rem;
   border: black solid;
   color: black;
 }
 
+.team-center-text{
+  text-align: center;
+}
 /* Careers Page */
 
 .text-padding{
