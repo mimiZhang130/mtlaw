@@ -4,6 +4,7 @@ import HeadLiner from "../HeadLiner";
 import ImageBlock from "../ImageBlock";
 import NavBar from "../NavBar";
 import { useState, useEffect } from "react";
+import React from "react";
 
 interface Props {
   language: string;

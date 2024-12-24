@@ -1,5 +1,6 @@
 import Carousel from "../Carousel";
 import { useState, useEffect } from "react";
+import React from "react";
 interface Props {
   language: string;
 }

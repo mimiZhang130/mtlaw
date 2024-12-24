@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import ContactUs from "./ContactUs";
+import React from "react";
+
 interface Props {
   language: string;
 }
@@ -63,7 +65,7 @@ const EndBlock = ({ language }: Props) => {
           color: "#00467f",
         }}
       >
-        <div className="left-flex-box2" style={{ padding: "4rem 0 0 4rem" }}>
+        <div style={{ padding: "4rem 0 4rem 2rem" }}>
           <h4>
             {language === "en" ? "MT Law Headquarters" : "MT Law 列克星敦 HQ"}
           </h4>
@@ -80,9 +82,15 @@ const EndBlock = ({ language }: Props) => {
           </div>
         </div>
         <div>
-          <div className="text-padding flex-container">
+          <div
+            className="flex-container"
+            style={{ padding: "4rem 2rem 4rem 0rem" }}
+          >
             {data?.links.map((link: any) => (
-              <ul className="expand-width" style={{ listStyleType: "none" }}>
+              <ul
+                className="expand-width"
+                style={{ listStyleType: "none", padding: ".5rem" }}
+              >
                 <li>
                   <div className="ms-2 me-auto">
                     <div className="fw-bold">
@@ -97,7 +105,7 @@ const EndBlock = ({ language }: Props) => {
                       </a>
                     </div>
                     {link.other_links.length != 0 ? (
-                      <ul style={{ listStyleType: "none" }}>
+                      <ul style={{ listStyleType: "none", padding: "0" }}>
                         {link.other_links.map((other_link: any) =>
                           language === "en" ? (
                             <li>
