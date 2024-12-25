@@ -4,7 +4,6 @@ import HeadLiner from "../HeadLiner";
 import ImageBlock from "../ImageBlock";
 import NavBar from "../NavBar";
 import { useState, useEffect } from "react";
-import React from "react";
 
 interface Props {
   language: string;
@@ -15,6 +14,32 @@ const PaymentPage = ({ language }: Props) => {
     image_block?: any;
   } | null>(null);
 
+  const [name, setName] = useState("");
+  const [payment, setPayment] = useState("");
+  const [fixedpayment, setFixedPayment] = useState("");
+
+  const handleSubmit = (e: any) => {
+    e.preventDefault();
+    try {
+      let orig_payment = parseFloat(payment);
+      if (orig_payment < 0 || isNaN(orig_payment)) {
+        alert("Please enter a valid payment amount.");
+        return;
+      }
+      orig_payment = orig_payment * 1.04;
+
+      orig_payment = Math.round(orig_payment * 100) / 100;
+
+      window.location.href =
+        "https://secure.lawpay.com/pages/mtlawllc/trust/?amount=" +
+        orig_payment.toString() +
+        "&reference=" +
+        name;
+    } catch (error) {
+      console.error("Error parsing payment amount:", error);
+      return;
+    }
+  };
   useEffect(() => {
     const loadData = async () => {
       try {
@@ -122,12 +147,84 @@ const PaymentPage = ({ language }: Props) => {
                   content_id={data?.payment_options[2].id}
                 />
                 <br></br>
-                <a href="https://secure.lawpay.com/pages/mtlawllc/trust">
+                <div>
+                  <form onSubmit={handleSubmit}>
+                    <div className="mb-3">
+                      <label
+                        htmlFor="exampleFormControlInput1"
+                        className="form-label"
+                      >
+                        Client Name
+                      </label>
+                      <input
+                        type="name"
+                        value={name}
+                        onChange={(e) => setName(e.target.value)}
+                        className="form-control"
+                        id="comment-name"
+                        placeholder="name"
+                        required
+                      ></input>
+                    </div>
+                    <div className="mb-3">
+                      <label
+                        htmlFor="exampleFormControlInput1"
+                        className="form-label"
+                      >
+                        Payment Amount
+                      </label>
+                      <div className="input-group mb-3">
+                        <span className="input-group-text">$</span>
+                        <input
+                          type="payment-amount"
+                          value={payment}
+                          onChange={(e) => {
+                            const value = e.target.value;
+                            setPayment(value);
+                            const parsedValue = parseFloat(value);
+                            if (!isNaN(parsedValue)) {
+                              setFixedPayment((parsedValue * 1.04).toFixed(2));
+                            } else {
+                              setFixedPayment("");
+                            }
+                          }}
+                          className="form-control"
+                          id="comment-payment-amount"
+                          placeholder="0.00"
+                          required
+                        ></input>
+                      </div>
+                    </div>
+                    {fixedpayment ? (
+                      <div>
+                        <p>
+                          Total Amount with Convenience Fee (4.00%): $
+                          {fixedpayment}
+                        </p>
+                      </div>
+                    ) : (
+                      <div>
+                        <p>Total Amount with Convenience Fee (4.00%): $0.00</p>
+                      </div>
+                    )}
+                    <button
+                      type="submit"
+                      className="btn btn-primary"
+                      style={{
+                        backgroundColor: "var(--accent-color)",
+                        border: "1px var(--accent-color) solid",
+                      }}
+                    >
+                      Pay Amount
+                    </button>
+                  </form>
+                </div>
+                {/* <a href="https://secure.lawpay.com/pages/mtlawllc/trust">
                   <img
                     style={{ border: "solid 1px black" }}
                     src="/assets/PaymentPage/LawPayButton.png"
                   ></img>
-                </a>
+                </a> */}
               </div>
             </div>
           </div>

@@ -11,7 +11,7 @@ interface Props {
 const TeamIntroBlock = ({ contact_info, content, image }: Props) => {
   return (
     <div>
-      <div className="flex-container">
+      <div className="flex-container-dynamic-wrap">
         <div className="left-flex-box-3" style={{ margin: "2rem" }}>
           <Image
             image={image}

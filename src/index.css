@@ -170,6 +170,13 @@ h1 {
 /* */
 
 /* right/left split boxes */
+.flex-container-dynamic-wrap{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
 .flex-container{
   display: flex;
   flex-direction: row;
@@ -209,6 +216,9 @@ h1 {
   width: 70%;
 }
 @media (max-width: 767px) {
+  .flex-container-dynamic-wrap{
+    flex-wrap: wrap;
+  }
   .right-flex-box{
     width:100%;
   }

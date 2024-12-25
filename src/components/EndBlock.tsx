@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import ContactUs from "./ContactUs";
-import React from "react";
 
 interface Props {
   language: string;
@@ -59,13 +58,13 @@ const EndBlock = ({ language }: Props) => {
       </nav>
       {/* links */}
       <div
-        className="flex-container"
+        className="flex-container-dynamic-wrap"
         style={{
           backgroundColor: "white",
           color: "#00467f",
         }}
       >
-        <div style={{ padding: "4rem 0 4rem 2rem" }}>
+        <div style={{ padding: "4rem 2rem 4rem" }}>
           <h4>
             {language === "en" ? "MT Law Headquarters" : "MT Law 列克星敦 HQ"}
           </h4>
@@ -82,10 +81,7 @@ const EndBlock = ({ language }: Props) => {
           </div>
         </div>
         <div>
-          <div
-            className="flex-container"
-            style={{ padding: "4rem 2rem 4rem 0rem" }}
-          >
+          <div className="flex-container" style={{ padding: "4rem 2rem 4rem" }}>
             {data?.links.map((link: any) => (
               <ul
                 className="expand-width"

@@ -11,41 +11,50 @@ export const people = [
   {
     id: 0,
     name: "Tian Shengxi",
+    position: "Managing Partner",
     image: "/assets/OurTeamPage/Profiles/Shengxi Tian Photo.jpg",
   },
   {
     id: 1,
-    name: "Liyang Yu",
-    image: "/assets/OurTeamPage/Profiles/Liyang Yu Photo.jpg",
+    name: "William Gosz",
+    position: "Partner",
+    image: "/assets/OurTeamPage/Profiles/William Gosz Photo.jpg",
   },
   {
     id: 2,
-    name: "William Gosz",
-    image: "/assets/OurTeamPage/Profiles/William Gosz Photo.jpg",
+    name: "Liyang Yu",
+    position: "Partner",
+    image: "/assets/OurTeamPage/Profiles/Liyang Yu Photo.jpg",
   },
   {
     id: 3,
     name: "Sally Yu",
+    position: "Partner",
     image: "/assets/OurTeamPage/Profiles/Sally Yu Photo.jpg",
   },
   {
     id: 4,
-    name: "Amelia Yuan",
-    image: "/assets/OurTeamPage/Profiles/Amelia Yuan Photo.jpg",
+    name: "Cindy Chen",
+    position: "Partner",
+    image: "/assets/OurTeamPage/Profiles/Cindy Chen Photo.jpg",
   },
   {
     id: 5,
     name: "Anhsiang Oates",
+    position: "Partner",
     image: "/assets/OurTeamPage/Profiles/Anhsiang Oates Photo.jpg",
   },
   {
     id: 6,
-    name: "Cindy Chen",
-    image: "/assets/OurTeamPage/Profiles/Cindy Chen Photo.jpg",
+    name: "Amelia Yuan",
+    position: "Partner",
+    image: "/assets/OurTeamPage/Profiles/Amelia Yuan Photo.jpg",
   },
+
   {
     id: 7,
     name: "Liang Min",
+    position: "Principal CPA",
     image: "/assets/OurTeamPage/Profiles/Liang Min Photo.jpg",
   },
 ];
@@ -101,38 +110,6 @@ Since founding MT Law in 2010, Tina has been a driving force behind the firm’s
   },
   {
     id: 1,
-    name: "Liyang Yu",
-    info: {
-      image: "/assets/OurTeamPage/Profiles/Liyang Yu Photo.jpg",
-      content: `<h2>Liyang Yu</h2>
-      <h5><b>Partner</b></h5>
-Attorney Liyang Yu earned his Juris Doctor from University of Massachusetts School of Law and was admitted to the Massachusetts Bar in 2014. Before joining MT Law, Attorney Yu has worked in Jones Day Beijing Office and provided legal service for Chinese and United States corporations. 
-
-At MT Law, Attorney Yu focuses his practices in in different areas such as L1, J1 waiver, commercial and residential real estate purchase and sale. Attorney Yu is an active member of Asian American Lawyers Association of Massachusetts, a non-profit organization which devoted its energy and resources to a variety of civic and professional activities at the local, state, and national levels.
-                
-<h2>Education: </h2>
-list_start
-- University of Massachusetts School of Law, J.D.
-list_end
-<h2>Bar Admissions: </h2>
-list_start
-- Massachusetts, 2014-present
-list_end
-<h2>Practices: </h2>
-list_start
-- Real Estate Law
-- Immigration Law
-list_end
-      `,
-      contact_info: {
-        email: "lyu@mtlawllc.com",
-        wechat: " - ",
-        phone_number: " - ",
-      },
-    },
-  },
-  {
-    id: 2,
     name: "William Gosz",
     info: {
       image: "/assets/OurTeamPage/Profiles/William Gosz Photo.jpg",
@@ -176,6 +153,38 @@ Besides his professional pursuits, Bill enjoys spending time with his family and
     },
   },
   {
+    id: 2,
+    name: "Liyang Yu",
+    info: {
+      image: "/assets/OurTeamPage/Profiles/Liyang Yu Photo.jpg",
+      content: `<h2>Liyang Yu</h2>
+      <h5><b>Partner</b></h5>
+Attorney Liyang Yu earned his Juris Doctor from University of Massachusetts School of Law and was admitted to the Massachusetts Bar in 2014. Before joining MT Law, Attorney Yu has worked in Jones Day Beijing Office and provided legal service for Chinese and United States corporations. 
+
+At MT Law, Attorney Yu focuses his practices in in different areas such as L1, J1 waiver, commercial and residential real estate purchase and sale. Attorney Yu is an active member of Asian American Lawyers Association of Massachusetts, a non-profit organization which devoted its energy and resources to a variety of civic and professional activities at the local, state, and national levels.
+                
+<h2>Education: </h2>
+list_start
+- University of Massachusetts School of Law, J.D.
+list_end
+<h2>Bar Admissions: </h2>
+list_start
+- Massachusetts, 2014-present
+list_end
+<h2>Practices: </h2>
+list_start
+- Real Estate Law
+- Immigration Law
+list_end
+      `,
+      contact_info: {
+        email: "lyu@mtlawllc.com",
+        wechat: " - ",
+        phone_number: " - ",
+      },
+    },
+  },
+  {
     id: 3,
     name: "Sally Yu",
     info: {
@@ -206,24 +215,27 @@ Besides his professional pursuits, Bill enjoys spending time with his family and
   },
   {
     id: 4,
-    name: "Amelia Yuan",
+    name: "Cindy Chen",
     info: {
-      image: "/assets/OurTeamPage/Profiles/Amelia Yuan Photo.jpg",
-      content: `<h2>Amelia Yuan</h2>
+      image: "/assets/OurTeamPage/Profiles/Cindy Chen Photo.jpg",
+      content: `<h2>Cindy Chen</h2>
       <h5><b>Partner</b></h5>
-      Attorney Amelia Yuan is an Immigration Attorney in MT Law’s Lexington office. Attorney Yuan practices in corporate law and immigration law, with a focus on EB-5 investors and employment-based immigration, including petitions for individuals of extraordinary ability and outstanding researchers/professors. She has extensive experience assisting EB-5 investors in obtaining their permanent resident status in the United States through I-526 immigrant investor petitions, consular processing, adjustment of status, and I-829 petitions for removal of conditions. Attorney Yuan’s practice also includes applications for nonimmigrant visas, such as L-1A, H-1B. She graduated from Boston University School of Law and Guangdong University of Foreign Studies with a double major in law and international economy and trade.
+      Attorney Cindy Chen is a partner at the firm and is integral to its immigration practice. Attorney Chen has extensive experience in employment-based, investment-based, and specialty immigration matters. Her expertise spans a wide range of immigration processes, including nonimmigrant visa applications such as H-1B, L-1, O-1, and E-2 visas, as well as immigrant petitions such as EB-1, EB-2, EB-3, EB-5, NIW, and PERM. Additionally, she handles family-based immigration matters and visa status adjustments.
+      
+      Throughout her career, Attorney Chen has successfully represented a diverse clientele, including multinational corporations, high tech companies, startup entities, entrepreneurs, investors, researchers, professors, engineers, professionals, artists, and athletes, guiding them through complex immigration pathways to achieve their goals. She and her team work diligently to ensure efficient issue resolution while implementing a comprehensive, well-crafted immigration strategy.
 
-Attorney Yuan is a member of the New York State bar. Born and raised in Gungzhou, China, Attorney Yuan is fluent in Mandarin and Cantonese.
+      Attorney Chen is licensed in Massachusetts and New York, and is an active member of the American Immigration Lawyers Association (AILA). She is fluent in Mandarin Chinese.
 
       <h2>Education: </h2>
       list_start
       - Boston University School of Law, LL.M.
-      - Guangdong University Foreign Studies, LL.B.
-      - Guangdong University Foreign Studies, Bachelor of International Economy and Trade (Second Degree)
+      - Zhejiang University, LL.M.
+      - Zhejiang University, LL.B. and B.A. in English
       list_end
       <h2>Bar Admissions: </h2>
       list_start
-      - New York State, -
+      - Massachusetts, -
+      - New York, -
       list_end
       <h2>Practices: </h2>
       list_start
@@ -232,7 +244,7 @@ Attorney Yuan is a member of the New York State bar. Born and raised in Gungzhou
       list_end
 `,
       contact_info: {
-        email: "amelia@mtlawllc.com",
+        email: "cindy@mtlawllc.com",
         wechat: " - ",
         phone_number: " - ",
       },
@@ -279,27 +291,24 @@ Prior to joining MT Law, Anne worked with a boutique immigration law firm and on
   },
   {
     id: 6,
-    name: "Cindy Chen",
+    name: "Amelia Yuan",
     info: {
-      image: "/assets/OurTeamPage/Profiles/Cindy Chen Photo.jpg",
-      content: `<h2>Cindy Chen</h2>
+      image: "/assets/OurTeamPage/Profiles/Amelia Yuan Photo.jpg",
+      content: `<h2>Amelia Yuan</h2>
       <h5><b>Partner</b></h5>
-      Attorney Cindy Chen is a partner at the firm and is integral to its immigration practice. Attorney Chen has extensive experience in employment-based, investment-based, and specialty immigration matters. Her expertise spans a wide range of immigration processes, including nonimmigrant visa applications such as H-1B, L-1, O-1, and E-2 visas, as well as immigrant petitions such as EB-1, EB-2, EB-3, EB-5, NIW, and PERM. Additionally, she handles family-based immigration matters and visa status adjustments.
-      
-      Throughout her career, Attorney Chen has successfully represented a diverse clientele, including multinational corporations, high tech companies, startup entities, entrepreneurs, investors, researchers, professors, engineers, professionals, artists, and athletes, guiding them through complex immigration pathways to achieve their goals. She and her team work diligently to ensure efficient issue resolution while implementing a comprehensive, well-crafted immigration strategy.
+      Attorney Amelia Yuan is an Immigration Attorney in MT Law’s Lexington office. Attorney Yuan practices in corporate law and immigration law, with a focus on EB-5 investors and employment-based immigration, including petitions for individuals of extraordinary ability and outstanding researchers/professors. She has extensive experience assisting EB-5 investors in obtaining their permanent resident status in the United States through I-526 immigrant investor petitions, consular processing, adjustment of status, and I-829 petitions for removal of conditions. Attorney Yuan’s practice also includes applications for nonimmigrant visas, such as L-1A, H-1B. She graduated from Boston University School of Law and Guangdong University of Foreign Studies with a double major in law and international economy and trade.
 
-      Attorney Chen is licensed in Massachusetts and New York, and is an active member of the American Immigration Lawyers Association (AILA). She is fluent in Mandarin Chinese.
+Attorney Yuan is a member of the New York State bar. Born and raised in Gungzhou, China, Attorney Yuan is fluent in Mandarin and Cantonese.
 
       <h2>Education: </h2>
       list_start
       - Boston University School of Law, LL.M.
-      - Zhejiang University, LL.M.
-      - Zhejiang University, LL.B. and B.A. in English
+      - Guangdong University Foreign Studies, LL.B.
+      - Guangdong University Foreign Studies, Bachelor of International Economy and Trade (Second Degree)
       list_end
       <h2>Bar Admissions: </h2>
       list_start
-      - Massachusetts, -
-      - New York, -
+      - New York State, -
       list_end
       <h2>Practices: </h2>
       list_start
@@ -308,7 +317,7 @@ Prior to joining MT Law, Anne worked with a boutique immigration law firm and on
       list_end
 `,
       contact_info: {
-        email: "cindy@mtlawllc.com",
+        email: "amelia@mtlawllc.com",
         wechat: " - ",
         phone_number: " - ",
       },

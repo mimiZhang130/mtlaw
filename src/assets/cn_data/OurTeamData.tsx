@@ -39,8 +39,8 @@ export const people = [
   },
   {
     id: 4,
-    name: "Amelia Yuan",
-    image: "/assets/OurTeamPage/Profiles/Amelia Yuan Photo.jpg",
+    name: "Cindy Chen",
+    image: "/assets/OurTeamPage/Profiles/Cindy Chen Photo.jpg",
   },
   {
     id: 5,
@@ -49,8 +49,8 @@ export const people = [
   },
   {
     id: 6,
-    name: "Cindy Chen",
-    image: "/assets/OurTeamPage/Profiles/Cindy Chen Photo.jpg",
+    name: "Amelia Yuan",
+    image: "/assets/OurTeamPage/Profiles/Amelia Yuan Photo.jpg",
   },
   {
     id: 7,
@@ -114,12 +114,12 @@ export const people_info = [
   },
   {
     id: 4,
-    name: "Amelia Yuan",
+    name: "Cindy Chen",
     info: {
-      image: "/assets/OurTeamPage/Profiles/Amelia Yuan Photo.jpg",
+      image: "/assets/OurTeamPage/Profiles/Cindy Chen Photo.jpg",
       content: ``,
       contact_info: {
-        email: "amelia@mtlawllc.com",
+        email: "cindy@mtlawllc.com",
         wechat: " - ",
         phone_number: " - ",
       },
@@ -140,12 +140,12 @@ export const people_info = [
   },
   {
     id: 6,
-    name: "Cindy Chen",
+    name: "Amelia Yuan",
     info: {
-      image: "/assets/OurTeamPage/Profiles/Cindy Chen Photo.jpg",
+      image: "/assets/OurTeamPage/Profiles/Amelia Yuan Photo.jpg",
       content: ``,
       contact_info: {
-        email: "cindy@mtlawllc.com",
+        email: "amelia@mtlawllc.com",
         wechat: " - ",
         phone_number: " - ",
       },
