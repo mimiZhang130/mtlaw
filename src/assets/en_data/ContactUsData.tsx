@@ -8,22 +8,37 @@ export const contact_us_data = [
     title: "E-mail",
     content: "info@mtlawllc.com",
     link: "mailto:info@mtlawllc.com",
+    icon: "/assets/ContactUsPage/email.svg",
   },
   {
     id: 1,
     title: "Phone",
     content: "+1 (800) 345 1899",
     link: "tel:+18003451899",
+    icon: "/assets/ContactUsPage/phone.svg",
   },
   {
     id: 2,
     title: "Fax",
     content: "+1 (888) 345 1388",
+    icon: "/assets/ContactUsPage/fax.svg",
+  },
+  {
+    id: 3,
+    title: "WeChat",
+    content: "mtlaw1",
+    icon: "/assets/ContactUsPage/wechat.svg",
+  },
+  {
+    id: 4,
+    title: "Whatsapp",
+    content: "+1 (757) 469 0024",
+    icon: "/assets/ContactUsPage/whatsapp.svg",
   },
 ];
 
 export const locate_us = {
-  title: "Find Us Here",
+  title: "Offices",
 };
 
 export const locate_us_data = [
@@ -59,13 +74,13 @@ export const locate_us_data = [
   },
   {
     id: 5,
-    title: "MTLaw Santa Clara",
+    title: "MT Law Santa Clara",
     content: "2901 Tasman Drive, Suite 218, Santa Clara, CA 95054, USA",
     link: "https://maps.app.goo.gl/o6mFzeJT8yo3XSzC7",
   },
   {
     id: 6,
-    title: "MTLaw Beijing",
+    title: "MT Law Beijing",
     content:
       "1 Jianguomenwai Avenue China World Tower, Suite 1500, Beijing, China 100004",
   },

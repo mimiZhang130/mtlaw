@@ -38,11 +38,26 @@ const ContactUsPage = ({ language }: Props) => {
         <h1 style={{ color: "var(--primary-color)" }}>
           {data?.contact_us.title}
         </h1>
-        <div className="flex-container">
+        <div className="flex-container" style={{ justifyContent: "center" }}>
           {data?.contact_us_data.map((contact: any) => (
             <a href={contact.link} className="contact-us-card">
-              <h5 className="card-title">{contact.title}</h5>
-              <p className="card-text">{contact.content}</p>
+              <div
+                style={{
+                  display: "flex",
+                  flexDirection: "row",
+                  flexWrap: "wrap",
+                }}
+              >
+                <div className="contact-us-content">
+                  <h5 className="card-title">{contact.title}</h5>
+                  <p className="card-text">{contact.content}</p>
+                </div>
+                <img
+                  className={"contact-us-icon"}
+                  src={contact.icon}
+                  alt={contact.title}
+                />
+              </div>
             </a>
           ))}
         </div>

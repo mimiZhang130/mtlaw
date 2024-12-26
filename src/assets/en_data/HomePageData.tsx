@@ -114,3 +114,15 @@ export const our_team_introduction = {
   image: "/assets/HomePage/HomeTeam.jpg",
   color: "#00467f",
 };
+
+export const careers = {
+  title: "Get Legal Help Now",
+  content: `Our main office is located in Lexington, Massachusetts, and we have additional locations in New York, California and China. We look forward to learning about your needs so we can help you achieve your goals. To discuss your case and speak with our knowledgeable staff, you can contact our firm today.`,
+  image: "/assets/HomePage/HomeCareer.jpg",
+};
+
+export const contact_us = {
+  title: "Get Legal Help Now",
+  content: `Our main office is located in Lexington, Massachusetts, and we have additional locations in New York, California and China. We look forward to learning about your needs so we can help you achieve your goals. To discuss your case and speak with our knowledgeable staff, you can contact our firm today.`,
+  image: "/assets/HomePage/HomeContactUs.jpg",
+};

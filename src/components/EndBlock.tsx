@@ -74,7 +74,10 @@ const EndBlock = ({ language }: Props) => {
           </a>
           <div className="flex-container">
             {data?.locations.map((location: any) => (
-              <a style={{ color: "var(--primary-color)" }} href={location.link}>
+              <a
+                style={{ color: "var(--primary-color)" }}
+                href={"/" + language + "/contactus"}
+              >
                 {location.name}
               </a>
             ))}

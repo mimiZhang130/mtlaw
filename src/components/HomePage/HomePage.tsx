@@ -8,6 +8,8 @@ import EndBlock from "../EndBlock";
 import HeadLiner from "../HeadLiner";
 import { useState } from "react";
 import { useEffect } from "react";
+import ContactUs from "./ContactUs";
+import Careers from "./Careers";
 interface Props {
   language: string;
 }
@@ -17,6 +19,8 @@ const HomePage = ({ language }: Props) => {
     home_introduction: any;
     image_block?: any;
     our_team_introduction: any;
+    careers: any;
+    contact_us: any;
   } | null>(null);
 
   useEffect(() => {
@@ -72,6 +76,16 @@ const HomePage = ({ language }: Props) => {
         {/* <div style={{ padding: "2rem" }}>
           <CaseStudies language={language} />
         </div> */}
+        <Careers
+          title={data?.careers.title}
+          content={data?.careers.content}
+          image={data?.careers.image}
+        />
+        <ContactUs
+          title={data?.contact_us.title}
+          content={data?.contact_us.content}
+          image={data?.contact_us.image}
+        />
 
         <EndBlock language={language} />
       </div>

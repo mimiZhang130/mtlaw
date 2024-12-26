@@ -346,7 +346,7 @@ h1 {
 
 /* Contact Us */
 .contact-us-card{
-  width: 27%;
+  width: 24%;
   margin: 1rem;
   border: .2rem solid var(--accent-color);
   padding: 1rem;
@@ -354,6 +354,34 @@ h1 {
   color: black;
 }
 
+.contact-us-content{
+  width: 60%;
+}
+
+.contact-us-icon{
+  margin-left: 3rem;
+  display:block
+}
+
+@media (max-width: 1050px) {
+  .contact-us-icon{
+    display: none;
+  }
+  .contact-us-content{
+    width: 100%;
+  }
+  
+}
+
+@media (max-width: 767px){
+  .contact-us-icon{
+    display: block;
+  }
+  .contact-us-content{
+    width: 60%;
+  }
+  
+}
 .locate-us-card{
   width: 22%;
   margin: 1rem;

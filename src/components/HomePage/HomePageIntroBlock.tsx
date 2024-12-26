@@ -1,5 +1,4 @@
 import Image from "../Image";
-// import ContactUs from "../ContactUs";
 import FormattedText from "../FormattedText";
 interface Props {
   title: string;
