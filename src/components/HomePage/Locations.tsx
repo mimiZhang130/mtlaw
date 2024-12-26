@@ -1,6 +1,5 @@
 import Image from "../Image";
 import { useEffect, useState } from "react";
-import React from "react";
 interface Props {
   image: string;
   title: string;

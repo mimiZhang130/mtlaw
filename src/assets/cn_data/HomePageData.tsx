@@ -79,68 +79,6 @@ export const practices = {
   ],
 };
 
-export const locations = {
-  image: "/assets/HomePage/Locations.jpg",
-  title: "我们的办事处",
-  content: `MT Law 在美国和中国设有办事处。
-    我们在美国的办公室位于莱克星顿、波士顿、纽约、旧金山和洛杉矶。
-    我们的中国办公室位于北京。`,
-  button_content: "联系我们",
-};
-
-export const location_data = [
-  {
-    id: 0,
-    title: "MTLaw 莱克星顿",
-    content: `430 Bedford Street, Suite 200, Lexington, MA 02420, USA`,
-  },
-  {
-    id: 1,
-    title: "MTLaw 波士顿",
-    content: "50 Milk Street 14th Floor, Boston, MA 02109, USA",
-  },
-  {
-    id: 2,
-    title: "MTLaw 纽约",
-    content: "1270 Avenue of the Americas Suite 1800, New York, NY 10020, USA",
-  },
-  {
-    id: 3,
-    title: "MTLaw 洛杉矶",
-    content: "201 South Lake Avenue Suite 701, Pasadena, CA 91101, USA",
-  },
-  {
-    id: 4,
-    title: "MTLaw 旧金山",
-    content: "2901 Tasman Drive Suite 218, Santa Clara, CA 95054, USA",
-  },
-  {
-    id: 5,
-    title: "MTLaw 北京",
-    content: "建国门外大街1号 中国国际大厦，2222室，北京，中国 100004",
-  },
-];
-
-export const case_studies = [
-  {
-    text: `XX 博士在一个非常复杂的科学领域拥有专业知识。 
-        尽管他的研究需要大量的技术技能和经验， 
-        但对美国的正面影响是间接的， 
-        很难解释。不幸的是，XX 博士的雇主无法 
-        赞助他的移民申请，因此他必须迅速申请 
-        以避免失去永久居留权。`,
-  },
-  {
-    text: `王先生（化名）和他的合伙人在一个美国州成立了一家饮料店。王先生选择了一个相当受欢迎的标志，并计划向美国商标局申请注册；但是，已经存在一个相似的商标。由于客户喜欢这个标志，王先生希望能够继续使用它。`,
-  },
-  {
-    text: `田氏家族来自中国，他们希望有一个好的律师来协助他们在马萨诸塞州莱克星顿购买商业地产。一位朋友推荐了MT Law LLC。在听取了田氏家族的目标后，MT Law 及时协助他们完成了商业地产的购买。尽管田氏家族住在国外，MT Law 还是以专业且具成本效益的方式促成了这一过程。`,
-  },
-  {
-    text: `MT Law 为一家知名的美国教育公司在与中国当地公司的商标、版权和域名纠纷中提供了建议。`,
-  },
-];
-
 export const our_team_introduction = {
   title: "我们的团队",
   content: `我们的团队由曾在美国、加拿大和中国的律师事务所、大型企业及会计师事务所工作并积累丰富经验的资深律师和注册会计师带领，专人负责，团队协作。我们为跨国公司、中小型企业、初创企业及个人客户提供量身定制的解决方案。`,
@@ -159,3 +97,65 @@ export const contact_us = {
   content: `如需法律和税务咨询，欢迎通过电子邮件info@mtlawllc.com，微信mtlaw1，或WhatsApp 17574690024与我们联系。我们的专业团队随时为我们客户和潜在客户提供进一步的信息和支持。`,
   image: "/assets/HomePage/HomeContactUs.jpg",
 };
+
+// export const locations = {
+//   image: "/assets/HomePage/Locations.jpg",
+//   title: "我们的办事处",
+//   content: `MT Law 在美国和中国设有办事处。
+//     我们在美国的办公室位于莱克星顿、波士顿、纽约、旧金山和洛杉矶。
+//     我们的中国办公室位于北京。`,
+//   button_content: "联系我们",
+// };
+
+// export const location_data = [
+//   {
+//     id: 0,
+//     title: "MTLaw 莱克星顿",
+//     content: `430 Bedford Street, Suite 200, Lexington, MA 02420, USA`,
+//   },
+//   {
+//     id: 1,
+//     title: "MTLaw 波士顿",
+//     content: "50 Milk Street 14th Floor, Boston, MA 02109, USA",
+//   },
+//   {
+//     id: 2,
+//     title: "MTLaw 纽约",
+//     content: "1270 Avenue of the Americas Suite 1800, New York, NY 10020, USA",
+//   },
+//   {
+//     id: 3,
+//     title: "MTLaw 洛杉矶",
+//     content: "201 South Lake Avenue Suite 701, Pasadena, CA 91101, USA",
+//   },
+//   {
+//     id: 4,
+//     title: "MTLaw 旧金山",
+//     content: "2901 Tasman Drive Suite 218, Santa Clara, CA 95054, USA",
+//   },
+//   {
+//     id: 5,
+//     title: "MTLaw 北京",
+//     content: "建国门外大街1号 中国国际大厦，2222室，北京，中国 100004",
+//   },
+// ];
+
+// export const case_studies = [
+//   {
+//     text: `XX 博士在一个非常复杂的科学领域拥有专业知识。
+//         尽管他的研究需要大量的技术技能和经验，
+//         但对美国的正面影响是间接的，
+//         很难解释。不幸的是，XX 博士的雇主无法
+//         赞助他的移民申请，因此他必须迅速申请
+//         以避免失去永久居留权。`,
+//   },
+//   {
+//     text: `王先生（化名）和他的合伙人在一个美国州成立了一家饮料店。王先生选择了一个相当受欢迎的标志，并计划向美国商标局申请注册；但是，已经存在一个相似的商标。由于客户喜欢这个标志，王先生希望能够继续使用它。`,
+//   },
+//   {
+//     text: `田氏家族来自中国，他们希望有一个好的律师来协助他们在马萨诸塞州莱克星顿购买商业地产。一位朋友推荐了MT Law LLC。在听取了田氏家族的目标后，MT Law 及时协助他们完成了商业地产的购买。尽管田氏家族住在国外，MT Law 还是以专业且具成本效益的方式促成了这一过程。`,
+//   },
+//   {
+//     text: `MT Law 为一家知名的美国教育公司在与中国当地公司的商标、版权和域名纠纷中提供了建议。`,
+//   },
+// ];
