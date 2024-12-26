@@ -2,13 +2,13 @@
 export const image_block = {
   image: "/assets/HomePage/HomeTitle.jpg",
   title: "Your Trusted Full-Service Law Firm",
-  text: `Headquartered in Lexington, Massachusetts, with additional offices in New York, California, and China, MT Law is dedicated to providing effective, efficient, and high-quality legal solutions tailored to your needs. We specialize in immigration, real estate, business, tax, and litigation services for both local and international clients. Our experienced attorneys and professional staff are here to guide you through every step, ensuring personalized strategies to achieve your goals. Contact us today to discuss your case and discover how we can assist you.`,
+  text: `Headquartered in Lexington, MA, with 6 additional offices in the US and China, MT Law is dedicated to providing effective and high-quality legal and tax solutions tailored to your needs. We specialize in immigration, real estate, business, tax, and litigation services for both local and international clients. Our experienced attorneys and professional staff are here to guide you through every step, ensuring personalized strategies to achieve your goals.`,
   color: "blue",
 };
 
 export const our_mission = {
   title: "Efficiently And Effectively Pursuing Solutions For Your Legal Needs",
-  content: `When you work with MT Law LLC , you will have a leading full-service law firm in your corner. With around 60 team members, 7 global locations and the ability to provide legal and tax services in different languages, we have extensive knowledge and experience across several industries, disciplines and geographies.`,
+  content: `When you work with MT Law LLC, you will have a leading full-service law firm in your corner. With around 60 team members, 7 global locations and the ability to provide legal and tax services in different languages, we have extensive knowledge and experience across several industries, disciplines and geographies.`,
 };
 
 export const facts = [

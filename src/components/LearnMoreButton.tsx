@@ -17,7 +17,7 @@ const LearnMoreButton = ({ language, backgroundColor, color, page }: Props) => {
             width: "100%",
           }}
         >
-          {language === "en" ? "Learn More" : "跟多细节"}
+          {language === "en" ? "Learn More" : "更多细节"}
         </button>
       </a>
     </div>

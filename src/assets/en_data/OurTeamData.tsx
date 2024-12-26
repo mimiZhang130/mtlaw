@@ -55,7 +55,7 @@ export const people = [
   {
     id: 7,
     name: "Liang Min",
-    position: "Principa CPA",
+    position: "Principal CPA",
     image: "/assets/OurTeamPage/Profiles/Liang Min Photo.jpg",
   },
 ];
@@ -359,7 +359,7 @@ Attorney Yuan graduated from Boston University School of Law and Guangdong Unive
     info: {
       image: "/assets/OurTeamPage/Profiles/Liang Min Photo.jpg",
       content: `<h2>Liang Min</h2>
-      <h5><b>Principa CPA</b></h5>
+      <h5><b>Principal CPA</b></h5>
       Ms. Min is a licensed CPA in Massachusetts and an IRS-authorized ITIN Acceptance Agent with over 20 years of expertise in tax preparation and representation. She specializes in Individual, Corporate, Partnership, and Multi-State tax returns, as well as consulting and compliance for international tax matters, including foreign tax credit planning, GILTI and BEAT mitigation, FDII analysis, Subpart F planning, and PFIC analysis.
 
       She provides tailored guidance to inbound clients on effectively connected income, FDAP income, withholding taxes, branch profits tax, FIRPTA, and tax structuring strategies.
