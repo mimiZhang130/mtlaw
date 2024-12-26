@@ -1,12 +1,11 @@
-import React from "react";
-
 interface Props {
   name: string;
   photo: string;
   language: string;
+  position: string;
 }
 
-const PhotoCard = ({ name, photo, language }: Props) => {
+const PhotoCard = ({ name, position, photo, language }: Props) => {
   return (
     <div>
       <a href={"/" + language + "/" + name} style={{ textDecoration: "none" }}>
@@ -16,12 +15,17 @@ const PhotoCard = ({ name, photo, language }: Props) => {
             className="card-img-top"
             alt="..."
             style={{
-              height: "14rem",
+              height: "15rem",
               objectFit: "cover",
               objectPosition: "center top",
             }}
           />
-          <p className="photo-text">{name}</p>
+          <p className="photo-text">
+            {name}
+            <br />
+            {position}
+          </p>
+          <p></p>
         </div>
       </a>
     </div>

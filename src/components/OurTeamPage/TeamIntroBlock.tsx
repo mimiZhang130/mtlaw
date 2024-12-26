@@ -20,18 +20,24 @@ const TeamIntroBlock = ({ contact_info, content, image }: Props) => {
             color="blue"
           ></Image>
           <div style={{ margin: "1rem", color: "var(--primary-color)" }}>
-            <h5>
-              <b>Email: </b>
-              {contact_info.email}
-            </h5>
-            <h5>
-              <b>Wechat ID: </b>
-              {contact_info.wechat}
-            </h5>
-            <h5>
-              <b>Phone Number: </b>
-              {contact_info.phone_number}
-            </h5>
+            {contact_info.email !== " - " && (
+              <h5>
+                <b>Email: </b>
+                {contact_info.email}
+              </h5>
+            )}
+            {contact_info.wechat !== " - " && (
+              <h5>
+                <b>Wechat ID: </b>
+                {contact_info.wechat}
+              </h5>
+            )}
+            {contact_info.phone_number !== " - " && (
+              <h5>
+                <b>Phone Number: </b>
+                {contact_info.phone_number}
+              </h5>
+            )}
           </div>
         </div>
         <div className="right-flex-box-4 text-padding">

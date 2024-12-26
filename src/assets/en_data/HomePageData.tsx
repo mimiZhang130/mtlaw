@@ -1,16 +1,38 @@
 // This will hold all of the image_block content --> image, text on the image
 export const image_block = {
   image: "/assets/HomePage/HomeTitle.jpg",
-  title: "A Premier Full-Service Law Firm",
-  text: `Our main office is located in Lexington, Massachusetts, and we have additional locations in New York, California and China. We look forward to learning about your needs so we can help you achieve your goals. To discuss your case and speak with our knowledgeable staff, you can contact our firm today.`,
+  title: "Your Trusted Full-Service Law Firm",
+  text: `Headquartered in Lexington, Massachusetts, with additional offices in New York, California, and China, MT Law is dedicated to providing effective, efficient, and high-quality legal solutions tailored to your needs. We specialize in immigration, real estate, business, tax, and litigation services for both local and international clients. Our experienced attorneys and professional staff are here to guide you through every step, ensuring personalized strategies to achieve your goals. Contact us today to discuss your case and discover how we can assist you.`,
   color: "blue",
 };
 
+export const our_mission = {
+  title: "Efficiently And Effectively Pursuing Solutions For Your Legal Needs",
+  content: `When you work with MT Law LLC , you will have a leading full-service law firm in your corner. With around 60 team members, 7 global locations and the ability to provide legal and tax services in different languages, we have extensive knowledge and experience across several industries, disciplines and geographies.`,
+};
+
+export const facts = [
+  {
+    id: 0,
+    big_text: "1000+",
+    small_text: "Corporate Clients",
+  },
+
+  {
+    id: 1,
+    big_text: "20,000+",
+    small_text: "Individual Clients",
+  },
+  {
+    id: 2,
+    big_text: "30,000+",
+    small_text: "Cases and Transactions",
+  },
+];
+
 export const home_introduction = {
-  title: "High-Quality Representation With A Track Record Of Excellence",
-  content: `Throughout Massachusetts and across the globe, we are known for our cutting-edge legal strategies, diverse staff, collaborative approach and ability to obtain positive results. Our firm is composed of a team of attorneys with extremely unique backgrounds, which allows us to creatively and successfully fulfill the needs of our clients.
-  
-  We provide services in the areas of real estate, estate planning, business law, immigration and more. If you have a legal need, we can help.`,
+  title: "Showcasing Excellence Across Legal and Tax Practices",
+  content: `At MT Law, we deliver outstanding results in all areas of our legal and tax services. Our team’s diverse expertise and strategic approach ensure tailored solutions that meet each client’s unique needs. To explore examples of our recent achievements, click below.`,
   image: "/assets/HomePage/HomeIntroduction.jpeg",
 };
 
@@ -60,25 +82,6 @@ export const practices = {
   ],
 };
 
-export const facts = [
-  {
-    id: 0,
-    big_text: "1000+",
-    small_text: "Corporate Clients",
-  },
-
-  {
-    id: 1,
-    big_text: "20,000+",
-    small_text: "Individual Clients",
-  },
-  {
-    id: 2,
-    big_text: "30,000+",
-    small_text: "Cases and Transactions",
-  },
-];
-
 // export const case_studies = [
 //   {
 //     text: `Dr. XX has expertise in a very specific complex scientific field.
@@ -103,26 +106,21 @@ export const facts = [
 //   },
 // ];
 
-export const our_mission = {
-  title: "Efficiently And Effectively Pursuing Solutions For Your Legal Needs",
-  content: `When you work with MT Law LLC , you will have a leading full-service law firm in your corner. With more than 50 team members, five global locations and the ability to speak five different languages, we have extensive knowledge and experience across several industries, disciplines and geographies`,
-};
-
 export const our_team_introduction = {
   title: "Our Team",
-  content: `Our team is committed to meeting your legal needs by providing high-quality representation that is crafted to your specific situation. No matter what your legal circumstances are, we work as a team to address your concerns in an efficient and effective manner. Let us help you find a solution to your legal need. Call us today at 800-345-1899 to get started. We want to add you to our proven record of excellence.`,
+  content: `Our team is led by experienced attorneys and CPAs with backgrounds in law firms, corporations, and accounting firms across the U.S., Canada, and China, offering dedicated and collaborative services. We provide tailored solutions to multinational corporations, small to mid-sized businesses, startups, and individuals.`,
   image: "/assets/HomePage/HomeTeam.jpg",
   color: "#00467f",
 };
 
 export const careers = {
-  title: "Get Legal Help Now",
-  content: `Our main office is located in Lexington, Massachusetts, and we have additional locations in New York, California and China. We look forward to learning about your needs so we can help you achieve your goals. To discuss your case and speak with our knowledgeable staff, you can contact our firm today.`,
+  title: "Career at MT Law",
+  content: `Join MT Law to collaborate with experienced attorneys and CPAs in delivering tailored solutions to a diverse range of clients while advancing your career in a dynamic environment. Explore current job opportunities at MT Law by clicking below.`,
   image: "/assets/HomePage/HomeCareer.jpg",
 };
 
 export const contact_us = {
-  title: "Get Legal Help Now",
-  content: `Our main office is located in Lexington, Massachusetts, and we have additional locations in New York, California and China. We look forward to learning about your needs so we can help you achieve your goals. To discuss your case and speak with our knowledgeable staff, you can contact our firm today.`,
+  title: "Contact Us",
+  content: `For legal and tax consultations, please feel free to contact us via email at info@mtlawllc.com, WeChat at mtlaw1, or WhatsApp at 17574690024. Our professionals are ready to provide further information and assistance to our valued clients and potential clients.`,
   image: "/assets/HomePage/HomeContactUs.jpg",
 };

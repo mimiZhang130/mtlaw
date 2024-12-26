@@ -25,7 +25,7 @@ const OurTeam = ({ title, content, image, backgroundColor }: Props) => {
           className="right-flex-box text-padding"
           style={{ backgroundColor: backgroundColor }}
         >
-          <h1 className="center-space" style={{ color: "white" }}>
+          <h1 className="center-space center" style={{ color: "white" }}>
             {title}
           </h1>
           <div

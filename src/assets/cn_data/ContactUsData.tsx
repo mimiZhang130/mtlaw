@@ -8,17 +8,32 @@ export const contact_us_data = [
     title: "电子邮件",
     content: "info@mtlawllc.com",
     link: "mailto:info@mtlawllc.com",
+    icon: "/assets/ContactUsPage/email.svg",
   },
   {
     id: 1,
     title: "电话",
     content: "+1 (800) 345 1899",
     link: "tel:+18003451899",
+    icon: "/assets/ContactUsPage/phone.svg",
   },
   {
     id: 2,
     title: "传真",
     content: "+1 (888) 345 1388",
+    icon: "/assets/ContactUsPage/fax.svg",
+  },
+  {
+    id: 3,
+    title: "微行",
+    content: "mtlaw1",
+    icon: "/assets/ContactUsPage/wechat.svg",
+  },
+  {
+    id: 4,
+    title: "Whatsapp",
+    content: "+1 (757) 469 0024",
+    icon: "/assets/ContactUsPage/whatsapp.svg",
   },
 ];
 

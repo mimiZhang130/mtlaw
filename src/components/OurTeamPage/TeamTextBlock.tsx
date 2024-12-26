@@ -47,6 +47,7 @@ const TeamTextBlock = ({ language }: Props) => {
               name={person.name}
               photo={person.image}
               language={language}
+              position={person.position}
             />
           </div>
         ))}

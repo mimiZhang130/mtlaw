@@ -27,11 +27,19 @@ const Practices = ({ language }: Props) => {
     <div className="flex-container" style={{ flexDirection: "row-reverse" }}>
       <div
         className="left-flex-box text-padding"
-        style={{ backgroundColor: "white" }}
+        style={{ backgroundColor: "white", alignContent: "normal" }}
       >
-        <h1 style={{ color: "var(--accent-color)" }}>
-          {language === "en" ? "Practices hahaha" : "业务范围 hahahah"}
+        <h1
+          className="center center-space"
+          style={{ color: "var(--accent-color)" }}
+        >
+          {language === "en" ? "Practices" : "业务范围"}
         </h1>
+        <p>
+          {language === "en"
+            ? "MT Law offers comprehensive legal and tax services, delivering efficient solutions to meet diverse client needs."
+            : "MT律师事务所提供全面的法律与税务服务，致力于高效满足客户多样化需求。"}
+        </p>
       </div>
       <div className="right-flex-box">
         <div

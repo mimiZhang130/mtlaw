@@ -1,12 +1,14 @@
 import Image from "../Image";
 import FormattedText from "../FormattedText";
+import LearnMoreButton from "../LearnMoreButton";
 interface Props {
+  language: string;
   title: string;
   content: any;
   image: string;
 }
 
-const HomePageIntroBlock = ({ title, content, image }: Props) => {
+const HomePageIntroBlock = ({ title, content, image, language }: Props) => {
   return (
     <div>
       <div className="flex-container">
@@ -21,6 +23,14 @@ const HomePageIntroBlock = ({ title, content, image }: Props) => {
         <div className="right-flex-box text-padding primary-background">
           <h1 className="center center-space">{title}</h1>
           <FormattedText content={content} content_id="homepageintro" />
+          <div className="learn-more-button">
+            <LearnMoreButton
+              language={language}
+              backgroundColor={"white"}
+              color={"var(--primary-color)"}
+              page={"aboutus"}
+            />
+          </div>
         </div>
       </div>
     </div>

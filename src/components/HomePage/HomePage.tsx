@@ -8,8 +8,8 @@ import EndBlock from "../EndBlock";
 import HeadLiner from "../HeadLiner";
 import { useState } from "react";
 import { useEffect } from "react";
-import ContactUs from "./ContactUs";
 import Careers from "./Careers";
+import ContactUsPart from "./ContactUsPart";
 interface Props {
   language: string;
 }
@@ -55,6 +55,7 @@ const HomePage = ({ language }: Props) => {
 
         <div>
           <HomePageIntroBlock
+            language={language}
             title={data?.home_introduction.title}
             content={data?.home_introduction.content}
             image={data?.home_introduction.image}
@@ -80,11 +81,13 @@ const HomePage = ({ language }: Props) => {
           title={data?.careers.title}
           content={data?.careers.content}
           image={data?.careers.image}
+          language={language}
         />
-        <ContactUs
+        <ContactUsPart
           title={data?.contact_us.title}
           content={data?.contact_us.content}
           image={data?.contact_us.image}
+          language={language}
         />
 
         <EndBlock language={language} />
